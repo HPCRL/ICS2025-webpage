@@ -1,0 +1,46 @@
+title:              ACM International Conference on Supercomputing 2025
+email:              your-email@example.com
+description:        ICS 2025
+date:               MM DD, 2025
+position:           Salt Lake City, U.S.A.
+# baseurl:            "startbootstrap-clean-blog-jekyll"
+url:                ""
+
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+navbar:
+  - title: Home
+    url: /home.html
+  - title: For Authors
+    url: /for-authors
+    sublinks:
+      - subtitle: Information
+        url: /for-authors/information.html
+  - title: Call for
+    url: /call-for
+    sublinks:
+      - subtitle: Call for Papers
+        url: /call-for/call-for-papers.html
+      - subtitle: Call for Workshop and Tutorials
+        url: /call-for/call-for-workshop.html
+  - title: Organization
+    url: /organization
+    sublinks:
+      - subtitle: Program Committee
+        url: /organization/prog-committee.html
+      - subtitle: Organizing Committee
+        url: /organization/organizing-committee.html
+  - title: Sponsorship
+    url: /ACM_ICS25_sponsorship_opportunities.pdf
+

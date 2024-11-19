@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('img/bg-index.jpg');height:700px;">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+
+            <h2 style="color:#F0F8FF;font-size:3rem;">{{ site.title }}</h2>
+            {% if site.description %}
+            <span class="subheading">{{ site.date }}</span>
+            <span class="subheading">{{ site.position }}</span>
+
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="margin-bottom:40px">
+    <div class="newsTitle" style="margin-top:80px">
+      <h2>Last Updates </h2>
+    </div>
+    <div class="row" style="margin:0 20px 0 20px">
+      <div class="news">
+        <ul>
+
+          <li><b>MM DD, 2025</b>:
+            The <a href="https://xxxx.hotcrp.com/">submission website</a> is now open!</li>
+          <li><b>MM DD, 2025</b>:
+            The <a href="{{ site.url | append: '/organization/program-committee.html' }}">program committee</a> is now
+            listed.</li>
+          <li><b>MM DD, 2024</b>:
+            <a href="{{ site.url | append: 'call-for/call-for-papers.html' }}/">Call for papers</a> is available now.
+          </li>
+          <li><b>MM DD, 2025</b>: Submission deadlines for ACM ICS 2025 are
+            <a style="color:red;text-decoration: none;">MM DD 2025</a> .
+          </li>
+
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+  <section id="sponsors" style="visibility: visible;">
+    <div class="container">
+      <div class="section-header ">
+        <h2>Sponsors</h2>
+      </div>
+      <div style="text-align: center;">
+        <div class="diamond">
+          <div class="col">
+            <a href="https://www.acm.org/" target="_blank">
+              <img src="img/sponsors/ACM_logo.png" style="width:300px;object-fit: contain" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="diamond">
+          <div class="col">
+            <a href="https://www.sigarch.org/" target="_blank">
+              <img src="img/sponsors/ACM_SIGARCH_logo.png" style="width:300px;object-fit: contain" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="color:#D4AF37; text-align: center;">Gold Patrons</h3>
+      <div style="text-align: center;" class="gold">
+        <div class="col">
+          
+        </div>
+      </div>
+
+      <!-- <h3 style="color:#757575;">Silver Patrons</h3>
+
+      <div class="sliver">
+
+      </div>
+      <br> -->
+
+      <h3 style="color:#CD7F32; text-align: center;">Bronze Patrons</h3>
+      <div class="gold">
+        <div class="col">
+          
+        </div>
+      </div>
+      </h3>
+  </section>
+</header>

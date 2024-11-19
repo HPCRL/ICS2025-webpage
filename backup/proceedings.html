@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        ACM CCS 2024
+    </title>
+    <meta name="description" content="CCS2024">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="ACM CCS 2024" href="/feed.xml">
+    <style>
+        ul {
+            list-style: none;
+            /* padding: 0; */
+        }
+
+        .container-li {
+            max-width: 1080px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .pa-nested-list li:before {
+            content: "\2022\ ";
+            font-weight: 900;
+            /* font-family: FontAwesome; */
+            color: #3d28a7;
+        }
+
+        .down-nested-list li:before {
+            content: "\f0d7\ ";
+            font-weight: 900;
+            font-family: FontAwesome;
+            color: #3d28a7;
+        }
+
+        /* Apply to child lists within parent lists */
+        .down-nested-list ul.nested-list li:before {
+            content: "- ";
+            font-weight: 900;
+            /* font-family: FontAwesome;  */
+            color: #3d28a7;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top" id="nav-menu-container">
+        <ul class="nav-menu ">
+            <li class="nav-item ">
+                <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/home.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/workshops/workshops.html">Co-located
+                    Events</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/workshops/sponsor-events.html">Sponsor
+                    Events</a>
+            </li>
+            <li class="menu-has-children active">
+                <a class="sf-with-ul">Call for </a>
+                <ul class="">
+                    <li>
+                        <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html">Call
+                            for
+                            Papers<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html">Call
+                            for Artifacts<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-workshops.html">Call for
+                            Workshops<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-posters.html">Call for
+                            Posters & Demos<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-doctoral-symposium.html">Call
+                            for Doctoral Symposium Participation<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-sponsorship.html">Call for
+                            Sponsors<span class="caret"></span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-has-children">
+                <a class="sf-with-ul">Attending </a>
+                <ul class="">
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/attending/registration.html">Registration<span
+                                class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/attending/travel-related-information.html">Travel
+                            Information<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/attending/conference-grants.html">Student
+                            Conference Grants<span class="caret"></span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-has-children active">
+                <a class="sf-with-ul">Program </a>
+                <ul class="">
+
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html">Accepted
+                            Papers<span class="caret"></span></a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/program/outline.html">
+                            Outline<span class="caret"></span></a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="https://www.sigsac.org/ccs/CCS2024/program/schedule.html">
+                            Schedule<span class="caret"></span></a>
+                    </li>
+
+
+                </ul>
+            </li>
+            <li class="menu-has-children">
+                <a class="sf-with-ul">Organization </a>
+                <ul class="">
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/organization/organizing-committee.html">Organizing
+                            Committee<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/organization/prog-committee.html">Program
+                            Committee<span class="caret"></span></a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li class="menu-has-children">
+                <a class="sf-with-ul">Code </a>
+                <ul class="">
+
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/code-of-conduct/code-of-conduct.html">Code of
+                            Conduct<span class="caret"></span></a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link"
+                            href="https://www.sigsac.org/ccs/CCS2024/code-of-conduct/diversity-and-inclusion.html">Diversity
+                            and
+                            Inclusion<span class="caret"></span></a>
+                    </li>
+
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <header class="masthead" style="background-image: url('../img/bg-index.jpg');height:700px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <img src="../img/CCS-logo.png" alt="Italian Trulli" width="200px">
+                        <h1 style="color:#F0F8FF;">ACM CCS 2024</h1>
+                        <span class="subheading">October 14-18, 2024</span>
+                        <span class="subheading">Salt Lake City, U.S.A.</span>
+                        <span class="subheading"><a href="https://whova.com/portal/acmcc_202410/?source=btn_link"
+                                title="Event management software" id="whova-buttonlink" target="_blank"
+                                style="margin: 20px; background-color:#2DACEE; padding:5px; border-radius:5px; color:#fff; font-size:16px" />Get
+                            Whova Now</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-lg-15 col-md-20 mx-auto"> -->
+            <div class="col-xs-5 col-sm-10 col-lg-12">
+                <div class="container-li">
+                    <h2>ACM CCS 2024 Proceedings</h2>
+                    <ul class="pa-nested-list">
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/piii-CCS002gw-luo-welcome1.pdf">Message from the ACM CCS 2024 General Co-Chairs</a></li>
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/pp-CCS006ol-organizationSC.pdf">2024 CCS Organization</a></li>
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/pp-CCS24-program-committee.pdf">CCS 2024 Program Committee</a></li>
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/pp-CCS24-external-reviewers.pdf">CCS 2024 External Reviewers</a></li>
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/pp-CCS24-Artifact-Evaluation-Committee.pdf">CCS 2024 Artifact Evaluation Committee</a></li>
+                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/pp-CCS009ss-sponsor-n-patrons.pdf">CCS 2024 Sponsor & Supporters</a></li>
+                    </ul>
+                    <ul class="down-nested-list">
+                        <li>
+                              Keynote Talks
+                            <ul class="nested-list">
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccskn024-boneh.pdf">Cryptography and Computer Security: A View From the Year
+                                        2100</a>
+                                </li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccskn048-tsudik.pdf">Staving off the IoT Armageddon</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                              Full Papers
+                            <ul class="nested-list">
+                                <!-- <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0002-gong.pdf">Beowulf: Mitigating Model Extraction Attacks Via Reshaping Decision
+                                        Regions</a></li> -->
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0002-gong.pdf">Beowulf: Mitigating Model Extraction Attacks Via Reshaping Decision Regions</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0024-bhardwaj.pdf">Securely Training Decision Trees Efficiently</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0025-li.pdf">Isolate and Detect the Untrusted Driver with a Virtual Box</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0028-beal.pdf">Derecho: Privacy Pools with Proof-Carrying Disclosures</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0037-celi.pdf">Call Me By My Name: Simple, Practical Private Information Retrieval for Keyword Queries</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0056-deng.pdf">Robust and Reliable Early-Stage Website Fingerprinting Attacks via Spatial-Temporal Distribution Analysis</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0057-ueno.pdf">Crystalor: Recoverable Memory Encryption Mechanism with Optimized Metadata Structure</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0062-lin.pdf">Ents: An Efficient Three-party Training Framework for Decision Trees by Communication Optimization</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0067-xiao.pdf">Accurate and Efficient Recurring Vulnerability Detection for IoT Firmware</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0069-zhou.pdf">LIFTFUZZ: Validating Binary Lifters through Context-aware Fuzzing with GPT</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0073-xiao.pdf">Formal Privacy Proof of Data Encoding: The Possibility and Impossibility of Learnable Encryption</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0079-li.pdf">FuzzCache: Optimizing Web Application Fuzzing Through Software-Based Data Cache</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0083-momeu.pdf">Safeslab: Mitigating Use-After-Free Vulnerabilities via Memory Protection Keys</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0096-anderson.pdf">Precio: Private Aggregate Measurement via Oblivious Shuffling</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0098-jin.pdf">Elephants Do Not Forget: Differential Privacy with State Continuity for Privacy Budget</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0101-chatel.pdf">VERITAS: Plaintext Encoders for Practical Verifiable Homomorphic Encryption</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0109-cremers.pdf">Keeping Up with the KEMs: Stronger Security Notions for KEMs and Automated Analysis of KEM-based Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0115-tang.pdf">GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0132-li.pdf">SafeEar: Content Privacy-Preserving Audio Deepfake Detection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0139-blackshear.pdf">Sui Lutris: A Blockchain Combining Broadcast and Consensus</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0144-tang.pdf">Batch Range Proof: How to Make Threshold ECDSA More Efficient</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0156-thibault.pdf">SECOMP: Formally Secure Compilation of Compartmentalized C Programs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0161-mohnblatt.pdf">Arke: Scalable and Byzantine Fault Tolerant Privacy-Preserving Contact Discovery</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0171-xu.pdf">PhyScout: Detecting Sensor Spoofing Attacks via Spatio-temporal Consistency</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0172-ma.pdf">Avara: A Uniform Evaluation System for Perceptibility Analysis Against Adversarial Object Evasion Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0201-zyskind.pdf">High-Throughput Three-Party DPFs with Applications to ORAM and Digital Currencies</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0206-ma.pdf">SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0210-zhang.pdf">MiniCAT: Understanding and Detecting Cross-Page Request Forgery Vulnerabilities in Mini-Programs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0241-li.pdf">SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0261-han.pdf">VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0271-argo.pdf">Practical Post-Quantum Signatures for Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0276-tong.pdf">Data Poisoning Attacks to Locally Differentially Private Frequent Itemset Mining Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0283-wang.pdf">Dye4AI: Assuring Data Boundary on Generative AI Services</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0299-zou.pdf">CoGNN: Towards Secure and Efficient Collaborative Graph Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0327-weintraub.pdf">Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-based Networking</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0340-kim.pdf">Simpler and Faster BFV Bootstrapping for Arbitrary Plaintext Modulus from CKKS</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0348-ren.pdf">PIC-BI: Practical and Intelligent Combinatorial Batch Identification for UAV assisted IoT Networks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0362-yang.pdf">SWIDE: A Semantic-aware Detection Engine for Successful Web Injection Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0393-falzon.pdf">PathGES: An Efficient and Secure Graph Encryption Scheme for Shortest Path Queries</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0406-ha.pdf">Organic or Diffused: Can We Distinguish Human Art from AI-generated Images?</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0422-fang.pdf">Byzantine-Robust Decentralized Federated Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0424-xiang.pdf">Boosting Practical Control-Flow Integrity with Complete Field Sensitivity and Origin Awareness</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0437-fang.pdf">Zero-Query Adversarial Attack on Black-box Automatic Speech Recognition Systems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0459-li.pdf">PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0466-ganesh.pdf">Secure Vickrey Auctions with Rational Parties</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0469-kate.pdf">Non-interactive VSS using Class Groups and Application to DKG</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0482-markatou.pdf">Reconstructing with Even Less: Amplifying Leakage and Drawing Graphs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0485-zhu.pdf">Unveiling Collusion-Based Ad Attribution Laundering Fraud: Detection, Analysis, and Security Implications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0489-weintraub.pdf">Payout Races and Congested Channels: A Formal Analysis of Security in the Lightning Network</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0493-abbaszadeh.pdf">Zero-Knowledge Proofs of Training for Deep Neural Networks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0501-lin.pdf">I Don’t Know You, But I Can Catch You: Real-Time Defense against Diverse Adversarial Patches for Object Detectors</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0511.pdf">AuthSaber: Automated Safety Verification of OpenID Connect Programs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0516-barthe.pdf">Testing Side-channel Security of Cryptographic Implementations against Future Microarchitectures</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0520-bennett.pdf">RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0535-meng.pdf">FABESA: Fast (and Anonymous) Attribute-Based Encryption under Standard Assumption</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0585-laufer.pdf">zkPi: Proving Lean Theorems in Zero-Knowledge</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0598-yan.pdf">Stealing Trust: Unraveling Blind Message Attacks in Web3 Authentication</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0617-gao.pdf">A Succinct Range Proof for Polynomial-based Vector Commitment</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0621-warren.pdf">“Better Be Computer or I’m Dumb”: A Large-Scale Evaluation of Humans as Audio Deepfake Detectors</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0630-bandarupalli.pdf">Random Beacons in Monte Carlo: Efficient Asynchronous Random Beacon without Threshold Cryptography</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0632-das.pdf">Asynchronous Consensus without Trusted Setup or Public-Key Cryptography</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0641-mouallem.pdf">Asynchronous Authentication</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0665-amjad.pdf">Blocking Tracking JavaScript at the Function Granularity</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0691-karakostas.pdf">Blockchain Bribing Attacks and the Efficacy of Counterincentives</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0695-guo.pdf">ReactAppScan: Mining React Application Vulnerabilities via Component Graph</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0696-davoli.pdf">On Kernel’s Safety in the Spectre Era (And KASLR is Formally Dead)</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0701-andreina.pdf">Defying the Odds: Solana’s Unexpected Resilience in Spite of the Security Challenges Faced by Developers</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0724-sun.pdf">zkLLM: Zero Knowledge Proofs for Large Language Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0729-zhang.pdf">Glitch-Stopping Circuits: Hardware Secure Masking without Registers</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0736-bhaskar.pdf">Understanding Routing-Induced Censorship Changes Globally</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0762-nguyen.pdf">AITIA: Efficient Secure Computation of Bivariate Causal Discovery</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0779-durak.pdf">Non-Transferable Anonymous Tokens by Secret Binding</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0783-agarwal.pdf">Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0785-xie.pdf">ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0804-wang.pdf">RefleXnoop: Passwords Snooping on NLoS Laptops Leveraging Screen-Induced Sound Reflection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0828-liu.pdf">RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0837-jin.pdf">PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0842-he.pdf">MGTBench: Benchmarking Machine-Generated Text Detection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0852-steinfeld.pdf">LUNA: Quasi-Optimally Succinct Designated-Verifier Zero-Knowledge Arguments from Lattices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0877-mouchet.pdf">Helium: Scalable MPC among Lightweight Participants and under Churn</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa0996-kiffer.pdf">Nakamoto Consensus under Bounded Processing Capacity</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1054-zhang.pdf">On Understanding and Forecasting Fuzzers Performance with Static Analysis</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1068-yang.pdf">UWBAD: Towards Effective and Imperceptible Jamming Attacks Against UWB Ranging Systems with COTS Chips</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1071-tovey.pdf">Distributed PIR: Scaling Private Messaging via the Users’ Machines</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1093-liu.pdf">Cross-silo Federated Learning with Record-level Personalized Differential Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1112-valdez.pdf">Crossing Shifted Moats: Replacing Old Bridges with New Tunnels to Confidential Containers</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1125-fu.pdf">Detecting Tunneled Flooding Traffic via Deep Semantic Analysis of Packet Length Patterns</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1150-papamanthou.pdf">Reckle Trees: Updatable Merkle Batch Proofs with Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1164-wang.pdf">Practical Non-interactive Encrypted Conjunctive Search with Leakage Suppression</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1168-dutta.pdf">Batching-Efficient RAM using Updatable Lookup Arguments</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1171-escudero.pdf">Multi-Verifier Zero-Knowledge Proofs for Any Constant Fraction of Corrupted Verifiers</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1195-zhang.pdf">SAFARI: Speech-Associated Facial Authentication for AR/VR Settings via Robust VIbration Signatures</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1203-makriyannis.pdf">Practical Key-Extraction Attacks in Leading MPC Wallets</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1209-fischlin.pdf">Fake It till You Make It: Enhancing Security of Bluetooth Secure Connections via Deferrable Authentication</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1244-ma.pdf">Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1252-she.pdf">FOX: Coverage-guided Fuzzing as Online Stochastic Control</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1278-wang.pdf">SeMalloc: Semantics-Informed Memory Allocator</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1295-yan.pdf">MaskPrint: Take the Initiative in Fingerprint Protection to Mitigate the Harm of Data Breach</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1296-hao.pdf">Not One Less: Exploring Interplay between User Profiles and Items in Untargeted Attacks against Federated Recommendation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1298-li.pdf">Toward Understanding the Security of Plugins in Continuous Integration Services</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1323-wadhwa.pdf">Data Independent Order Policy Enforcement: Limitations and Solutions</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1334-alvim.pdf">The Privacy-Utility Trade-off in the Topics API</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1345-cho.pdf">Fast and Accurate Homomorphic Softmax Evaluation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1346-hui.pdf">PLeak: Prompt Leaking Attacks against Large Language Model Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1352-xiao.pdf">Measuring Compliance Implications of Third-party Libraries’ Privacy Label Disclosure Guidelines</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1365-zhang.pdf">When Compiler Optimizations Meet Symbolic Execution: An Empirical Study</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1374-aumayr.pdf">Securing Lightning Channels against Rational Miners</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1388-wrotniak.pdf">Provable Security for PKI Schemes</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1405-han.pdf">Rules Refine the Riddle: Global Explanation for Deep Learning-Based Anomaly Detection in Security Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1501-bergerat.pdf">New Secret Keys for Enhanced Performance in (T)FHE</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1521-li.pdf">Are We Getting Well-informed? An In-depth Study of Runtime Privacy Notice Practice in Mobile Apps</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1528-maram.pdf">Interactive Multi-Credential Authentication</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1534-patel.pdf">Efficient Secret Sharing for Large-Scale Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1542-zhou.pdf">Untangling the Knot: Breaking Access Control in Home Wireless Mesh Networks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1552-jia.pdf">HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1575-wang.pdf">The Invisible Polyjuice Potion: an Effective Physical Adversarial Attack against Face Recognition</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1582-zha.pdf">Understanding Cross-Platform Referral Traffic for Illicit Drug Promotion</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1594-zhang.pdf">ArcEDB: An Arbitrary-Precision Encrypted Database via (Amortized) Modular Homomorphic Encryption</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1601-zhang.pdf">Multi-User Security of CCM Authenticated Encryption Mode</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1602-zhang.pdf">Inbox Invasion: Exploiting MIME Ambiguities to Evade Email Attachment Detectors</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1637-gordon.pdf">Fast Two-party Threshold ECDSA with Proactive Security</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1652-shen.pdf">“Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1769-heftrig.pdf">The Harder You Try, The Harder You Fail: The KeyTrap Denial-of-Service Algorithmic Complexity Attacks on DNSSEC</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1871-yu.pdf">A Comprehensive Analysis of Security Vulnerabilities and Attacks in Satellite Modems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1874-gascon.pdf">Computationally Secure Aggregation and Private Information Retrieval in the Shuffle Model</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1876-liu.pdf">On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa1901-koti.pdf">Graphiti: Secure Graph Computation Made More Scalable</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa2040-lahjouji.pdf">ProBE: Proportioning Privacy Budget for Complex Exploratory Decision Support</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa2104-bai.pdf">Alchemy: Data-Free Adversarial Training</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa2169-lyu.pdf">Prompt Fuzzing for Fuzz Driver Generation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa2198-che.pdf">BlueSWAT: A Lightweight State-Aware Security Framework for Bluetooth Low Energy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpa2395-.pdf">ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0007-volos.pdf">Principled Microarchitectural Isolation on Cloud CPUs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0009-kim.pdf">PeTAL: Ensuring Access Control Integrity against Data-only Attacks on Linux</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0013-zhang.pdf">S^2NeRF: Privacy-preserving Training Framework for NeRF</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0014-jiang.pdf">RISiren: Wireless Sensing System Attacks via Metasurface</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0015-yang.pdf">Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0017-zhang.pdf">The HitchHiker’s Guide to High-Assurance System Observability Protection with Efficient Permission Switches</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0021-jang.pdf">SysBumps: Exploiting Speculative Execution in System Calls for Breaking KASLR in macOS for Apple Silicon</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0041-klostermeyer.pdf">Skipping the Security Side Quests: A Qualitative Study on Security Practices and Challenges in Game Development</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0071-zhou.pdf">Two-Tier Data Packing in RLWE-based Homomorphic Encryption for Secure Federated Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0080-moura.pdf">Characterizing and Mitigating Phishing Attacks at ccTLD Scale</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0088-baelde.pdf">Foundations for Cryptographic Reductions in CCSA Logics</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0103-aerni.pdf">Evaluations of Machine Learning Privacy Defenses are Misleading</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Release the Hounds! Automated Inference and Empirical Security Evaluation of Field-Deployed PLCs Using Active Network Data</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0131-hielscher.pdf">Selling Satisfaction: A Qualitative Analysis of Cybersecurity Awareness Vendors’ Promises</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0144-morio.pdf">SpecMon: Modular Black-Box Runtime Monitoring of Security Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Bytes to Schlep? Use a FEP: Hiding Protocol Metadata with Fully Encrypted Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">RSA-Based Dynamic Accumulator without Hashing into Primes</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0163-xu.pdf">Camel: Communication-Efficient and Maliciously Secure Federated Learning in the Shuffle Model of Differential Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0164-christou.pdf">Eclipse: Preventing Speculative Memory-error Abuse with Artificial Data Dependencies</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0166-zhu.pdf">A Unified Membership Inference Method for Visual Self-supervised Encoder via Part-aware Capability</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0185-lau.pdf">Specification and Verification of Strong Timing Isolation of Hardware Enclaves</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0186-li.pdf">Leakage-Resilient Circuit Garbling</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0191-ding.pdf">Understanding Implosion in Text-to-Image Generative Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0200-ratliff.pdf">A Framework for Differential Privacy Against Timing Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0206-li.pdf">Secure Multiparty Computation with Lazy Sharing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0211-lucas.pdf">Training Robust ML-based Raw-Binary Malware Detectors in Hours, not Months</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0212-bernhard.pdf">DarthShader: Fuzzing WebGPU Shader Translators &amp; Compilers</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0214-dash.pdf">$SpecGuard:$ Specification Aware Recovery for Robotic Autonomous Vehicles from Physical Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0224-zhao.pdf">Towards Fine-Grained Webpage Fingerprinting at Scale</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0227-schiller.pdf">Employees’ Attitudes towards Phishing Simulations: “It’s like when a child reaches onto the hot hob”</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0232-goel.pdf">Dora: A Simple Approach to Zero-Knowledge for RAM Programs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0233-godbole.pdf">SemPat: From Hyperproperties to Attack Patterns for Scalable Analysis of Microarchitectural Security</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0250-ganev.pdf">Graphical vs. Deep Generative Models: Measuring the Impact of Differentially Private Mechanisms and Budgets on Utility</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0252-zhang.pdf">Collapse Like A House of Cards: Hacking Building Automation System Through Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">A Causal Explainable Guardrails for Large Language Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0284-jois.pdf">Pulsar: Secure Steganography for Diffusion Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0285-ganesh.pdf">Dual Polynomial Commitment Schemes and Applications to Commit-and-Prove SNARKs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0291-gunther.pdf">Obfuscated Key Exchange</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">TREC: APT Tactic / Technique Recognition via Few-Shot Provenance Subgraph Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">TREC: APT Tactic / Technique Recognition via Few-Shot Provenance Subgraph Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0301-ambrona.pdf">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0335-huang.pdf">$Coral:$ Maliciously Secure Computation Framework for Packed and Mixed Circuits</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0336-talwar.pdf">Samplable Anonymous Aggregation for Private Federated Data Analysis</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0345-dong.pdf">Almost Instance-optimal Clipping for Summation Problems in the Shuffle Model of Differential Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0346-huang.pdf">A General Framework for Data-Use Auditing of ML Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0347-huang.pdf">Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0348-wang.pdf">OSmart: Whitebox Program Option Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0351-meng.pdf">Program Environment Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0353-wilke.pdf">TDXdown: Single-Stepping and Instruction Counting Attacks against Intel TDX</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0387-wang.pdf">ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Leveraging Binary Coverage for Effective Generation Guidance in Kernel Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Faster FHE-Based Single-Server Private Information Retrieval</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0406-klix.pdf">Stealing Maggie’s Secrets—On the Challenges of IP Theft Through FPGA Reverse Engineering</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">PhySense: Defending Physically Realizable Attacks for Autonomous Systems via Consistency Reasoning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0435-peng.pdf">Toss a Fault to BpfChecker: Revealing Implementation Flaws for eBPF runtimes with Differential Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">ProFake: Detecting Deepfakes in the Wild against Quality Degradation with Progressive Quality-adaptive Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">The Illusion of Randomness: An Empirical Analysis of Address Space Layout Randomization Implementations</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0447-vanjani.pdf">Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">DeepCache: Revisiting Cache Side-Channel Attacks in Deep Neural Networks Executables</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0458-rauscher.pdf">Cross-Core Interrupt Detection: Exploiting User and Virtualized IPIs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0478-li.pdf">$fAmulet:$ Finding Finalization Failure Bugs in Polygon zkRollup</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0495-verbeek.pdf">Verifiably Correct Lifting of Position-Independent x86-64 Binaries to Symbolized Assembly</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Efficient Scalable Multi-Party Private Set Intersection(-Variants) from Bicentric Zero-Sharing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0499-mergendahl.pdf">Manipulative Interference Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0505-song.pdf">Interstellar: Fully Partitioned and Efficient Security Monitoring Hardware Near a Processor Core for Protecting Systems against Attacks on Privileged Software</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0512-tas.pdf">Atomic and Fair Data Exchange via Blockchain</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">The Big Brother’s New Playground: Unmasking the Illusion of Privacy in Web Metaverses from a Malicious User’s Perspective</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0548-karim.pdf">Fisher Information guided Purification against Backdoor Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0578-wang.pdf">CiMSAT: Exploiting SAT Analysis to Attack Compute-in-Memory Architecture Defenses</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0580-di-giandomenico.pdf">Protoss: Protocol for Tight Optimal Symmetric Security</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Scalable and Adaptively Secure Any-Trust Distributed Key Generation and All-hands Checkpointing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0594-li.pdf">BaseMirror: Automatic Reverse Engineering of Baseband Commands from Android’s Radio Interface Layer</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0602-salehi.pdf">AutoPatch: Automated Generation of Hotpatches for Real-Time Embedded Devices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">DoubleUp Roll: Double-spending in Arbitrum by Rolling It Back</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0658-fu.pdf">Benchmarking Secure Sampling Protocols for Differential Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0677-hirner.pdf">Whipping the Multivariate-based MAYO Signature Scheme using Hardware Platforms</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0744-li.pdf">Sublinear Distributed Product Checks on Replicated Secret-Shared Data over Z2k Without Ring Extensions</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Direct Range Proofs for Paillier Cryptosystem and Their Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of Privacy-Harming Code in JavaScript Bundles</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0793-hofmann.pdf">Gaussian Elimination of Side-Channels: Linear Algebra for Memory Coloring</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Conan: Distributed Proofs of Compliance for Anonymous Data Collection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0796-chevalier.pdf">Quarantined-TreeKEM: A Continuous Group Key Agreement for MLS, Secure in Presence of Inactive Users</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0816-ren.pdf">Simple and Practical Amortized Sublinear Private Information Retrieval using Dummy Subsets</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0823-tang.pdf">ERACAN: Defending Against an Emerging CAN Threat Model</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0826-zhang.pdf">Membership Inference Attacks against Vision Transformers: Mosaic MixUp Training to the Defense</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">CanCal: Towards Real-time and Lightweight Ransomware Detection and Response in Industrial Environments</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0848-guo.pdf">A Qualitative Analysis of Practical De-Identification Guides</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">DPM: Clustering Sensitive Data through Separation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0898-stevanoski.pdf">QueryCheetah: Fast Automated Discovery of Attribute Inference Attacks Against Query-Based Systems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0913-bars.pdf">No Peer, no Cry: Network Application Fuzzing via Fault Injection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Rust for Embedded Systems: Current State and Open Problems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Gopher: High-Precision and Deep-Dive Detection of Cryptographic API Misuse in the Go Ecosystem</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Characterizing Ethereum Address Poisoning Attack</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0949-s-raj.pdf">$Fuzz to the Future:$ Uncovering Occluded Future Vulnerabilities via Robust Fuzzing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0973-liu.pdf">PreCurious: How Innocent Pre-Trained Language Models Turn into Privacy Traps</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb0993-tang.pdf">DPad-HE: Towards Hardware-friendly Homomorphic Evaluation using 4-Directional Manipulation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1005-he.pdf">Rhombus: Fast Homomorphic Matrix-Vector Multiplication for Secure Two-Party Inference</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Hekaton: Horizontally-Scalable ZkSNARKs Via Proof Aggregation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1043-klemmer.pdf">Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1057-zhang.pdf">BadMerging: Backdoor Attacks Against Model Merging</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1058-wang.pdf">$GAZEploit:$ Remote Keystroke Inference Attack by Gaze Estimation from Avatar Views in VR/MR Devices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1061-mahdad.pdf">Breaching Security Keys without Root: FIDO2 Deception Attacks via Overlays exploiting Limited Display Authenticators</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1066-bacho.pdf">GRandLine: Adaptively Secure DKG and Randomness Beacon with (Log-)Quadratic Communication Complexity</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1081-wu.pdf">Image-Perfect Imperfections: Safety, Bias, and Authenticity in the Shadow of Text-To-Image Model Evolution</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1082-yang.pdf">Tight ZK CPU: Batched ZK Branching with Cost Proportional to Evaluated Instruction</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1083-adei.pdf">Jäger: Automated Telephone Call Traceback</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1084-shi.pdf">Optimization-based Prompt Injection Attack to LLM-as-a-Judge</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1125-feng.pdf">Uncovering Gradient Inversion Risks in Practical Language Model Training</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1129-wen.pdf">FORAY: Towards Effective Attack Synthesis against Deep Logical Vulnerabilities in DeFi Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1168-liao.pdf">A First Look at Security and Privacy Risks in the RapidAPI Ecosystem</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1174-chen.pdf">Unveiling the Vulnerability of Private Fine-Tuning in Split-Based Frameworks for Large Language Models: A Bidirectionally Enhanced Attack</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1214-dziembowski.pdf">Secret Sharing with Snitching</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1228-sha.pdf">ZeroFake: Zero-Shot Detection of Fake Images Generated and Edited by Text-to-Image Generation Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1240-nazzal.pdf">PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1241-jiang.pdf">BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1266-badertscher.pdf">What Did Come Out of It? Analysis and Improvements of DIDComm Messaging</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1282-peinemann-CC-NP.pdf">S-BDT: Distributed Differentially Private Boosted Decision Trees</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1293-knockel.pdf">The Not-So-Silent Type: Vulnerabilities in Chinese IME Keyboards’ Network Security Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1302-wolf.pdf">Verifiable Security Policies for Distributed Systems</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1312-simko.pdf">“Modern problems require modern solutions”: Community-Developed Techniques for Online Exam Proctoring Evasion</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1332-li.pdf">Analyzing Inference Privacy Risks Through Gradients In Machine Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1334-sharevski.pdf">Blind and Low-Vision Individuals’ Detection of Audio Deepfakes</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1355-wen.pdf">Membership Inference Attacks Against In-Context Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1391-qasem.pdf">OctopusTaint: Advanced Data Flow Analysis for Detecting Taint-Based Vulnerabilities in IoT/IIoT Firmware</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1408-zhang.pdf">Unbalanced Private Set Union with Reduced Computation and Communication</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1432-hofmann.pdf">End-to-End Encrypted Cloud Storage in the Wild: A Broken Ecosystem</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1435-huang.pdf">Top of the Heap: Efficient Memory Error Protection of Safe Heap Objects</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1470-doan.pdf">Trident of Poseidon: A Generalized Approach for Detecting Deepfake Voices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1480-rashid.pdf">State Machine Mutation-based Testing Framework for Wireless Communication Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1512-horowitz.pdf">Spec-o-Scope: Cache Probing at Cache Speed</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1534-zhou.pdf">$Shortcut:$ Making MPC-based Collaborative Analytics Efficient on Dynamic Databases</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1554-attrapadung.pdf">Secure Parallel Computation with Oblivious State Transitions</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1594-he.pdf">Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1598-yuan.pdf">$HyperTheft:$ Thieving Model Weights from TEE-Shielded Neural Networks via Ciphertext Side Channels</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1623-pappas.pdf">$Sparrow:$ Space-Efficient zkSNARK for Data-Parallel Circuits and Applications to Zero-Knowledge Decision Trees</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Libra: Architectural Support For Principled, Secure And Efficient Balanced Execution On High-End Processors</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">CountDown: Refcount-guided Fuzzing for Exposing Temporal Memory Errors in Linux Kernel</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">VPVet: Vetting Privacy Policies of Virtual Reality Apps</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1704-wu.pdf">Legilimens: Practical and Unified Content Moderation for Large Language Model Services</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1709-kuvaiskii.pdf">$Gramine-TDX:$ A Lightweight OS Kernel for Confidential VMs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">CAPSID: A Private Session ID System for Small UAVs</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1819-chen.pdf">The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risks</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1940-fisch.pdf">ThorPIR: Single Server PIR via Homomorphic Thorp Shuffles</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1966-wang.pdf">Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">$Respire:$ High-Rate PIR for Databases with Small Records</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb1998-luo.pdf">Towards Automatic Discovery of Denial of Service Weaknesses in Blockchain Resource Models</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2003-lyubashevsky.pdf">The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2008-alnashwan.pdf">Strong Privacy-Preserving Universally Composable AKA Protocol with Seamless Handover Support for Mobile Virtual Network Operator</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2023-luo.pdf">Test Suites Guided Vulnerability Validation for Node.js Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2054-hu.pdf">Unmasking the Security and Usability of Password Masking</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2088-lu.pdf">$Neural Dehydration:$ Effective Erasure of Black-box Watermarks from DNNs with Limited Data</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2100-li.pdf">SeqMIA: Sequential-Metric Based Membership Inference Attack</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2104-xu.pdf">Fuzzing JavaScript Engines with a Graph-based IR</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2145-bagdasarian.pdf">Mithridates: Auditing and Boosting Backdoor Resistance of Machine Learning Pipelines</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2186-liu.pdf">Demystifying RCE Vulnerabilities in LLM-Integrated Apps</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2217-hermelink.pdf">The Insecurity of Masked Comparisons: SCAs on ML-KEM’s FO-Transform</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2219-lim.pdf">uMMU: Securing Data Confidentiality with Unobservable Memory Subsystem</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2221-cheon.pdf">Attacks Against the IND-CPA^D Security of Exact FHE Schemes</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2229-childs.pdf">“I Had Sort of a Sense that I Was Always Being Watched…Since I Was”: Examining Interpersonal Discomfort From Continuous Location-Sharing Applications</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2241-hong.pdf">Certifiable Black-Box Attacks with Randomized Adversarial Examples: Breaking Defenses with Provable Confidence</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2294-ceesay-seitz.pdf">μCFI: Formal Verification of Microarchitectural Control-flow Integrity</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2312-chen.pdf">Manipulating OpenFlow Link Discovery Packet Forwarding for Topology Poisoning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2335-ba-3690346.pdf">SurrogatePrompt: Bypassing the Safety Filter of Text-to-Image Models via Substitution</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2374-holohan.pdf">Securing Floating-Point Arithmetic for Noise Addition</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2405-lain.pdf">Content, Nudges and Incentives: A Study on the Effectiveness and Perception of Embedded Phishing Training</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2432-sun.pdf">Actively Secure Private Set Intersection in the Client-Server Setting</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2462-bagdasarian.pdf">AirGapAgent: Protecting Privacy-Conscious Conversational Agents</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2469-faonio.pdf">Real-World Universal zkSNARKs are Non-Malleable</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2518-appan.pdf">Oblivious Single Access Machines - A New Model for Oblivious Computation</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2547-kelso.pdf">Trust, Because You Can’t Verify: Privacy and Security Hurdles in Education Technology Acquisition Practices</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2556-zhou.pdf">KnowGraph: Knowledge-Enabled Anomaly Detection via Logical Reasoning on Graph Data</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2582-zhao.pdf">Compositional Verification of Composite Byzantine Protocols</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2591-baldimtsi.pdf">zkLogin: Privacy-Preserving Blockchain Authentication with Existing Credentials</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2675-gumusel.pdf">Understanding Legal Professionals’ Practices and Expectations in Data Breach Incident Reporting</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2691-faller.pdf">Password-Protected Key Retrieval with(out) HSM Protection</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2702-agarwal.pdf">Secure Sorting and Selection via Function Secret Sharing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2774-collins.pdf">On the Tight Security of the Double Ratchet</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2837-liang.pdf">Internet’s Invisible Enemy: Detecting and Measuring Web Cache Poisoning in the Wild</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2852-li.pdf">GPSBuster: Busting out Hidden GPS Trackers via MSoC Electromagnetic Radiations</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2863-imola.pdf">Metric Differential Privacy at the User-Level via the Earth-Mover’s Distance</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2910-karantaidou.pdf">Blind Multisignatures for Anonymous Tokens with Decentralized Issuance</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb2939-liang.pdf">Smooth Sensitivity for Geo-Privacy</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3049-zhao.pdf">Program Ingredients Abstraction and Instantiation for Synthesis-based JVM Testing</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3050-wang.pdf">Curator Attack: When Blackbox Differential Privacy Auditing Loses Its Power</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3132-friess.pdf">Byzantine-Secure Relying Party for Resilient RPKI</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3136-knauer.pdf">Phantom: Untargeted Poisoning Attacks on Semi-Supervised Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3173-yao.pdf">Watch the Rhythm: Breaking Privacy with Accelerometer at the Extremely-Low Sampling Rate of 5Hz</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3198-riepel.pdf">ISABELLA: Improving Structures of Attribute-Based Encryption Leveraging Linear Algebra</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3448-huang.pdf">$VMud:$ Detecting Recurring Vulnerabilities with Multiple Fixing Functions via Function Selection and Semantic Equivalent Statement Matching</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3508-zheng.pdf">TabularMark: Watermarking Tabular Datasets for Machine Learning</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3580-ameri.pdf">Conditional Encryption with Applications to Secure Personalized Password Typo Correction</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3583-ju.pdf">NeuJeans: Private Neural Network Inference with Joint Optimization of Convolution and FHE Bootstrapping</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3628-zhu.pdf">CrossFire: Fuzzing macOS Cross-XPU Memory on Apple Silicon</a></li>
+                                        <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsfpb3870-du.pdf">Scalable Equi-Join Queries over Encrypted Database</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                              Poster Presentations
+                            <ul class="nested-list">
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp1-chown.pdf">Poster: Privacy Norms for Fertility Data in the Roe v. Wade era</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp10-cattepoel.pdf">Poster: Kill Krill or Proxy RPKI</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp100-nsieyanji-tchokodeu.pdf">Poster: Security of Login Interfaces in Modern Organizations</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp102-ji.pdf">Poster: Whether We Are Good Enough to Detect Server-Side Request Forgeries in PHP-native Applications?</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp104-szymkowiak.pdf">Poster: Marian: An Open Source RISC-V Processor with Zvk Vector Cryptography Extensions</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp105-li.pdf">Poster: Towards Real-Time Intrusion Detection with Explainable AI-Based Detector</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp12-jacobsen.pdf">Poster: Patching NSEC3-Encloser: The Good, the Bad, and the Ugly</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp14-xue.pdf">Poster: An Exploration of Large Language Models in Malicious Source Code Detection</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp2-hyla.pdf">Poster: The Concept of a System for Automatic Detection and Correction of Vulnerabilities in the Source Code</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Poster: Cyber Security Economics Model (CYSEM)</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp21-lai.pdf">Poster: AuditVotes: A Framework towards Deployable Certified Robustness for GNNs</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp25-berke.pdf">Poster: zkTax: A Pragmatic Way to Support Zero-knowledge Tax Disclosures</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp27-ochiai.pdf">Poster: End-to-End Privacy-Preserving Vertical Federated Learning using Private Cross-Organizational Data Collaboration</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp30-chang.pdf">Poster: YFuzz: Data-Driven Fuzzing</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp31-zhang.pdf">Poster: Repairing Bugs with the Introduction of New Variables: A Multi-Agent Large Language Model</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Poster: In-switch Defense against DNS Amplification DDoS Attacks</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp33-chen.pdf">Poster: A Full-stack Secure Deletion Framework for Modern Computing Devices</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp35-li.pdf">Poster: Few-Shot Inter-Domain Routing Threat Detection with Large-Scale Multi-Modal Pre-Training</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp37-naus.pdf">Poster: Formally Verified Binary Lifting to P-Code</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp38-digregorio.pdf">Poster: libdebug, Build Your Own Debugger for a Better (Hello) World</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp39-meng.pdf">Poster: $M^2ASK:$ A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&amp;CK Mapping</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp41-kaizer.pdf">Poster: Synchronization Concerns of DNS Integrations</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp42-lee.pdf">Poster: E-Graphs and Equality Saturation for Term-Rewriting in MBA Deobfuscation: An Empirical Study</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp5-shukla.pdf">Poster: Different Victims, Same Layout: Email Visual Similarity Detection for Enhanced Email Protection</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp50-vang.pdf">Poster: Formalizing Cognitive Biases for Cybersecurity Defenses</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp53-bui.pdf">Poster: TAPChecker: Model Checking in Trigger-Action Rules Generation Using Large Language Models</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp54-osher.pdf">Poster: Gift or Curse? Safety Slider Settings in Tor Website Fingerprinting</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp57-hong.pdf">Poster: Detecting Ransomware Attacks by Analyzing Replicated Block Snapshots Using Neural Networks</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp58-mouchet.pdf">Poster: Multiparty Private Set Intersection from Multiparty Homomorphic Encryption</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp6-huang.pdf">Poster: Post-Quantum Identity-Based Matching Encryption with Revocable Decryption Key</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp61-sgueglia.pdf">Poster: A Multi-step Approach for Classification of Malware Samples</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp63-diao.pdf">Poster: DoHunter: A feature fusion-based LLM for DoH tunnel detection</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp64-jacobsen.pdf">Poster: From Fort to Foe: The Threat of RCE in RPKI</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp65-malaviya.pdf">Poster: Unmasking Label Errors: A need for Robust Cybersecurity Benchmarks</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp66-amjad.pdf">Poster: How Do Visually Impaired Users Navigate Accessibility Challenges in an Ad-Driven Web?</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp67-li.pdf">Poster: Automated Dependency Mapping for Web API Security Testing Using Large Language Models</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp68-chen.pdf">Poster: Acoustic Side-Channel Attack on Robot Vacuums</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp70-wu.pdf">Poster: Protecting Source Code Privacy When Hunting Bugs</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">Poster: RewardRandRunner: Distributed Randomness Beacon with Reward and Penalty Mechanism</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp75-zhao.pdf">Poster: Enhancing Network Traffic Analysis with Pre-trained Side-channel Feature Imputation</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp78-athanasiou.pdf">Poster: Protection against Source Inference Attacks in Federated Learning using Unary Encoding and Shuffling</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp80-alhaidari.pdf">Poster: FlashGuard: Real-time Disruption of Non-Price Flash Loan Attacks in DeFi</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp82-simsek.pdf">Poster: Analyzing and Correcting Inaccurate CVE-CWE Mappings in the National Vulnerability Database</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp83-liu.pdf">Poster: Solving the Free-rider Problem in Bittensor</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp85-liu.pdf">Poster: BlindMarket: A Trustworthy Chip Designs Marketplace for IP Vendors and Users</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp87-mirkovic.pdf">Poster: Security and Privacy Heterogeneous Environment for Reproducible Experimentation (SPHERE)</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp89-kim.pdf">Poster: Advanced Features for Real-Time Website Fingerprinting Attacks on Tor</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp91-desmedt.pdf">Poster: Byzantine Discrepancy Attacks against Calendar, Set-intersection and Nations</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp92-fu.pdf">Poster: Enhance Hardware Domain Specific Large Language Model with Reinforcement Learning for Resilience</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp94-bao.pdf">Poster: PGPNet: Classify APT Malware Using Prediction-Guided Prototype Network</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp96-shukla.pdf">Poster: Context-Based Effective Password Detection in Plaintext</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccspp99-dayama.pdf">Poster: A Secure Multiparty Computation Platform for Squeaky-Clean Data Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                              Demonstrations
+                            <ul class="nested-list">
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsde017-li.pdf">Demo: Enhancing Smart Contract Security Comprehensively through Dynamic Symbolic Execution</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsde059-gu.pdf">Demo: FT-PrivacyScore: Personalized Privacy Scoring Service for Machine Learning Participation</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsde072-ton.pdf">Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsde074-ayoubi.pdf">Demo: Towards Reproducible Evaluations of ML-Based IDS Using Data-Driven Approaches</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccsde106-xianglan.pdf">Demo: An End-to-End Anonymous Traffic Analysis System</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                              Pre Conference Workshop Summaries
+                            <ul class="nested-list">
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2402-gong.pdf">AACD ‘24: 11th ACM Workshop on Adaptive and Autonomous Cyber Defense</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2405-yurcik.pdf">HealthSec ‘24 – Cybersecurity in Healthcare</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2408-li.pdf">LAMPS ‘24: ACM CCS Workshop on Large AI Systems and Models with Privacy and Safety Analysis</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2411-daniel.pdf">The 19th Workshop on Programming Languages and Analysis for Security (PLAS 2024)</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">RICSS’24 – Re-design Industrial Control Systems with Security</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2417-lin.pdf">SaTS ’24: The 2nd ACM Workshop on Secure and Trustworthy Superapps</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">WAHC 24 – 12th Workshop on Encrypted Computing &amp; Applied Homomorphic Cryptography</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                              Post Conference Workshop Summaries
+                            <ul class="nested-list">
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">WAHC 24 – 12th Workshop on Encrypted Computing &amp; Applied Homomorphic Cryptography</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2423-ayday.pdf">WPES ‘24: 23rd Workshop on Privacy in the Electronic Society (WPES)</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2426-pintor.pdf">AISec ‘24: 17th ACM Workshop on Artificial Intelligence and Security</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">ASHES ‘24 – Workshop on Attacks and Solutions in Hardware Security</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">AutonomousCyber ‘24 – Workshop on Autonomous Cybersecurity</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2435-fournaris.pdf">CCSW 2024 – Cloud Computing Security Workshop</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2438-schrittwieser.pdf">CheckMATE ’24 - Research on Offensive and Defensive Techniques in the context of Man At The End (MATE) Attacks</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2441-fawaz.pdf">CPSIoTSec’24: Sixth Workshop on CPS&amp;IoT Security and Privacy</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/index.html">CSCS ‘24 – Cyber Security in CarS Workshop</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2447-zhou.pdf">DeFi ’24: Workshop on Decentralized Finance and Security</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2450-craven.pdf">FEAST’24: Sixth Workshop on Forming an Ecosystem Around Software Transformation</a></li>
+                                <li><a href="/ccs/CCS2024/assets/pfaubmkaccs2024submissions/ccswk2453-torres-arias.pdf">SCORED ‘24: Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <!-- <hr> -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="half_row">
+                    <h2 class="title">About ACM CCS</h2>
+                    <p>
+                        The ACM Conference on Computer and Communications Security (CCS) is the <span
+                            class="emphasis">flagship
+                            annual conference</span> of the Special Interest Group on Security, Audit and Control
+                        (SIGSAC) of the
+                        Association for Computing Machinery (ACM). The conference brings together information security
+                        researchers,
+                        practitioners, developers, and users from all over the world to explore cutting-edge ideas and
+                        results.</p>
+                    <p>
+                        CCS will follow the <span class="emphasis">ACM Policy Against Harassment at ACM
+                            Activities</span>. Please
+                        familiarize yourself with <a class="emphasis"
+                            href="https://www.acm.org/special-interest-groups/volunteer-resources/officers-manual/policy-against-discrimination-and-harassment">the
+                            ACM Policy Against Harassment</a> and <a class="emphasis"
+                            href="https://www.acm.org/about-acm/reporting-unacceptable-behavior">guide to Reporting
+                            Unacceptable
+                            Behavior</a>.
+                    </p>
+                </div>
+                <div class="half_row" style="height:400px;width:400px;overflow-y:auto;float:left;">
+                    <div class='jekyll-twitter-plugin'><a class="twitter-timeline" data-width="400" data-tweet-limit="5"
+                            href="https://twitter.com/acm_ccs?ref_src=twsrc%5Etfw">Tweets by acm_ccs</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright"> © 2023-2024 ACM/SIGSAC. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script>
+    <script src="https://www.sigsac.org/ccs/CCS2024/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+    <script src="https://www.sigsac.org/ccs/CCS2024/assets/scripts.js"></script>
+
+
+</body>
+
+</html>
+
+<!-- Page Header -->

@@ -1,0 +1,26 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}
+
+  </title>
+
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" crossorigin="anonymous"></script> -->
+  <!-- <link rel="stylesheet" href="{{"assets/vendor/font-awesome.min.css"}}"> -->
+  <!-- <link href="https://d16w97s1o4b4t8.cloudfront.net/static-p/frontend/webpack/sponsor_webpage.16a82196bdc992596983.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="{{"assets/main.css"}}">
+  <link rel="stylesheet" href="{{"assets/style.css"}}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+</head>
