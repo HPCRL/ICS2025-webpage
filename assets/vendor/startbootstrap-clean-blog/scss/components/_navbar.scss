@@ -1,0 +1,156 @@
+// Styling for the navbar
+#mainNav {
+    // position: absolute;
+    padding: 0 5% 0 0;
+    background-color: #103448;
+    // border-bottom: 1px solid $gray-200;
+    font-family: $headings-font-family;
+    // color: #ffffff !important;
+
+    a {
+        font-size: 15px !important;
+        color: #ffffff;
+    }
+
+    // .navbar-nav li a:hover,
+    .navbar-nav li a:focus {
+        color: #ffffff !important;
+        border-bottom: 2px solid #ffffff !important;
+    }
+    .navbar-nav .active a {
+        // color: #ffffff !important;
+        border-bottom: 2px solid #ffffff;
+        ul li a{
+            border-bottom: 2px solid #103448;
+        }
+    }
+
+    .navbar-nav .dropdown:hover .dropdown-menu {
+    // color: #515151 !important;
+        text-shadow: none !important;
+        display: block;
+        background-color: #103448;
+        text-decoration: left;
+        width: 210px;
+        max-width: 100%;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        a:focus, a:hover {
+            background-color: #f8224a;
+        }
+        a {
+            color: white;
+        }
+    }
+    .navbar-nav {
+
+        >li.nav-item {
+            padding: 2px;
+            >a {
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                // text-transform: uppercase;
+            }
+        }
+    }
+
+    // @media only screen and (max-width: 500px) {
+    //     a {
+    //         font-size: 1px !important;
+    //     }
+    // }
+    @media (max-width: 1000px){
+        a {
+            font-size: 10px !important;
+            font-weight: 200 !important;
+        }
+    }
+
+    //     border-bottom: 1px solid transparent;
+    //     // background: transparent;
+
+    //     .navbar-brand {
+    //         padding: 10px 20px;
+    //         color: white;
+
+    //         &:focus,
+    //         &:hover {
+    //             color: fade-out($white, .2);
+    //         }
+    //     }
+
+    //     .navbar-nav {
+
+    //         >li.nav-item {
+    //             color: #ffffff !important;
+
+    //             >a {
+    //                 padding: 10px 20px;
+    //                 color: white;
+
+    //                 &:focus,
+    //                 &:hover {
+    //                     color: fade-out($white, .2);
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    // @media only screen and (min-width: 200px) {
+    //     -webkit-transition: background-color 0.2s;
+    //     -moz-transition: background-color 0.2s;
+    //     transition: background-color 0.2s;
+    //     /* Force Hardware Acceleration in WebKit */
+    //     -webkit-transform: translate3d(0, 0, 0);
+    //     -moz-transform: translate3d(0, 0, 0);
+    //     -ms-transform: translate3d(0, 0, 0);
+    //     -o-transform: translate3d(0, 0, 0);
+    //     transform: translate3d(0, 0, 0);
+    //     -webkit-backface-visibility: hidden;
+    //     backface-visibility: hidden;
+
+    //     &.is-fixed {
+    //         /* when the user scrolls down, we hide the header right above the viewport */
+    //         position: fixed;
+    //         top: -67px;
+    //         -webkit-transition: -webkit-transform 0.2s;
+    //         -moz-transition: -moz-transform 0.2s;
+    //         transition: transform 0.2s;
+    //         border-bottom: 1px solid darken($white, .05);
+    //         background-color: fade-out($white, .1);
+
+    //         .navbar-brand {
+    //             color: $gray-900;
+
+    //             &:focus,
+    //             &:hover {
+    //                 color: $primary;
+    //             }
+    //         }
+
+    //         .navbar-nav {
+    //             >li.nav-item {
+    //                 >a {
+    //                     color: $gray-900;
+
+    //                     &:focus,
+    //                     &:hover {
+    //                         color: $primary;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     &.is-visible {
+    //         /* if the user changes the scrolling direction, we show the header */
+    //         -webkit-transform: translate3d(0, 100%, 0);
+    //         -moz-transform: translate3d(0, 100%, 0);
+    //         -ms-transform: translate3d(0, 100%, 0);
+    //         -o-transform: translate3d(0, 100%, 0);
+    //         transform: translate3d(0, 100%, 0);
+    //     }
+    // }
+}

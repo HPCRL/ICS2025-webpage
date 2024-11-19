@@ -1,0 +1,46 @@
+// Styling for the footer
+footer {
+    padding: 50px 0 65px;
+    font-size: 16px;
+    width: 100%;
+    // margin: 30px -10px 0 -10px;
+    background-color: rgb(13,20,40);
+
+    .list-inline {
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin-bottom: 0;
+        text-align: center;
+        color: white;
+    }
+    .container {
+        color: white;
+
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+
+
+        // flex: 0 0 50%;
+        // max-width: 50%;
+    }
+    .half_row{
+        margin: 5px;
+        width: 45%;
+        .title {
+            color: white;
+
+        }
+    }
+    .p {
+        margin: 0 0 10px 0;
+    }
+    .emphasis {
+        color: rgb(244,33,72)
+    }
+}
