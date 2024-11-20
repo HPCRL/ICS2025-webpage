@@ -17,13 +17,18 @@ Xipeng Shen, North Carolina State University
 ### Finance Chair
 Hari Sundar, Tufts University
 
-### Workshops & Tutorials Chair
-Mehmet Belviranli, Colorado School of Mines
-
 ### Local Arrangements Chair
 Varun Shankar, University of Utah
 
+### Publicity Chair
+Wenqian Dong, Oregon State University
+
 ### Web Liaision
 Yufan Xu, Uber Technologies Inc.
+
+### Workshops & Tutorials Chair
+Mehmet Belviranli, Colorado School of Mines
+
+
 
 
