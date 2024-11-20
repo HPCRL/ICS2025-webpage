@@ -3,4 +3,9 @@ layout: "multilevel_navbar"
 background: '/img/bg-index.jpg'
 ---
 
-
+# Important dates for paper submission
+- Abstract submission: January 13, 2025
+- Paper submission: January 16, 2025
+- Rebuttal period: February 19 to February 21, 2025
+- Author notification: March 14, 2025
+- Camera-ready: April 14, 2025
