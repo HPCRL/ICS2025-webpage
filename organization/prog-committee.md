@@ -6,5 +6,4 @@ background: '/img/bg-index.jpg'
 
 # Program Committee
 
-### Program Chairs
 
