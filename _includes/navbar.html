@@ -1,36 +1,44 @@
 <!-- Navigation -->
-<nav class="navbar fixed-top" id="nav-menu-container">
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}" id="nav_logo">
-        <img src="{{ site.url }}{{ site.baseurl }}/img/ics_logo1.jpg" alt="ics" style="height: 40px;">
-    </a>
-    <ul class="nav-menu " >
-      {% assign links = site.navbar %}
-      {% for link in links %}
-          {% assign class = nil %}
-          {% if page.url contains link.url %}
-            {% assign class = ' active' %}
-          {% endif %}
-          {% if link.sublinks %}
+<nav class="navbar fixed-top" id="nav-menu-container" >
+    <div id="nav_logo">
+        <a class="navbar-brand" href="https://www.acm.org/" id="nav_logo_acm">
+            <img src="{{ site.url }}{{ site.baseurl }}/img/acm_single.jpg" alt="acm"
+                style="height: 40px; margin-right: 5px ">
+        </a>
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}" id="nav_logo_ics">
+            <img src="{{ site.url }}{{ site.baseurl }}/img/ics_logo1.jpg" alt="ics" style="height: 40px; ">
+        </a>
+    </div>
 
-          <li class="menu-has-children{{ class }}">
-            <a class="sf-with-ul" >{{ link.title }} </a>
-                  <ul class="">
-                      {% for sublink in link.sublinks %}
-                          {% if sublink.subtitle == 'separator' %}
-                              <li role="separator" class="divider"></li>
-                          {% else %}
-                              <li>
-                                  <a class="nav-link"  href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.subtitle }}<span class="caret"></span></a>
-                              </li>
-                          {% endif %}
-                      {% endfor %}
-                  </ul>
-              </li>
-          {% else %}
-          <li class="nav-item {{ class }}">
+    <ul class="nav-menu " style="margin-right: 40px;">
+        {% assign links = site.navbar %}
+        {% for link in links %}
+        {% assign class = nil %}
+        {% if page.url contains link.url %}
+        {% assign class = ' active' %}
+        {% endif %}
+        {% if link.sublinks %}
+
+        <li class="menu-has-children{{ class }}">
+            <a class="sf-with-ul">{{ link.title }} </a>
+            <ul class="">
+                {% for sublink in link.sublinks %}
+                {% if sublink.subtitle == 'separator' %}
+                <li role="separator" class="divider"></li>
+                {% else %}
+                <li>
+                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.subtitle
+                        }}<span class="caret"></span></a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        {% else %}
+        <li class="nav-item {{ class }}">
             <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-              </li>
-          {% endif %}
-      {% endfor %}
-  </ul>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
 </nav>
