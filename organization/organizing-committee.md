@@ -6,7 +6,6 @@ background: '/img/bg-index.jpg'
 
 # Organizing Committee
 
-### General Chair
 
 
 
