@@ -5,6 +5,4 @@ background: '/img/bg-index.jpg'
 
 # Call for papers
 
-# Important dates
 
-## Submission Site
