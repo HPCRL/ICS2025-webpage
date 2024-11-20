@@ -41,6 +41,6 @@ navbar:
         url: /organization/prog-committee.html
       - subtitle: Organizing Committee
         url: /organization/organizing-committee.html
-  - title: Sponsorship
-    url: /ACM_ICS25_sponsorship_opportunities.pdf
+  #- title: Sponsorship
+    # url: /ACM_ICS25_sponsorship_opportunities.pdf
 
