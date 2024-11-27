@@ -17,7 +17,7 @@ Papers are solicited on all aspects of the architecture, software, and applicati
 **Paper submission site:** https://ics25.hotcrp.com/
 
 The papers will be evaluated based on novelty, technical soundness, and potential impact on the field.
-The review process includes a rebuttal. All papers are discussed by the committee, taking the authors' rebuttal into account.
+The review process includes a rebuttal, and the discussions by the committee will take the authors’ rebuttal into account.
 Papers accepted for this conference will be published in the ACM proceedings. ACM's publication policy is as follows.
 
 - By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
