@@ -1522,7 +1522,8 @@ button[sc-style*="block"] {
 --------------------------------------------------------------*/
 
 #schedule {
-  padding: 60px 0 60px 0;
+  /* padding: 60px 0 60px 0; */
+  padding: 0 0 0 0;
 }
 
 #schedule .nav-tabs {
