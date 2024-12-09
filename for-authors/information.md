@@ -116,7 +116,7 @@ The only exceptions to the above rules are for the authors' own papers in (1) wo
 - Authors are not allowed to contact reviewers or PC members to ask about the outcomes of any papers.
 - Authors must also abide by the [ACM ethics policy](https://www.acm.org/code-of-ethics). Violation of the ACM ethics policy may <strong>result in rejection of the submission and possible action by the ACM.</strong>
 - Authors are not allowed to advertise their submissions or related technical reports and postings (e.g., to arxiv.org or online repositories) on social media or community blogs and web pages <strong>during the period starting from the submission deadline and ending when the ICS acceptance results are public.</strong>
-- ICS follows the [ACM Author Representations Policy](https://www.acm.org/publications/policies/roles-and-responsibilities).
+- ICS follows the [ACM Policy on Authorship](https://www.acm.org/publications/policies/new-acm-policy-on-authorship).
 
 
 ## Upon Acceptance of Your Paper
