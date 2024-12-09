@@ -5,8 +5,7 @@ background: '/img/bg-index.jpg'
 
 
 # Program Committee
--	Nael	Abu-Ghazaleh,	University of California, Riverside		<br>
--	Bilge	Acun,	Meta		<br>
+
 -	Almutaz	Adileh,	Huawei		<br>
 -	Varun	Agrawal,	Advanced Micro Devices Inc		<br>
 -	Rachata	Ausavarungnirun,	Mangoboost Inc.		<br>
@@ -19,7 +18,6 @@ background: '/img/bg-index.jpg'
 -	Franck	Cappello,	Argonne		<br>
 -	Trevor E.	Carlson,	National University of Singapore (NUS)		<br>
 -	Vito Giovanni	Castellana,	Pacific Northwest National Laboratory		<br>
--	Aparna	Chandramowlishwaran,	UC Irvine		<br>
 -	Sunita	Chandrasekaran,	University of Delaware		<br>
 -	Mainak	Chaudhuri,	Indian Institute of Technology Kanpur		<br>
 -	Guoyang	Chen,	Apple Inc.		<br>
@@ -31,19 +29,14 @@ background: '/img/bg-index.jpg'
 -	Yufei	Ding,	UCSD		<br>
 -	Chen	Ding,	University of Rochester		<br>
 -	Christian	Engelmann,	Oak Ridge National Laboratory		<br>
--	Natalie	Enright Jerger,	University of Toronto		<br>
 -	Simon	Garcia de Gonzalo,	Sandia National Laboratories		<br>
 -	Jayesh	Gaur,	Intel Labs		<br>
 -	Rong	Ge,	Clemson University		<br>
--	Tony (Tong)	Geng,	University of Rochester		<br>
 -	R	Govindarajan,	Indian Institute of Science, Bangalore, India		<br>
--	Boris	Grot,	University of Edinburgh		<br>
 -	Hui	Guan,	UMass Amherst		<br>
--	Rajiv	Gupta,	University of California, Riverside		<br>
 -	Martin	Herbordt,	Boston University		<br>
 -	Jin	Huang,	Brookhaven National Lab		<br>
 -	Nikhil	Jain,	Nvidia		<br>
--	Aamer	Jaleel,	NVIDIA		<br>
 -	Peng	Jiang,	University of Iowa		<br>
 -	Daniel	Jiménez,	Texas A&M University		<br>
 -	David	Kaeli,	Northeastern University		<br>
@@ -71,8 +64,8 @@ background: '/img/bg-index.jpg'
 -	Jason	Lowe-Power,	University of California, Davis		<br>
 -	Marco	Minutoli,	Pacific Northwest National Laboratory		<br>
 -	William	Moses,	UIUC/Google		<br>
--	Frank	Mueller,	NCSU		<br>
 -	Abdullah	Muzahid,	Texas A&M University		<br>
+-	Bogdan	Nicolae,	Argonne National Laboratory		<br>
 -	Dimitrios S.	Nikolopoulos,	Virginia Tech		<br>
 -	Dhabaleswar K (DK)	Panda,	The Ohio State University		<br>
 -	Prashant	Pandey,	Northeastern University		<br>
@@ -117,5 +110,15 @@ background: '/img/bg-index.jpg'
 -	Feng	Zhang,	Renmin University of China		<br>
 -	Zhijia	Zhao,	University of California, Riverside		<br>
 -	Keren	Zhou,	George Mason University		<br>
--	Bogdan	Nicolae,	Argonne National Laboratory		<br>
+
+# External Review Committee
+-	Nael	Abu-Ghazaleh,	University of California, Riverside		<br>
+-	Bilge	Acun,	Meta		<br>
+-	Aparna	Chandramowlishwaran,	UC Irvine		<br>
+-	Natalie	Enright Jerger,	University of Toronto		<br>
+-	Tony (Tong)	Geng,	University of Rochester		<br>
+-	Boris	Grot,	University of Edinburgh		<br>
+-	Rajiv	Gupta,	University of California, Riverside		<br>
+-	Aamer	Jaleel,	Nvidia		<br>
+-	Frank	Mueller,	NCSU		<br>
 
