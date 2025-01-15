@@ -25,7 +25,7 @@ Papers accepted for this conference will be published in the ACM proceedings. AC
 - By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
 
 ## Important dates (AoE)
-ICS'2025 will use two cycles of paper submissions
+ICS'2025 has two cycles for paper submissions
 
 ** Cycle 1:**
 - Abstract submission: January 13, 2025
