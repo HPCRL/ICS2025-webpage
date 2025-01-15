@@ -5,7 +5,7 @@ background: '/img/bg-index.jpg'
 
 # Call for papers
 
-The ACM International Conference on Supercomputing (ICS) is the premier international forum for the presentation of research results in high-performance computing systems. The 39th edition of ICS will be held in Salt Lake City, Utah, USA from June 9th-11th, 2025.
+The ACM International Conference on Supercomputing (ICS) is the premier international forum for the presentation of research results in high-performance computing systems. The 39th edition of ICS will be held in Salt Lake City, Utah, USA from June 8th-11th, 2025.
 Papers are solicited on all aspects of the architecture, software, and applications of high-performance computing systems of all scales (from chips to supercomputing systems), including but not limited to:
 
 - Processor, accelerator, memory, storage, interconnect and system architectures, including architectures based on future and emerging hardware (e.g. quantum, superconducting, photonic, neuromorphic).
