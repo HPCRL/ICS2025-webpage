@@ -14,7 +14,9 @@ Papers are solicited on all aspects of the architecture, software, and applicati
 - High-performance algorithms and applications including machine learning and large-scale data analytics, as well as the implementation and deployment of algorithms and applications on large-scale systems.
 - Tools for measurement, modeling, analysis and visualization of performance, energy, or other quantitative properties of high-performance computing systems.
   
-**Paper submission site:** [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
+**Paper submission sites:** 
+- Cycle 1: [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
+- Cycle 2: To be posted
 
 The papers will be evaluated based on novelty, technical soundness, and potential impact on the field.
 The review process includes a rebuttal, and the discussions by the committee will take the authors’ rebuttal into account.
