@@ -23,7 +23,7 @@ background: '/img/bg-index.jpg'
 -	Guoyang	Chen,	Apple Inc.		<br>
 -	Wenguang	Chen,	Tsinghua University		<br>
 -	Quan	Chen,	Shanghai Jiao Tong University		<br>
--	zizhong	Chen,	UC Riverside		<br>
+-	Zizhong	Chen,	UC Riverside		<br>
 -	Preyesh	Dalmia,	NVIDIA		<br>
 -	Sheng	Di,	Argonne National Laboratory		<br>
 -	Yufei	Ding,	UCSD		<br>
