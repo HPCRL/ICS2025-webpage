@@ -24,9 +24,17 @@ Papers accepted for this conference will be published in the ACM proceedings. AC
 
 - By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
 
-## Important dates
+## Important dates (AoE)
+ICS'2025 will use two cycles of paper submissions
+** Cycle 1:**
 - Abstract submission: January 13, 2025
 - Paper submission: January 16, 2025
 - Rebuttal period: February 19 to February 21, 2025
 - Author notification: March 14, 2025
 - Camera-ready: April 14, 2025
+
+** Cycle 2:**
+- Abstract submission: February 24, 2025
+- Paper submission: February 27, 2025
+- Rebuttal period: March 26 to March 28, 2025
+- Author notification: April 10, 2025
