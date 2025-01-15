@@ -26,6 +26,7 @@ Papers accepted for this conference will be published in the ACM proceedings. AC
 
 ## Important dates (AoE)
 ICS'2025 will use two cycles of paper submissions
+
 ** Cycle 1:**
 - Abstract submission: January 13, 2025
 - Paper submission: January 16, 2025
