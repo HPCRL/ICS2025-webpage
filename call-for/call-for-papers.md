@@ -13,10 +13,6 @@ Papers are solicited on all aspects of the architecture, software, and applicati
 - Compilers, runtime systems and system software, including optimization and support for hardware resources and energy management.
 - High-performance algorithms and applications including machine learning and large-scale data analytics, as well as the implementation and deployment of algorithms and applications on large-scale systems.
 - Tools for measurement, modeling, analysis and visualization of performance, energy, or other quantitative properties of high-performance computing systems.
-  
-**Paper submission sites:** 
-- Cycle 1: [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
-- Cycle 2: To be posted
 
 The papers will be evaluated based on novelty, technical soundness, and potential impact on the field.
 The review process includes a rebuttal, and the discussions by the committee will take the authors’ rebuttal into account.
@@ -39,3 +35,7 @@ ICS'2025 has two cycles for paper submissions
 - Paper submission: February 27, 2025
 - Rebuttal period: March 26 to March 28, 2025
 - Author notification: April 10, 2025
+
+**Paper submission sites:** 
+- Cycle 1: [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
+- Cycle 2: To be posted
