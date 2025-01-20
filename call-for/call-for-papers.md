@@ -38,4 +38,4 @@ ICS'2025 has two cycles for paper submissions
 
 **Paper submission sites:** 
 - Cycle 1: [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
-- Cycle 2: To be posted
+- Cycle 2: https://ics25-cycle2.hotcrp.com/
