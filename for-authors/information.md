@@ -23,7 +23,7 @@ Papers accepted for this conference will be published in the ACM proceedings. AC
 Authors will submit papers via the HotCRP conference review software [here](https://ics25.hotcrp.com/). Papers must be submitted in printable PDF format and should contain a maximum of 11 pages of single-spaced two-column text plus unlimited references. No appendices are allowed.
 
 
-If you are using Latex please use the following [template](https://hpcrl.github.io/ICS2025-webpage/for-authors/ics25template.zip). A sample PDF generated from the template is available [here](https://hpcrl.github.io/ICS2025-webpage/for-authors/ics25-sample.pdf). The general ACM templates (Latex, Microsoft Word or Overleaf) can be accessed [here](https://www.acm.org/publications/proceedings-template).  
+If you are using Latex please use the following [template](https://hpcrl.github.io/ICS2025-webpage/for-authors/ics25template.zip). A sample PDF generated from the template is available here. The general ACM templates (Latex, Microsoft Word or Overleaf) can be accessed [here](https://www.acm.org/publications/proceedings-template).  
 
 
 If you wish not to use the above template, please use the following specifications
