@@ -20,7 +20,7 @@ Papers accepted for this conference will be published in the ACM proceedings. AC
 
 - By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
 
-- Please refer to the "Information for Authors" page (Link: https://hpcrl.github.io/ICS2025-webpage/for-authors/information.html) for detailed submission requirements
+- Please refer to the ["Information for Authors" page](https://hpcrl.github.io/ICS2025-webpage/for-authors/information.html) for detailed submission requirements
 
 ## Important dates (AoE)
 ICS'2025 has two cycles for paper submissions
@@ -40,4 +40,4 @@ ICS'2025 has two cycles for paper submissions
 
 **Paper submission sites:** 
 - Cycle 1: [https://ics25.hotcrp.com](https://ics25.hotcrp.com)
-- Cycle 2: https://ics25-cycle2.hotcrp.com
+- Cycle 2: [https://ics25-cycle2.hotcrp.com](https://ics25-cycle2.hotcrp.com/)
