@@ -20,6 +20,9 @@ Hari Sundar, Tufts University
 ### Local Arrangements Chair
 Varun Shankar, University of Utah
 
+### Publications Chair
+Yuke Wang, Rice University
+
 ### Publicity Chair
 Wenqian Dong, Oregon State University
 
