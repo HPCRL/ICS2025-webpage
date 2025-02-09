@@ -8,10 +8,13 @@ background: '/img/bg-index.jpg'
 
 -	Almutaz	Adileh,	Huawei		<br>
 -	Varun	Agrawal,	Advanced Micro Devices Inc		<br>
+-   Alaa	Alameldeen,	Simon Fraser University <br>
 -	Rachata	Ausavarungnirun,	Mangoboost Inc.		<br>
 -	Amro	Awad,	University of Oxford		<br>
+-   Saurabh	Bagchi, Purdue University   <br>
 -	Rajeev	Balasubramonian,	University of Utah		<br>
 -	Kevin	Barker,	Pacific Northwest National Laboratory		<br>
+-   Tekin	Bicer,	Argonne National Laboratory <br>
 -	Mehmet	Belviranli,	Colorado School of Mines		<br>
 -	Martin	Burtscher,	Texas State University		<br>
 -	Suren	Byna,	The Ohio State University		<br>
@@ -25,6 +28,7 @@ background: '/img/bg-index.jpg'
 -	Quan	Chen,	Shanghai Jiao Tong University		<br>
 -	Zizhong	Chen,	UC Riverside		<br>
 -	Preyesh	Dalmia,	NVIDIA		<br>
+-   Sina	Darabi,	Università della Svizzera italiana <br>
 -	Sheng	Di,	Argonne National Laboratory		<br>
 -	Yufei	Ding,	UCSD		<br>
 -	Chen	Ding,	University of Rochester		<br>
@@ -34,11 +38,14 @@ background: '/img/bg-index.jpg'
 -	Rong	Ge,	Clemson University		<br>
 -	R	Govindarajan,	Indian Institute of Science, Bangalore, India		<br>
 -	Hui	Guan,	UMass Amherst		<br>
+-   Kyle	Hale,	Oregon State University	<br>
 -	Martin	Herbordt,	Boston University		<br>
 -	Jin	Huang,	Brookhaven National Lab		<br>
 -	Nikhil	Jain,	Nvidia		<br>
+-   Ali	Jannesari,	Iowa State University  <br>
 -	Peng	Jiang,	University of Iowa		<br>
 -	Daniel	Jiménez,	Texas A&M University		<br>
+-   Mahmut	Kandemir,	Pennsylvania State University <br>
 -	David	Kaeli,	Northeastern University		<br>
 -	Sudarsun	Kannan,	Rutgers University		<br>
 -	Ahmad Maroof	Karimi,	Oak Ridge National Laboratory		<br>
@@ -48,6 +55,7 @@ background: '/img/bg-index.jpg'
 -	Milind	Kulkarni,	Purdue University		<br>
 -	Hyoukjun	Kwon,	University of California, Irvine		<br>
 -	Ignacio	Laguna,	Lawrence Livermore National Laboratory		<br>
+-   Zhiling	Lan,	University of Illinois Chicago <br>
 -	Dongyoon	Lee,	Stony Brook University		<br>
 -	Gushu	Li,	University of Pennsylvania		<br>
 -	Jiajia	Li,	NCSU		<br>
@@ -58,15 +66,18 @@ background: '/img/bg-index.jpg'
 -	Guanpeng	Li,	University of Iowa		<br>
 -	Chunhua	Liao,	Lawrence Livermore National Laboratory		<br>
 -	Mieszko	Lis,	University of British Columbia		<br>
--	Xu	Liu,	Google		<br>
--	Liu	Liu,	Rensselaer Polytechnic Institute		<br>
+-	Xu	    Liu,	Google		<br>
+-   Jinyang	Liu,	University of Houston <br>
+-	Liu	    Liu,	Rensselaer Polytechnic Institute		<br>
 -	Pejman	Lotfi-Kamran,	Institute for Research in Fundamental Sciences (IPM)		<br>
 -	Jason	Lowe-Power,	University of California, Davis		<br>
+-   Jason	Mars,	University of Michigan <br>
 -	Marco	Minutoli,	Pacific Northwest National Laboratory		<br>
 -	William	Moses,	UIUC/Google		<br>
 -	Abdullah	Muzahid,	Texas A&M University		<br>
 -	Bogdan	Nicolae,	Argonne National Laboratory		<br>
 -	Dimitrios S.	Nikolopoulos,	Virginia Tech		<br>
+-   Soner	Onder,	Michigan Tech <br>
 -	Dhabaleswar K (DK)	Panda,	The Ohio State University		<br>
 -	Prashant	Pandey,	Northeastern University		<br>
 -	Tirthak	Patel,	Rice University		<br>
@@ -76,6 +87,7 @@ background: '/img/bg-index.jpg'
 -	Aleksandar	Prokopec,	Oracle Labs		<br>
 -	Moinuddin	Qureshi,	Georgia Tech		<br>
 -	Yihui	Ren,	Brookhaven National Laboratory		<br>
+-   Tahsin	Reza,	University of Waterloo <br>
 -	Bin	Ren,	William & Mary		<br>
 -	John (Jack)	Sampson,	Penn State		<br>
 -	Bertil	Schmidt,	JGU Mainz		<br>
@@ -83,16 +95,19 @@ background: '/img/bg-index.jpg'
 -	Martin	Schulz,	Technical University of Munich		<br>
 -	Prateek	Sharma,	Indiana University		<br>
 -	Seunghee	Shin,	State University of New York at Binghamton		<br>
+-   Arrvindh	Shriraman, 	Simon Fraser University <br>
 -	Yan	Solihin,	UCF		<br>
 -	Ravi	Soundararajan,	VMware by Broadcom		<br>
 -	Aravind	Sukumaran Rajam,	Meta		<br>
 -	Guangming	Tan,	Institute of Computing Technology, Chinese Academy of Sciences		<br>
 -	Kenjiro	Taura,	The University of Tokyo		<br>
 -	Antonino	Tumeo,	Pacific Northwest National Laboratory		<br>
+-   Nilay	Vaish, 	Google <br>
 -	Hans	Vandierendonck,	Queens University Belfast		<br>
 -	Ashish	Venkat,	University of Virginia		<br>
 -	Guru	Venkataramani,	George Washington University		<br>
 -	Chen	Wang,	Lawrence Livermore National Laboratory		<br>
+-   Bo	Wu,	    Colorado School of Mines    <br>
 -	Yuanchao	Xu,	University of California, Santa Cruz		<br>
 -	Helen	Xu,	Georgia Tech		<br>
 -	Wei	Xue,	Tsinghua Uviersity		<br>
@@ -101,6 +116,7 @@ background: '/img/bg-index.jpg'
 -	Yifan	Yang,	Nvidia		<br>
 -	Chencheng	Ye,	Huazhong University of Science and Technology		<br>
 -	Pen-Chung	Yew,	University of Minnesota at Twin Cities		<br>
+-   Youngmin	Yi,	Sogang University <br>
 -	Cliff	Young,	Google DeepMind		<br>
 -	Xiaodong	Yu,	Stevens Institute of Technology		<br>
 -	Jianping	Zeng,	Samsung MSL		<br>
