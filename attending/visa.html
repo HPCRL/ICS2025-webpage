@@ -58,8 +58,9 @@ background: '/img/bg-index.jpg'
             jsonData[key] = value;
         });
 
-        fetch("https://script.google.com/macros/s/AKfycbxsdn1P6q4DxhRdazQXJ5mm8zOZmAPk4ItR-MICnu40CIaDRuCHd4uPL1MJba3kMQnU/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbwvkKPQ7s3aLeSBbxi1ja3JU2MPICyrks-4k4RLIId98RNJ5FMv0VnCWWycXWyH5bL26A/exec", {
             method: "POST",
+            mode: "no-cors",
             headers: {
                 "Content-Type": "application/json"
             },
@@ -79,8 +80,13 @@ background: '/img/bg-index.jpg'
             document.getElementById("form").reset();
         })
         .catch(error => {
-            console.error("Error:", error);
-            alert("There was an issue submitting the form. Please try again.");
+             // Display success message
+            let errorMessage = document.createElement("div");
+            errorMessage.className = "alert alert-danger mt-3";
+            errorMessage.innerText = "There was an issue submitting the form. Please try again.";
+
+            let formContainer = document.getElementById("form").parentElement;
+            formContainer.appendChild(errorMessage);
         });
     });
 </script>
