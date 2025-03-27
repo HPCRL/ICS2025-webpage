@@ -24,6 +24,7 @@ background: '/img/bg-index.jpg'
 -	Sunita	Chandrasekaran,	University of Delaware		<br>
 -	Mainak	Chaudhuri,	Indian Institute of Technology Kanpur		<br>
 -	Guoyang	Chen,	Apple Inc.		<br>
+- Jou-Ann Chen, Qualcomm <br>
 -	Wenguang	Chen,	Tsinghua University		<br>
 -	Quan	Chen,	Shanghai Jiao Tong University		<br>
 -	Zizhong	Chen,	UC Riverside		<br>
@@ -99,6 +100,7 @@ background: '/img/bg-index.jpg'
 -	Yan	Solihin,	UCF		<br>
 -	Ravi	Soundararajan,	VMware by Broadcom		<br>
 -	Aravind	Sukumaran Rajam,	Meta		<br>
+- Hsin-Hsuan Sung, Qualcomm <br>
 -	Guangming	Tan,	Institute of Computing Technology, Chinese Academy of Sciences		<br>
 -	Kenjiro	Taura,	The University of Tokyo		<br>
 -	Antonino	Tumeo,	Pacific Northwest National Laboratory		<br>
