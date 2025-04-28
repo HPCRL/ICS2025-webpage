@@ -43,6 +43,8 @@ navbar:
         url: /organization/prog-committee.html
       - subtitle: Organizing Committee
         url: /organization/organizing-committee.html
+  - title: Registration
+    url: /registration/registration.html
   - title: Attending
     url: /attending
     sublinks:
