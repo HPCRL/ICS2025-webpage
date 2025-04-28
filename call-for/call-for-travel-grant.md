@@ -41,7 +41,7 @@ Early Career Professional Applicants:
 
 ## How to Apply
 1. Ensure you are a member of ACM SIGHPC before applying
-2. Complete the application form available at: https://forms.gle/uZaRSQ79qBhiqDHH7
+2. Complete the application form available at: [https://forms.gle/uZaRSQ79qBhiqDHH7](https://forms.gle/uZaRSQ79qBhiqDHH7)
 3. In your application, indicate which category of travel support you are requesting (Student or Early Career)
 4. Include a compelling statement describing how attending ICS 2025 will benefit your academic or professional development
 5. Include your CV (optional)
