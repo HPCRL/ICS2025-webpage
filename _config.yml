@@ -46,8 +46,8 @@ navbar:
   - title: Attending
     url: /attending
     sublinks:
-      - subtitle: Hotel
-        url: /attending/hotels.html
+      - subtitle: Venue
+        url: /attending/venue.html
   #- title: Sponsorship
     # url: /ACM_ICS25_sponsorship_opportunities.pdf
 
