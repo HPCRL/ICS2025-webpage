@@ -31,6 +31,7 @@ Student Applicants:
 - Must be enrolled in an accredited university in any country
 - Must be a member of ACM SIGHPC
 - Do not need to be presenting at ICS 2025, but must describe how they will benefit from attending
+
 Early Career Professional Applicants:
 - Must be working in the high performance computing (HPC) or another related field in any country
 - Must have less than 7 years of full-time experience in the field
