@@ -29,8 +29,12 @@ UTA offers route and transit information in a variety of languages  through its 
 
 Salt Lake City is laid out in a [**grid**](http://widestreetsofsaltlake.blogspot.com/2012/11/salt-lakes-grid-system-how-to.html) and is easy to get around once you understand it.
 
-<!-- 
+
 ### **A few hotels in downtown Salt Lake City:**
+
+**UNIVERSITY GUEST HOUSE & CONFERENCE CENTER**
+
+[https://www.universityguesthouse.com](https://www.universityguesthouse.com)
 
 **Salt Lake City Marriott City Center**
 
@@ -63,4 +67,4 @@ Salt Lake City is laid out in a [**grid**](http://widestreetsofsaltlake.blogspot
 Salt Lake City has many hotels downtown and in the surrounding area.  To find hotels that are within a public transportation stop simply use  google maps and ask for directions using public transit.
 
 Here is a wonderful [**visitor’s guide**](https://www.bluetoad.com/publication/?m=43876&i=751010&p=6&ver=html5) that you can download – it has lots of great information that you may find helpful!
- -->
+
