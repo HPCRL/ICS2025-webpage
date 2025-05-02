@@ -32,7 +32,7 @@ Salt Lake City is laid out in a [**grid**](http://widestreetsofsaltlake.blogspot
 
 ### **A few hotels in downtown Salt Lake City:**
 
-**UNIVERSITY GUEST HOUSE & CONFERENCE CENTER**
+**University Guest House & Cconference Center**
 
 [https://www.universityguesthouse.com](https://www.universityguesthouse.com)
 
