@@ -25,46 +25,38 @@ There are buses that run from downtown up 200 South – Bus #2 will get from mos
 
 Of course, Uber and Lyft are always options and we have a great system here.
 
-UTA offers route and transit information in a variety of languages  through its interpreter program. This program is available by phone.  Call 801-743-3822 (801-RIDE-UTA) or call toll-free 888-743-3822.
+UTA offers route and transit information in a variety of languages through its interpreter program. This program is available by phone.  Call 801-743-3822 (801-RIDE-UTA) or call toll-free 888-743-3822.
 
-Salt Lake City is laid out in a [**grid**](http://widestreetsofsaltlake.blogspot.com/2012/11/salt-lakes-grid-system-how-to.html) and is easy to get around once you understand it.
+Salt Lake City is laid out in a **grid** and is easy to get around.
 
 
-### **A few hotels in downtown Salt Lake City:**
-
-**University Guest House & Cconference Center**
-
+**University Guest House & Cconference Center (A short walk from the conference venue)**
 [https://www.universityguesthouse.com](https://www.universityguesthouse.com)
 
-**Salt Lake City Marriott City Center**
+### **A few hotels in downtown Salt Lake City:**
+Conference attendees can pick up Day passes for free rides on the public transportation system.
 
+**Salt Lake City Marriott City Center**
 [https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview](https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview)
 
 **Sheraton Salt Lake City**
-
 [https://www.marriott.com/en-us/hotels/slcsi-sheraton-salt-lake-city-hotel/overview](https://www.marriott.com/en-us/hotels/slcsi-sheraton-salt-lake-city-hotel/overview)
 
 **The Little America**
-
 [https://saltlake.littleamerica.com/](https://saltlake.littleamerica.com/)
 
 **Hilton Salt Lake City Center**
-
 [https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center](https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center)
 
 **Doubletree Suites**
-
 [https://www.hilton.com/en/hotels/slcwsdt-doubletree-suites-salt-lake-city-downtown](https://www.hilton.com/en/hotels/slcwsdt-doubletree-suites-salt-lake-city-downtown)
 
 **Springhill Suites by Marriott**
-
 [https://www.marriott.com/en-us/hotels/slcsh-springhill-suites-salt-lake-city-downtown/overview](https://www.marriott.com/en-us/hotels/slcsh-springhill-suites-salt-lake-city-downtown/overview)
 
 **Hyatt House**
-
 [https://www.hyatt.com/en-US/hotel/utah/hyatt-house-salt-lake-city-downtown/slcxd](https://www.hyatt.com/en-US/hotel/utah/hyatt-house-salt-lake-city-downtown/slcxd)
 
-Salt Lake City has many hotels downtown and in the surrounding area.  To find hotels that are within a public transportation stop simply use  google maps and ask for directions using public transit.
+Salt Lake City has many hotels downtown and in the surrounding area.  To find hotels that are within a public transportation stop simply use Google maps and ask for directions using public transit.
 
-Here is a wonderful [**visitor’s guide**](https://www.bluetoad.com/publication/?m=43876&i=751010&p=6&ver=html5) that you can download – it has lots of great information that you may find helpful!
 
