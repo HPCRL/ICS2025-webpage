@@ -30,7 +30,7 @@ UTA offers route and transit information in a variety of languages through its i
 Salt Lake City is laid out in a **grid** and is easy to get around.
 
 
-**University Guest House & Cconference Center (A short walk from the conference venue)**
+**University Guest House & Conference Center (A short walk from the conference venue)**
 [https://www.universityguesthouse.com](https://www.universityguesthouse.com)
 
 ### **A few hotels in downtown Salt Lake City:**
