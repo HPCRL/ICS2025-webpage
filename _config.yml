@@ -36,6 +36,8 @@ navbar:
         url: /call-for/call-for-workshop.html
       - subtitle: Call for Travel Grant Applications
         url: /call-for/call-for-travel-grant.html
+  # - title: Program
+  #   url: /program/program.html
   - title: Organization
     url: /organization
     sublinks:
