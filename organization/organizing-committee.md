@@ -26,6 +26,9 @@ Yuke Wang, Rice University
 ### Publicity Chair
 Wenqian Dong, Oregon State University
 
+### Travel Grants Chair
+Rohan Basu Roy, University of Utah
+
 ### Web Liaision
 Yufan Xu, Uber Technologies Inc.
 
