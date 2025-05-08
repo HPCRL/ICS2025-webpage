@@ -29,7 +29,7 @@ Wenqian Dong, Oregon State University
 ### Travel Grants Chair
 Rohan Basu Roy, University of Utah
 
-### Web Liaision
+### Web Liaison
 Yufan Xu, Uber Technologies Inc.
 
 ### Workshops & Tutorials Chair
