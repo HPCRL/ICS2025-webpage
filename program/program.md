@@ -11,7 +11,7 @@
 
 ## 06/09/2025 Monday
 <div class="table-responsive">
-    <table class="table table-bordered align-middle">
+     <table class="table table-bordered align-middle" style="table-layout: fixed; width: 100%;">
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
@@ -104,7 +104,7 @@
   
 ## 06/10/2025 Tuesday
 <div class="table-responsive">
-    <table class="table table-bordered align-middle">
+    <table class="table table-bordered align-middle" style="table-layout: fixed; width: 100%;">
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
@@ -224,7 +224,7 @@
 
 ## 06/11/2025 Wednesday
 <div class="table-responsive">
-    <table class="table table-bordered align-middle">
+     <table class="table table-bordered align-middle" style="table-layout: fixed; width: 100%;">
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
