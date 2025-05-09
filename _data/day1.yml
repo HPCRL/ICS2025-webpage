@@ -1,4 +1,15 @@
 # Day 1 Schedule
+- Time: "09:00-9:10"
+  Session1:
+    Session: "Opening"
+- Time: "09:10-10:20"
+  Session1:
+    Session: "Keynote"
+    Title: ""
+    Author: ""
+- Time: "10:20-10:40"
+  Session1:
+    Session: "Coffee Break"    
 - Time: "10:40-12:00"
   Session1:
     Session: "Approximation"
@@ -38,6 +49,10 @@
           Comment: ""
           URL: ""
 
+- Time: "12:00-1:40"
+  Session1:
+    Session: "Lunch"
+
 - Time: "1:40-3:00"
   Session1:
     Session: "Sparse Linear Algebra"
@@ -76,6 +91,10 @@
           Author: "Yuebo Luo:University of Minnesota Twin Cities;Shiyang Li:University of Minnesota Twin Cities,Nankai University;Junran Tao:Stevens Institute of Technology;Kiran Gautam Thorat: University of Connecticut;Xi Xie: University of Connecticut;Hongwu Peng: University of Connecticut;Nuo Xu:University of Minnesota Twin Cities;Caiwen Ding:Department of Computer Science and Engineering , University of Minnesota Twin Cities;Shaoyi Huang:Stevens Institute of Technology"
           Comment: ""
           URL: ""
+
+- Time: "3:00-3:20"
+  Session1:
+    Session: "Coffee Break"
 
 - Time: "3:20-5:20"
   Session1:

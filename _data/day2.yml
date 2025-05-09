@@ -37,7 +37,9 @@
           Author: "Melina Soysal: ETH Zurich, Konstantina Koliogeorgi: ETH Zurich, Can Firtina: ETH Zurich, Nika Mansouri Ghiasi: ETH Zurich, Rakesh Nadig: ETH Zurich, Haiyu Mao: ETH Zurich, Geraldo Francisco de Oliveira Junior: ETH Zurich, Yu Liang: ETH Zurich, Klea Zambaku: ETH Zurich Bilkent University, Mohammad Sadrosadati: ETH Zürich, Onur Mutlu: ETH Zurich"
           Comment: ""
           URL: ""
-
+- Time: "10:20-10:40"
+  Session1:
+    Session: "Coffee Break"    
 - Time: "10:40-12:00"
   Session1:
     Session: "Efficiency"
@@ -77,6 +79,9 @@
           Comment: ""
           URL: ""
 
+- Time: "12:00-1:40"
+  Session1:
+    Session: "Lunch"
 - Time: "1:40-3:40"
   Session1:
     Session: "Best Papers"
@@ -101,3 +106,7 @@
       - Title: "Light-FP: Analyze Floating-Point Error in a Highly Condensed Approach"
         Author: "Jiazhi Mi:Institute of Computing Technology, Chinese Academy of Sciences,University of Chinese Academy of Sciences;Li Chen:Institute of Computing Technology, Chinese Academy of Sciences,Laboratory for Advanced Computing and Intelligence Engineering;Haoyu Wang:Institute of Computing Technology, Chinese Academy of Sciences,University of Chinese Academy of Sciences;Ruixiang Gao:Shandong University of Science and Technology;Hongze Zhang:Shandong University of Science and Technology;Ronghong Shen:Institute of Computing Technology, Chinese Academy of Sciences,University of Chinese Academy of Sciences;Kai Lin:Beijing Institute of Technology;You Fu:Shandong University of Science and Technology;Huimin Cui:Institute of Computing Technology, Chinese Academy of Sciences,University of Chinese Academy of Sciences"
         URL: ""
+
+- Time: "After 3:40"
+  Session1:
+    Session: "Excursion"
