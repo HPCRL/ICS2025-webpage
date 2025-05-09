@@ -59,7 +59,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -84,7 +84,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -150,7 +150,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -179,7 +179,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -204,7 +204,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -272,7 +272,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
@@ -297,7 +297,7 @@
                         {% else %}
                           {{ paper.Title }}
                         {% endif %}
-                        <br><em>{{ paper.Author }}</em>
+                         <div class="text-muted small">{{ paper.Author }}</div>
                         {% if paper.Comment %}
                           <div class="text-muted small">{{ paper.Comment }}</div>
                         {% endif %}
