@@ -5,4 +5,5 @@ background: '/img/bg-index.jpg'
 
 
 # **Registration**
-Registraion is via: [https://cvent.me/Qvvoo5](https://cvent.me/Qvvoo5)
+## Early Registration Ends on May 15
+Registration is via: [https://cvent.me/Qvvoo5](https://cvent.me/Qvvoo5)
