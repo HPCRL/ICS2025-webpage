@@ -56,7 +56,7 @@
         Author: "Yunmo Zhang:City University of Hong Kong;Jiacheng Huang:City University of Hong Kong;Xizhe Yin:University of California Riverside;Junqiao Qiu:City University of Hong Kong;Hong Xu:The Chinese University of Hong Kong;Chun Jason Xue:MBZUAI"
         URL: ""
       - Title: "DEDUPKV: A Space-Efficient and High-Performance Key-Value Store via Fine-Grained Deduplication"
-        Author: "Safdar Jamil:Department of Sogang University;Awais Khan:Oak Ridge National Lab;Xubin He:Temple University;Youngjae Kim:Department of Sogang University"
+        Author: "Safdar Jamil:Sogang University;Awais Khan:Oak Ridge National Lab;Xubin He:Temple University;Youngjae Kim:Sogang University"
         URL: ""
   Session2:
     Session: "Optimizing Compilation"
