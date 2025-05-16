@@ -11,7 +11,7 @@
       - Title: "EDAN: Towards Understanding Memory Parallelism and Latency Sensitivity in HPC"
         Author: "Siyuan Shen:ETH Zürich, Switzerland;Mikhail Khalilov:ETH Zürich, Switzerland;Lukas Gianinazzi:ETH Zürich, Switzerland;Timo Schneider:ETH Zürich, Switzerland;Marcin Chrapek:ETH Zürich, Switzerland;Jai Dayal:Cerebras Systems;Manisha Gajbe:N/A;Robert Wisniewski:Hewlett Packard Enterprise;Torsten Hoefler:ETH Zürich, Switzerland"
         URL: ""
-      - Title: "Evaluating Performance Portability of Parallel Programming Models Across Several GPU Architectures"
+      - Title: "Taking GPU Programming Models to Task for Performance Portability"
         Author: "Joshua Hoke Davis:University of Maryland;Pranav Sivaraman:University of Maryland;Joy Kitson:University of Maryland;Konstantinos Parasyris:Lawrence Livermore National Laboratory;Harshitha Menon:Lawrence Livermore National Laboratory;Isaac Minn:University of Maryland;Giorgis Georgakoudis:Lawrence Livermore National Laboratory;Abhinav Bhatele:University of Maryland"
         URL: ""
       - Title: "Analyzing the Performance of Applications at Exascale"
