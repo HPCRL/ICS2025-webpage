@@ -38,6 +38,8 @@ navbar:
         url: /call-for/call-for-travel-grant.html
   - title: Program
     url: /program/program.html
+  - title: Workshops
+    url: /workshops/workshops.html
   - title: Organization
     url: /organization
     sublinks:
