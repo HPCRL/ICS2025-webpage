@@ -8,11 +8,11 @@ Workshops will be held in the Warnock Engineering Building (WEB  [map](https://m
 
 ICS2025 will hold the following workshops:
 ### All-day workshops:
-* MCCSys: 2nd Workshop on Memory-Centric Computing Systems <br>
+* MCCSys: [2nd Workshop on Memory-Centric Computing Systems](https://events.safari.ethz.ch/ics25-MCCSys/doku.php?id=start) <br>
 **Location:**
 WEB 1230
 
-* SFWQHPC: [1st International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems](https://sfwqhe.github.io/sfwqhpc/program-schedule.html)<br>
+* SFWQHPC: [1st International Workshop on Software Frameworks for Integrating Quantum and HPC Ecosystems](https://sfwqhe.github.io/sfwqhpc/)<br>
 **Location:**
 WEB 1250
 
