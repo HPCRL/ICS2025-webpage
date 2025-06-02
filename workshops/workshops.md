@@ -49,7 +49,7 @@ Schedule for full-day workshops (the half-day workshop will be in the afternoon)
           </tr>
           <tr>
             <td>12:00 PM - 1:00 PM</td>
-            <td>Lunch</td>
+            <td>Lunch (provided)</td>
           </tr>
           <tr>
             <td>1:00 PM</td>
