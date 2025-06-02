@@ -20,3 +20,51 @@ WEB 1250
 * SHDA: [2nd Workshop on Software and Hardware Co-design of Deep Learning Systems in Future Architectures](https://shda-workshop.github.io/)<br>
 **Location:**
 WEB 2230
+
+
+## Schedule
+Schedule for full-day workshops (the half-day workshop will be in the afternoon)
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col" style="width: 30%;">Time</th>
+            <th scope="col" style="width: 70%;">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:00 AM - 9:00 AM</td>
+            <td>Breakfast</td>
+          </tr>
+          <tr>
+            <td>9:00 AM</td>
+            <td>Morning Session Starts</td>
+          </tr>
+          <tr>
+            <td>10:30 AM - 10:45 AM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>1:00 PM</td>
+            <td>Afternoon Session Starts</td>
+          </tr>
+          <tr>
+            <td>3:00 PM - 3:15 PM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>5:00 PM</td>
+            <td>Afternoon Session Ends</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
