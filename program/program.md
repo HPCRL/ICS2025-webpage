@@ -99,7 +99,7 @@
                 <span class="accordion-tap"> {{ session1.Session }}</span>
               </td>
             </tr>
-          {% elsif row.Session1.Session == "Lunch"%}
+          {% elsif row.Session1.Session == "Lunch (provided)"%}
             <tr>
               <td data-label="Time">{{ row.Time }}</td>
               <td colspan="2">
@@ -197,7 +197,7 @@
               <span class="accordion-tap"> {{ session1.Session }}</span>
             </td>
           </tr>
-        {% elsif row.Session1.Session == "Lunch"%}
+        {% elsif row.Session1.Session == "Lunch (provided)"%}
           <tr>
             <td data-label="Time">{{ row.Time }}</td>
             <td colspan="2">
@@ -329,7 +329,7 @@
               <span class="accordion-tap">  {{ session1.Session }}</span>
             </td>
           </tr>
-        {% elsif row.Session1.Session == "Lunch"%}
+        {% elsif row.Session1.Session == "Lunch (provided)"%}
           <tr>
             <td data-label="Time">{{ row.Time }}</td>
             <td colspan="2">
