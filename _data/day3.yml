@@ -2,7 +2,7 @@
 - Time: "9:00-10:20"
   Session1:
     Session: "Performance Analysis"
-    Chair: ""
+    Chair: "Jason Liu (Florida International University)"
     Papers:
       - Title: "WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows"
         Author: "Izzet Yildirim:Illinois Institute of Technology;Hariharan Devarajan:Lawrence Livermore National Laboratory;Anthony Kougkas:Illinois Institute of Technology;Xian-He Sun:Illinois Institute of Technology;Kathryn Mohror:Lawrence Livermore National Laboratory"
@@ -19,7 +19,7 @@
         URL: ""
   Session2:
     Session: "Heterogeneity"
-    Chair: ""
+    Chair: "Abdullah Muzahid (Texas A&M Univ)"
     Papers: 
         - Title: "Understanding the Idiosyncrasies of Emerging BlueField DPUs"
           Author: "Arjun Kashyap:University of California, Merced;Yuke Li:University of California, Merced;Darren Ng:University of California, Merced;Xiaoyi Lu:University of California, Merced"
@@ -43,7 +43,7 @@
 - Time: "10:40-12:00"
   Session1:
     Session: "Resource Management"
-    Chair: ""
+    Chair: "Varun Shankar (University of Utah)"
     Papers:
       - Title: "ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate Operators"
         Author: "Zhixin Tong:Shanghai Jiao Tong University;Jiuchen Shi:Shanghai Jiao Tong University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao Tong University;Pu Pang:Shanghai Jiao Tong University;Shixuan Sun:Shanghai Jiao Tong University;Jie Meng:Huawei Cloud;Jiang Liu:Huawei Cloud;En Shao:Institute of Computing Technology, Chinese Academy of Sciences;Minyi Guo:Shanghai Jiao Tong University"
@@ -60,7 +60,7 @@
         URL: ""
   Session2:
     Session: "Code Optimization"
-    Chair: ""
+    Chair: "Jinsung Kim (Chung-Ang University)"
     Papers: 
         - Title: "Leonid: Exploring Automated Kernel Fusion in Performance-Portable Programming Models for Scientific Computation"
           Author: "Chenchen Zhang:Peking University;Hao Luo:Peking University;Chao Yang:Peking University"
@@ -85,7 +85,7 @@
 - Time: "1:40-3:00"
   Session1:
     Session: "Energy & Servers"
-    Chair: ""
+    Chair: "Ponnuswamy Sadayappan (University of Utah)"
     Papers:
       - Title: "EVeREST-C: An Effective and Versatile Runtime Energy Saving Tool for CPUs"
         Author: "Anna Yue:University of Minnesota;Pen-Chung Yew:University of Minnesota;Sanyam Mehta:Hardware-software Codesign,Hewlett-Packard Labs"
@@ -102,7 +102,7 @@
         URL: ""
   Session2:
     Session: "Potpourri"
-    Chair: ""
+    Chair: "Jinsung Kim (Chung-Ang University)"
     Papers: 
         - Title: "PortFC: Designing High-performance Deadlock-free BCube Networks"
           Author: "Peirui Cao:Nanjing University;Rui Ning:Nanjing University;Hongwei Yang: China Mobile;Zhaochen Zhang:Nanjing University;Chang Liu:Nanjing University;Rui Li:Nanjing University;Yongqi Yang:Nanjing University;Yunzhuo Liu:Nanjing University;Chengyuan Huang:Nanjing University;Tao Sun: China Mobile;Xiaodong Duan: China Mobile;Guihai Chen:Nanjing University;Chen Tian:Nanjing University"
@@ -124,7 +124,7 @@
 - Time: "3:20-5:00"
   Session1:
     Session: "Graph Algorithms"
-    Chair: ""
+    Chair: "Sean Chester (University of Victoria)"
     Papers:
       - Title: "YH-Light: Yielding Hierarchy-aware Partitioner for Large-scale Graph Processing"
         Author: "Xinbiao Gan:National University of Defense technology;Tiejun Li:National University of Defense Technology;Chunye Gong:National University of Defense Technology;Jie Liu:National University Of Defense Technology;Kai Lu:National University of Defense Technology"
@@ -144,7 +144,7 @@
         URL: ""
   Session2:
     Session: "Memory Systems"
-    Chair: ""
+    Chair: "Mike Ferdman (Stony Brook University)"
     Papers: 
         - Title: "A Cost-Effective Dueling Framework for Set-Associative Cache Indexing"
           Author: "Kevin Weston:Texas A&M University;Vahid Janfaza:Texas A&M University;Avery Johnson:Texas A&M University;Abdullah Muzahid:Texas A&M University"

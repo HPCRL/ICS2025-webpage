@@ -2,7 +2,7 @@
 - Time: "9:00-10:20"
   Session1:
     Session: "Solvers & Sparsity"
-    Chair: ""
+    Chair: "In-Saeng Suh (ORNL)"
     Papers:
       - Title: "CRAMG: A Communication-Reduced Algebraic Multigrid Method"
         Author: "Fan Yuan:School of Mathematics and Computer Science, Xiangtan University;Xiaojian Yang:National University of Defense Technology;Yunqing Huang:School of Mathematics and Computer Science, Xiangtan University;Dezun Dong:National University of Defense Technology;Chuanfu Xu:National University of Defense Technology;Jie Liu:National University of Defense Technology;Xiaoqiang Yue:School of Mathematics and Computer Science, Xiangtan University;Shengguo Li:National University of Defense Technology;Hongxia Wang:Department of Mathematics, National University of Defense Technology"
@@ -19,7 +19,7 @@
         URL: ""
   Session2:
     Session: "Processing-in-Memory"
-    Chair: ""
+    Chair: "Ioannis Sourdis (Chalmers University of Technology)"
     Papers: 
         - Title: "PIM-CARE: A Compiler-Assisted Dynamic Resource Allocation Framework for Real-world DRAM PIM"
           Author: "Inyong Hwang:Yonsei University;Donghyeon Kim:Hanyang University;Seokwon Kang:Yonsei University;Taehyeong Park:Yonsei University;Taehoon Kim:Hanyang University;Jiwon Seo:Seoul National University;Hanjun Kim:Yonsei University;Youngsok Kim:Yonsei University;Yongjun Park:Yonsei University"
@@ -43,7 +43,7 @@
 - Time: "10:40-12:00"
   Session1:
     Session: "Efficiency"
-    Chair: ""
+    Chair: "Xiaoyi Lu (UC Merced)"
     Papers:
       - Title: "DALdex: A DPU-Accelerated Persistent Learned Index via Incremental Learning"
         Author: "Aoyang Tong:Huazhong University of Science and Technology;Yu Hua:Huazhong University of Science and Technology;Menglei Chen:Huazhong University of Science and Technology"
@@ -60,7 +60,7 @@
         URL: ""
   Session2:
     Session: "Optimizing Compilation"
-    Chair: ""
+    Chair: "Gagan Agrawal (University of Georgia)"
     Papers: 
         - Title: "ConTraPh: Contrastive Learning for Parallelization and Performance Optimization"
           Author: "Quazi Ishtiaque Mahmud:Iowa State University;Ali TehraniJamsaz:Iowa State University;Nesreen K. Ahmed:Cisco AI Research ;Theodore L. Willke:DataStax;Ali Jannesari:Iowa State University"
@@ -85,7 +85,7 @@
 - Time: "1:40-3:40"
   Session1:
     Session: "Best Papers"
-    Chair: ""
+    Chair: "Xipeng Shen (NC State University)"
     Papers:
       - Title: "Pushing the Limits of GPU Lossy Compression: A Hierarchical Delta Approach"
         Author: "Boyuan Zhang:Indiana University;Yafan Huang:University of Iowa;Sheng Di:Argonne National Laboratory;Fengguang Song:Indiana University;Guanpeng Li:University of Iowa;Franck Cappello:Argonne National Laboratory"

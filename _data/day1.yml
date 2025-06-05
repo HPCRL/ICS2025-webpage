@@ -13,7 +13,7 @@
 - Time: "10:40-12:00"
   Session1:
     Session: "Approximation"
-    Chair: ""
+    Chair: "Wei Niu (University of Georgia)"
     Papers:
       - Title: "SYprox: Combining Host and Device Perforation with Mixed Precision Approximation on Heterogeneous Architectures"
         Author: "Lorenzo Carpentieri:University of Salerno;Biagio Cosenza:University of Salerno"
@@ -30,7 +30,7 @@
         URL: ""
   Session2:
     Session: "Graph Neural Networks"
-    Chair: ""
+    Chair: "Ali Jannesari (Iowa State University)"
     Papers: 
         - Title: "Scaling Large-scale GNN Training to Thousands of Processors on CPU-based Supercomputers"
           Author: "Chen Zhuang:Institute of Science Tokyo,Riken Center for Computational Science;Lingqi Zhang:RIKEN Center for Computational Science;Du Wu:Institute of Science Tokyo,RIKEN Center for Computational Science;Peng Chen:RIKEN Center for Computational Science;Jiajun Huang:University of South Florida;Xin Liu:National Institute of Advanced Industrial Science & Technology;Rio Yokota:Institute of Science Tokyo;Nikoli Dryden:Lawrence Livermore National Laboratory;Toshio Endo:Institute of Science Tokyo;Satoshi Matsuoka:RIKEN Center for Computational Science,Institute of Science Tokyo;Mohamed Wahib:RIKEN Center for Computational Science"
@@ -56,7 +56,7 @@
 - Time: "1:40-3:00"
   Session1:
     Session: "Sparse Linear Algebra"
-    Chair: ""
+    Chair: "Kazem Cheshmi (McMaster University)"
     Papers:
       - Title: "StructILU: Dependency-Preserving Incomplete LU with Hierarchical Parallelism for Structured Grid PDEs on GPUs"
         Author: "Hao Luo:Peking University;Qianchao Zhu:Peking University;Xiaochen Hao:School of Computer Science, Peking University;Chunxi Lei:Peking University;Chengdi Ma:Peking University;Chenchen Zhang:Peking University;Yun Liang:School of Integrated Circuits, Peking University;Chao Yang:Peking University,PKU-Changsha Institute for Computing and Digital Economy"
@@ -73,7 +73,7 @@
         URL: ""
   Session2:
     Session: "Acceleration"
-    Chair: ""
+    Chair: "Antonia Zhai (University of Minnesota)"
     Papers: 
         - Title: "G^3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment"
           Author: "Yeejoo Han:Seoul National University;Sunwoo Kim:Seoul National University;Seongyeon Park:Seoul National University;Jinho Lee:Seoul National University"
@@ -99,7 +99,7 @@
 - Time: "3:20-5:20"
   Session1:
     Session: "Applications"
-    Chair: ""
+    Chair: "Tsung-Wei Huang (University of Wisconsin-Madison)"
     Papers:
       - Title: "CLOVER: Spatio-graph-based kNN on the GPU"
         Author: "Victor Kamel:University of Toronto;Hanxueyu Yan:University of Victoria;Sean Chester:University of Victoria"
@@ -122,7 +122,7 @@
         URL: ""
   Session2:
     Session: "GPU Scheduling"
-    Chair: ""
+    Chair: "Dimitrios Nikolopoulos (Virginia Tech)"
     Papers: 
         - Title: "Fast and Fair Training for Deep Learning in Heterogeneous GPU Clusters"
           Author: "Zizhao Mo:University of Macau;Huanle Xu:University of Macau;Wing Cheong Lau:The Chinese University of Hong Kong"
