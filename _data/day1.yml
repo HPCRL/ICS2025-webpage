@@ -5,8 +5,8 @@
 - Time: "09:10-10:20"
   Session1:
     Session: "Keynote"
-    Title: ""
-    Author: ""
+    Title: "Supercomputing after Device Scaling Stops: Limits, Tradeoffs, and What Comes Next"
+    Author: "Mike O’Connor, Principal Research Scientist, NVIDIA"
 - Time: "10:20-10:40"
   Session1:
     Session: "Coffee Break"    

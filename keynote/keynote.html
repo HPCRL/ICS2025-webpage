@@ -1,0 +1,97 @@
+---
+layout: "multilevel_navbar"
+background: '/img/bg-index.jpg'
+---
+
+<div class="container py-5">
+    <!-- Speaker Profile Section -->
+    <div class="row mb-5">
+        <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+            <div class="card h-100 shadow-sm">
+                <!-- <img src="/img/speakers/speaker-placeholder.jpg" class="card-img-top" alt="Speaker Name" style="object-fit: cover; height: 300px;"> -->
+                <div class="card-body">
+                    <h2 class="card-title h4">Mike O’Connor</h2>
+                    <p class="card-text text-muted">Principal Research Scientist, NVIDIA</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-8 col-md-7">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h1 class="card-title h3 mb-4">Supercomputing after Device Scaling Stops: Limits, Tradeoffs, and What Comes Next</h1>
+                    
+                    <div class="talk-info mb-4">
+                        <p class="mb-2"><i class="fas fa-calendar me-2"></i>Date: June 9, 2025</p>
+                        <p class="mb-2"><i class="fas fa-clock me-2"></i>Time: 09:10-10:20 MT</p>
+                        <!-- <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>Location: WEB 1230</p> -->
+                    </div>
+
+                    <div class="abstract">
+                        <h3 class="h5 mb-3">Abstract</h3>
+                        <p class="card-text">
+                            Moore’s Law and Dennard scaling no longer give us an easy path to “more-of-the-same, but better” supercomputers.  
+                            As a result, the supercomputing community faces a new era increasingly defined by energy budgets, data movement costs, and architectural tradeoffs. 
+                            The explosion of very large systems optimized for AI is also reshaping the HPC landscape.   
+                            In this talk, I’ll explore the challenges and opportunities that lie ahead for supercomputing in a post-scaling world: 
+                            how energy density will shape the physical limits of future systems, 
+                            how memory hierarchies must evolve under bandwidth and energy constraints, 
+                            why data placement is becoming a first-class citizen in software design, 
+                            and why adapting code to utilize the low-precision datapaths of AI accelerators may prove worth the effort.
+                        </p>
+                    </div>
+
+                    <div class="bio mt-4">
+                        <h3 class="h5 mb-3">Biography</h3>
+                        <p class="card-text">
+                            Dr. Mike O'Connor is a Principal Research Scientist in the Architecture Research Group at NVIDIA. 
+                            His research primarily focuses on future memory systems and DRAM architectures to address the emerging challenges faced by NVIDIA’s GPU systems. 
+                            Mike’s career has also included positions at AMD, Texas Instruments, Silicon Access Networks (a network-processor startup), Sun Microsystems, and IBM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .social-links a {
+        color: #666;
+        transition: color 0.3s ease;
+    }
+    
+    .social-links a:hover {
+        color: #333;
+    }
+    
+    .speaker-info i {
+        width: 20px;
+    }
+    
+    .talk-info i {
+        width: 20px;
+        color: #666;
+    }
+    
+    @media (max-width: 768px) {
+        .card-img-top {
+            height: 250px !important;
+        }
+    }
+</style>
+
