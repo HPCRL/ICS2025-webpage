@@ -79,7 +79,7 @@
             <tr>
               <td data-label="Time">{{ row.Time }}</td>
               <td colspan="2">
-                <span class="accordion-tap"> {{ "Keynote Talk: " }}</span>
+                <span class="accordion-tap"> {{ "Keynote Talk" }}</span>
                 <div class="accordion-details">
                   <a href="https://hpcrl.github.io/ICS2025-webpage/keynote/keynote.html" class="custom-link"> <strong>{{ session1.Title }}</strong></a><br>
                   {{ session1.Author }}<br>
