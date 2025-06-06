@@ -1,168 +1,288 @@
-# Day 3 Schedule
-- Time: "9:00-10:20"
+- Time: 9:00-10:20
   Session1:
-    Session: "Performance Analysis"
-    Chair: "Jason Liu (Florida International University)"
+    Session: Performance Analysis
+    Chair: Jason Liu (Florida International University)
     Papers:
-      - Title: "WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows"
-        Author: "Izzet Yildirim:Illinois Institute of Technology;Hariharan Devarajan:Lawrence Livermore National Laboratory;Anthony Kougkas:Illinois Institute of Technology;Xian-He Sun:Illinois Institute of Technology;Kathryn Mohror:Lawrence Livermore National Laboratory"
-        Comment: ""
-        URL: ""
-      - Title: "Efficient Server Consolidation through a balanced mix of Transformer-based and Conventional Applications"
-        Author: "Pablo Abad:Universidad de Cantabria;Pablo Prieto:Universidad de Cantabria;Valentin Puente:Universidad de Cantabria;Jose Angel Gregorio:Universidad de Cantabria"
-        URL: ""
-      - Title: "Taking GPU Programming Models to Task for Performance Portability"
-        Author: "Joshua Hoke Davis:University of Maryland;Pranav Sivaraman:University of Maryland;Joy Kitson:University of Maryland;Konstantinos Parasyris:Lawrence Livermore National Laboratory;Harshitha Menon:Lawrence Livermore National Laboratory;Isaac Minn:University of Maryland;Giorgis Georgakoudis:Lawrence Livermore National Laboratory;Abhinav Bhatele:University of Maryland"
-        URL: ""
-      - Title: "Analyzing the Performance of Applications at Exascale"
-        Author: "Dragana Grbic:Rice University;John Mellor-Crummey:Rice University"
-        URL: ""
+    - Title: 'WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views
+        for HPC Workflows'
+      Author: Izzet Yildirim:Illinois Institute of Technology;Hariharan Devarajan:Lawrence
+        Livermore National Laboratory;Anthony Kougkas:Illinois Institute of Technology;Xian-He
+        Sun:Illinois Institute of Technology;Kathryn Mohror:Lawrence Livermore National
+        Laboratory
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-3.pdf
+    - Title: Efficient Server Consolidation through a balanced mix of Transformer-based
+        and Conventional Applications
+      Author: Pablo Abad:Universidad de Cantabria;Pablo Prieto:Universidad de Cantabria;Valentin
+        Puente:Universidad de Cantabria;Jose Angel Gregorio:Universidad de Cantabria
+      URL: /program/Proceedings_ICS25/ics25-12.pdf
+    - Title: Taking GPU Programming Models to Task for Performance Portability
+      Author: Joshua Hoke Davis:University of Maryland;Pranav Sivaraman:University
+        of Maryland;Joy Kitson:University of Maryland;Konstantinos Parasyris:Lawrence
+        Livermore National Laboratory;Harshitha Menon:Lawrence Livermore National
+        Laboratory;Isaac Minn:University of Maryland;Giorgis Georgakoudis:Lawrence
+        Livermore National Laboratory;Abhinav Bhatele:University of Maryland
+      URL: /program/Proceedings_ICS25/ics25-63.pdf
+    - Title: Analyzing the Performance of Applications at Exascale
+      Author: Dragana Grbic:Rice University;John Mellor-Crummey:Rice University
+      URL: /program/Proceedings_ICS25/ics25-57.pdf
   Session2:
-    Session: "Heterogeneity"
-    Chair: "Abdullah Muzahid (Texas A&M Univ)"
-    Papers: 
-        - Title: "Understanding the Idiosyncrasies of Emerging BlueField DPUs"
-          Author: "Arjun Kashyap:University of California, Merced;Yuke Li:University of California, Merced;Darren Ng:University of California, Merced;Xiaoyi Lu:University of California, Merced"
-          Comment: ""
-          URL: ""
-        - Title: "Multi-node Multi-GPU Datalog"
-          Author: "Ahmedur Rahman Shovon:University of Illinois Chicago;Yihao Sun:Syracuse University;Kristopher Micinski:Syracure University;Thomas Gilray:Washington State University;Sidharth Kumar:University of Illinois Chicago"
-          Comment: ""
-          URL: ""
-        - Title: "SmartNIC-GPU-CPU Heterogeneous System for Large Machine Learning Model with Software-Hardware Codesign"
-          Author: "Anqi Guo: Boston University;Yuchen Hao:Meta Platforms;Xiteng Yao: Boston University;Shining Yang:Boston University;Jianyu Huang:Meta Platforms;Tony (Tong) Geng:Department of Electrical and Computer Engineering, University of Rochester;Martin Herbordt: Boston University"
-          Comment: ""
-          URL: ""
-        - Title: "D-Rex: Heterogeneity-Aware Reliability Framework and Adaptive Algorithms for Distributed Storage"
-          Author: "Maxime Gonthier:University of Chicago,Argonne National Laboratory;Dante D. Sanchez-Gallegos:University Carlos III of Madrid;Haochen Pan:University of Chicago;Bogdan Nicolae:Argonne National Laboratory;Sicheng Zhou:Southern University of Science and Technology;Hai Duc Nguyen:University of Chicago ,Argonne National Laboratory;Valerie Hayot-Sasson:University of Chicago,Argonne National Laboratory;J. Gregory Pauloski:University of Chicago;Jesus Carretero:University Carlos III of Madrid;Kyle Chard:University of Chicago,Argonne National Laboratory;Ian Foster:University of Chicago,Argonne National Laboratory"
-          Comment: ""
-          URL: ""
-- Time: "10:20-10:40"
-  Session1:
-    Session: "Coffee Break"    
-- Time: "10:40-12:00"
-  Session1:
-    Session: "Resource Management"
-    Chair: "Varun Shankar (University of Utah)"
+    Session: Heterogeneity
+    Chair: Abdullah Muzahid (Texas A&M Univ)
     Papers:
-      - Title: "ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate Operators"
-        Author: "Zhixin Tong:Shanghai Jiao Tong University;Jiuchen Shi:Shanghai Jiao Tong University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao Tong University;Pu Pang:Shanghai Jiao Tong University;Shixuan Sun:Shanghai Jiao Tong University;Jie Meng:Huawei Cloud;Jiang Liu:Huawei Cloud;En Shao:Institute of Computing Technology, Chinese Academy of Sciences;Minyi Guo:Shanghai Jiao Tong University"
-        Comment: ""
-        URL: ""
-      - Title: "ORA: Job Runtime Prediction for High-Performance Computing Platforms Using the Online Retrieval-Augmented Language Model"
-        Author: "Hongyi Liu:Peking University;Yinping Ma:Peking University;Xiaosong Huang:Peking University;Lingzhe Zhang:Peking University;Tong Jia:Peking University,National Key Laboratory of Data Space Technology and System;Ying Li:Peking University"
-        URL: ""
-      - Title: "Generating Microservice Graphs with Production Characteristics for Efficient Resource Scaling"
-        Author: "Fanrong Du:Shanghai Jiao Tong University;Jiuchen Shi:Shanghai Jiao Tong University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao Tong University;Pu Pang:Shanghai Jiao Tong University;Li Li:Shanghai Jiao Tong University;Minyi Guo:Shanghai Jiao Tong University"
-        URL: ""
-      - Title: "HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud Systems"
-        Author: "Ismet Dagli:Colorado School of Mines;Justin Davis:Colorado School of Mines;Mehmet Esat Belviranli:Colorado School of Mines"
-        URL: ""
-  Session2:
-    Session: "Code Optimization"
-    Chair: "Jinsung Kim (Chung-Ang University)"
-    Papers: 
-        - Title: "Leonid: Exploring Automated Kernel Fusion in Performance-Portable Programming Models for Scientific Computation"
-          Author: "Chenchen Zhang:Peking University;Hao Luo:Peking University;Chao Yang:Peking University"
-          Comment: ""
-          URL: ""
-        - Title: "DeCOS: Data-Efficient Reinforcement Learning for Compiler Optimization Selection Ignited by LLM"
-          Author: "Tianming Cui:University of Minnesota;Pen-Chung Yew:University of Minnesota;Stephen McCamant:University of Minnesota;Antonia Zhai:University of Minnesota"
-          Comment: ""
-          URL: ""
-        - Title: "Pearl: Automatic Code Optimization Using Deep Reinforcement Learning"
-          Author: "Djamel Rassem Lamouri:New York University Abu Dhabi;Iheb Nassim Aouadj:New York University Abu Dhabi;Smail Kourta:New York University Abu Dhabi;Riyadh Baghdadi:New York University Abu Dhabi"
-          Comment: ""
-          URL: ""
-        - Title: "CIExplorer: Microarchitecture-Aware Exploration for Tightly Integrated Custom Instruction"
-          Author: "Xiaoyu Hao:University of Science and Technology of China;Sen Zhang:University of Science and Technology of China;Liang Qiao:University of Science and Technology of China;Qingcai Jiang:University of Science and Technology of China;Jun Shi:University of Science and Technology of China;Junshi Chen:University of Science and Technology of China,Laoshan Laboratory;Hong An:University of Science and Technology of China,Laoshan Laboratory;Xulong Tang:University of Pittsburgh;Hao Shu:NIO;Honghui Yuan:NIO"
-          Comment: ""
-          URL: ""
-
-- Time: "12:00-1:40"
+    - Title: Understanding the Idiosyncrasies of Emerging BlueField DPUs
+      Author: Arjun Kashyap:University of California, Merced;Yuke Li:University of
+        California, Merced;Darren Ng:University of California, Merced;Xiaoyi Lu:University
+        of California, Merced
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-40.pdf
+    - Title: Multi-node Multi-GPU Datalog
+      Author: Ahmedur Rahman Shovon:University of Illinois Chicago;Yihao Sun:Syracuse
+        University;Kristopher Micinski:Syracure University;Thomas Gilray:Washington
+        State University;Sidharth Kumar:University of Illinois Chicago
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-69.pdf
+    - Title: SmartNIC-GPU-CPU Heterogeneous System for Large Machine Learning Model
+        with Software-Hardware Codesign
+      Author: 'Anqi Guo: Boston University;Yuchen Hao:Meta Platforms;Xiteng Yao: Boston
+        University;Shining Yang:Boston University;Jianyu Huang:Meta Platforms;Tony
+        (Tong) Geng:Department of Electrical and Computer Engineering, University
+        of Rochester;Martin Herbordt: Boston University'
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-46.pdf
+    - Title: 'D-Rex: Heterogeneity-Aware Reliability Framework and Adaptive Algorithms
+        for Distributed Storage'
+      Author: Maxime Gonthier:University of Chicago,Argonne National Laboratory;Dante
+        D. Sanchez-Gallegos:University Carlos III of Madrid;Haochen Pan:University
+        of Chicago;Bogdan Nicolae:Argonne National Laboratory;Sicheng Zhou:Southern
+        University of Science and Technology;Hai Duc Nguyen:University of Chicago
+        ,Argonne National Laboratory;Valerie Hayot-Sasson:University of Chicago,Argonne
+        National Laboratory;J. Gregory Pauloski:University of Chicago;Jesus Carretero:University
+        Carlos III of Madrid;Kyle Chard:University of Chicago,Argonne National Laboratory;Ian
+        Foster:University of Chicago,Argonne National Laboratory
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-52.pdf
+- Time: 10:20-10:40
   Session1:
-    Session: "Lunch (provided)"
-- Time: "1:40-3:00"
+    Session: Coffee Break
+- Time: 10:40-12:00
   Session1:
-    Session: "Energy & Servers"
-    Chair: "Ponnuswamy Sadayappan (University of Utah)"
+    Session: Resource Management
+    Chair: Varun Shankar (University of Utah)
     Papers:
-      - Title: "EVeREST-C: An Effective and Versatile Runtime Energy Saving Tool for CPUs"
-        Author: "Anna Yue:University of Minnesota;Pen-Chung Yew:University of Minnesota;Sanyam Mehta:Hardware-software Codesign,Hewlett-Packard Labs"
-        Comment: ""
-        URL: ""
-      - Title: "EDAN: Towards Understanding Memory Parallelism and Latency Sensitivity in HPC"
-        Author: "Siyuan Shen:ETH Zürich, Switzerland;Mikhail Khalilov:ETH Zürich, Switzerland;Lukas Gianinazzi:ETH Zürich, Switzerland;Timo Schneider:ETH Zürich, Switzerland;Marcin Chrapek:ETH Zürich, Switzerland;Jai Dayal:Cerebras Systems;Manisha Gajbe:N/A;Robert Wisniewski:Hewlett Packard Enterprise;Torsten Hoefler:ETH Zürich, Switzerland"
-        URL: ""
-      - Title: "ROCKET: An RNS-based Photonic Accelerator for High-Precision and Energy-Efficient DNN Training"
-        Author: "Hao Zhang:University of Otago;Haibo Zhang:University of Otago;Chengpeng Xia:University of Otago;Zhiyi Huang:University of Otago;Yawen Chen:University Of New South Wales;Amanda Barnard:Australian National University"
-        URL: ""
-      - Title: "A Global Perspective on Supercomputer Power Provisioning: Case Studies from United States and Europe"
-        Author: "Tapasya Patki:Lawrence Livermore National Laboratory;Barry Rountree:Lawrence Livermore National Laboratory;Torsten Wilde:Hewlett-Packard Enterprise;Andrea Bartolini:University of Bologna;Stephanie Brink:Lawrence Livermore National Laboratory;Esa Heiskanen:CSC IT Center for Science Ltd.;Sachin Idgunji:NVIDIA Corporation;Matthias Maiterth:Oak Ridge National Laboratory;James Rogers:Oak Ridge National Laboratory;Ermal Rrapaj:Lawrence Berkeley National Laboratory;Ralf Schneider:HLRS High Performance Computing Center Stuttgart;Woong Shin:Oak Ridge National Laboratory;Kathleen Shoga:Lawrence Livermore National Laboratory;Christian Simmendinger:Hewlett-Packard Enterprise;Nicholas J. Wright:Lawrence Berkeley National Laboratory;Zhengji Zhao:Lawrence Berkeley National Laboratory"
-        URL: ""
+    - Title: 'ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate
+        Operators'
+      Author: Zhixin Tong:Shanghai Jiao Tong University;Jiuchen Shi:Shanghai Jiao
+        Tong University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao
+        Tong University;Pu Pang:Shanghai Jiao Tong University;Shixuan Sun:Shanghai
+        Jiao Tong University;Jie Meng:Huawei Cloud;Jiang Liu:Huawei Cloud;En Shao:Institute
+        of Computing Technology, Chinese Academy of Sciences;Minyi Guo:Shanghai Jiao
+        Tong University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-13.pdf
+    - Title: 'ORA: Job Runtime Prediction for High-Performance Computing Platforms
+        Using the Online Retrieval-Augmented Language Model'
+      Author: Hongyi Liu:Peking University;Yinping Ma:Peking University;Xiaosong Huang:Peking
+        University;Lingzhe Zhang:Peking University;Tong Jia:Peking University,National
+        Key Laboratory of Data Space Technology and System;Ying Li:Peking University
+      URL: /program/Proceedings_ICS25/ics25-18.pdf
+    - Title: Generating Microservice Graphs with Production Characteristics for Efficient
+        Resource Scaling
+      Author: Fanrong Du:Shanghai Jiao Tong University;Jiuchen Shi:Shanghai Jiao Tong
+        University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao Tong
+        University;Pu Pang:Shanghai Jiao Tong University;Li Li:Shanghai Jiao Tong
+        University;Minyi Guo:Shanghai Jiao Tong University
+      URL: /program/Proceedings_ICS25/ics25-22.pdf
+    - Title: 'HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud
+        Systems'
+      Author: Ismet Dagli:Colorado School of Mines;Justin Davis:Colorado School of
+        Mines;Mehmet Esat Belviranli:Colorado School of Mines
+      URL: /program/Proceedings_ICS25/ics25-50.pdf
   Session2:
-    Session: "Potpourri"
-    Chair: "Jinsung Kim (Chung-Ang University)"
-    Papers: 
-        - Title: "PortFC: Designing High-performance Deadlock-free BCube Networks"
-          Author: "Peirui Cao:Nanjing University;Rui Ning:Nanjing University;Hongwei Yang: China Mobile;Zhaochen Zhang:Nanjing University;Chang Liu:Nanjing University;Rui Li:Nanjing University;Yongqi Yang:Nanjing University;Yunzhuo Liu:Nanjing University;Chengyuan Huang:Nanjing University;Tao Sun: China Mobile;Xiaodong Duan: China Mobile;Guihai Chen:Nanjing University;Chen Tian:Nanjing University"
-          Comment: ""
-          URL: ""
-        - Title: "Auto-Healer: Self-Healing Hardware for Perception Stage Faults in Autonomous Driving Systems"
-          Author: "Ali Suvizi:George Washington University;Guru Venkataramani:George Washington University"
-          Comment: ""
-          URL: ""
-        - Title: "OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds"
-          Author: "Tirthak Patel:Rice University;Aditya Ranjan:Northeastern University;Daniel Silver:Northeastern University;Harshitta Gandhi:QBit Solutions Research;William Cutler:Oxford University;Devesh Tiwari:Northeastern University"
-          Comment: ""
-          URL: ""
-        - Title: "JBSA: A Bit-Serial Accelerator for Deep Neural Networks Using Superconducting SFQ Logic"
-          Author: "Yang Su:ShanghaiTech University; Shanghai Innovation Center for Processor Technologies;Sheng Li:ShanghaiTech University; Shanghai Innovation Center for Processor Technologies;Huilong Jiang:State Key Lab of Processors, Institute of Computing Technology, CAS;Haofei Yin:ShanghaiTech University; Shanghai Innovation Center for Processor Technologies;Rongliang Fu:The Chinese University of Hong Kong;Junying Huang:State Key Lab of Processors, Institute of Computing Technology, CAS;Xiaochun Ye:State Key Lab of Processors, Institute of Computing Technology, CAS;Zhimin Zhang:State Key Lab of Processors, Institute of Computing Technology, CAS;Jie Ren:State Key Laboratory of Functional Materials for Informatics, Shanghai Institute of Microsystem and Information Technology, CAS; University of Chinese Academy of Sciences ;Xiaoping Gao:State Key Laboratory of Functional Materials for Informatics, Shanghai Institute of Microsystem and Information Technology, CAS;Tsung-Yi Ho:The Chinese University of Hong Kong;Dongrui Fan:State Key Lab of Processors, Institute of Computing Technology, CAS; University of Chinese Academy of Sciences"
-          Comment: ""
-          URL: ""
-
-- Time: "3:20-5:00"
-  Session1:
-    Session: "Graph Algorithms"
-    Chair: "Sean Chester (University of Victoria)"
+    Session: Code Optimization
+    Chair: Jinsung Kim (Chung-Ang University)
     Papers:
-      - Title: "YH-Light: Yielding Hierarchy-aware Partitioner for Large-scale Graph Processing"
-        Author: "Xinbiao Gan:National University of Defense technology;Tiejun Li:National University of Defense Technology;Chunye Gong:National University of Defense Technology;Jie Liu:National University Of Defense Technology;Kai Lu:National University of Defense Technology"
-        Comment: ""
-        URL: ""
-      - Title: "MG-aGCD: Accelerating Graph Community Detection on Multi-GPU Platforms"
-        Author: "Shuai Yang:University of Chinese Academy of Sciences,Institute of Software, Chinese Academy of Sciences;Changyou Zhang:University of Chinese Academy of Sciences,Institute of Software, Chinese Academy of Sciences"
-        URL: ""
-      - Title: "GraCFL: A Versatile Vertex-Centric Graph System for High-Performance CFL Reachability Analysis"
-        Author: "Sakib Fuad:University of California, Riverside;Amir Hossein Nodehi Sabet:University of California, Riverside;Umar Farooq:University of California, Riverside;Zhijia Zhao:University of California, Riverside"
-        URL: ""
-      - Title: "OPMOS: Ordered Parallel Algorithm for Multi-Objective Shortest-Paths"
-        Author: "Leo Gold:University of Connecticut;Adam Bienkowski:University of Connecticut;David Sidoti:US Naval Research Laboratory;Krishna Pattipati:University of Connecticut;Omer Khan:University of Connecticut"
-        URL: ""
-      - Title: "A Multi-GPU Algorithm for Computing Maximal Independent Sets in Large Graphs"
-        Author: "Anju Mongandampulath Akathoott:Texas State University;Benila Virgin Jerald Xavier:Texas State University;Martin Burtscher:Texas State University"
-        URL: ""
+    - Title: 'Leonid: Exploring Automated Kernel Fusion in Performance-Portable Programming
+        Models for Scientific Computation'
+      Author: Chenchen Zhang:Peking University;Hao Luo:Peking University;Chao Yang:Peking
+        University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-43.pdf
+    - Title: 'DeCOS: Data-Efficient Reinforcement Learning for Compiler Optimization
+        Selection Ignited by LLM'
+      Author: Tianming Cui:University of Minnesota;Pen-Chung Yew:University of Minnesota;Stephen
+        McCamant:University of Minnesota;Antonia Zhai:University of Minnesota
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-26.pdf
+    - Title: 'Pearl: Automatic Code Optimization Using Deep Reinforcement Learning'
+      Author: Djamel Rassem Lamouri:New York University Abu Dhabi;Iheb Nassim Aouadj:New
+        York University Abu Dhabi;Smail Kourta:New York University Abu Dhabi;Riyadh
+        Baghdadi:New York University Abu Dhabi
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-27.pdf
+    - Title: 'CIExplorer: Microarchitecture-Aware Exploration for Tightly Integrated
+        Custom Instruction'
+      Author: Xiaoyu Hao:University of Science and Technology of China;Sen Zhang:University
+        of Science and Technology of China;Liang Qiao:University of Science and Technology
+        of China;Qingcai Jiang:University of Science and Technology of China;Jun Shi:University
+        of Science and Technology of China;Junshi Chen:University of Science and Technology
+        of China,Laoshan Laboratory;Hong An:University of Science and Technology of
+        China,Laoshan Laboratory;Xulong Tang:University of Pittsburgh;Hao Shu:NIO;Honghui
+        Yuan:NIO
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-61.pdf
+- Time: 12:00-1:40
+  Session1:
+    Session: Lunch (provided)
+- Time: 1:40-3:00
+  Session1:
+    Session: Energy & Servers
+    Chair: Ponnuswamy Sadayappan (University of Utah)
+    Papers:
+    - Title: 'EVeREST-C: An Effective and Versatile Runtime Energy Saving Tool for
+        CPUs'
+      Author: Anna Yue:University of Minnesota;Pen-Chung Yew:University of Minnesota;Sanyam
+        Mehta:Hardware-software Codesign,Hewlett-Packard Labs
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-20.pdf
+    - Title: 'EDAN: Towards Understanding Memory Parallelism and Latency Sensitivity
+        in HPC'
+      Author: "Siyuan Shen:ETH Z\xFCrich, Switzerland;Mikhail Khalilov:ETH Z\xFCrich,\
+        \ Switzerland;Lukas Gianinazzi:ETH Z\xFCrich, Switzerland;Timo Schneider:ETH\
+        \ Z\xFCrich, Switzerland;Marcin Chrapek:ETH Z\xFCrich, Switzerland;Jai Dayal:Cerebras\
+        \ Systems;Manisha Gajbe:N/A;Robert Wisniewski:Hewlett Packard Enterprise;Torsten\
+        \ Hoefler:ETH Z\xFCrich, Switzerland"
+      URL: /program/Proceedings_ICS25/ics25-78.pdf
+    - Title: 'ROCKET: An RNS-based Photonic Accelerator for High-Precision and Energy-Efficient
+        DNN Training'
+      Author: Hao Zhang:University of Otago;Haibo Zhang:University of Otago;Chengpeng
+        Xia:University of Otago;Zhiyi Huang:University of Otago;Yawen Chen:University
+        Of New South Wales;Amanda Barnard:Australian National University
+      URL: /program/Proceedings_ICS25/ics25-77.pdf
+    - Title: 'A Global Perspective on Supercomputer Power Provisioning: Case Studies
+        from United States and Europe'
+      Author: Tapasya Patki:Lawrence Livermore National Laboratory;Barry Rountree:Lawrence
+        Livermore National Laboratory;Torsten Wilde:Hewlett-Packard Enterprise;Andrea
+        Bartolini:University of Bologna;Stephanie Brink:Lawrence Livermore National
+        Laboratory;Esa Heiskanen:CSC IT Center for Science Ltd.;Sachin Idgunji:NVIDIA
+        Corporation;Matthias Maiterth:Oak Ridge National Laboratory;James Rogers:Oak
+        Ridge National Laboratory;Ermal Rrapaj:Lawrence Berkeley National Laboratory;Ralf
+        Schneider:HLRS High Performance Computing Center Stuttgart;Woong Shin:Oak
+        Ridge National Laboratory;Kathleen Shoga:Lawrence Livermore National Laboratory;Christian
+        Simmendinger:Hewlett-Packard Enterprise;Nicholas J. Wright:Lawrence Berkeley
+        National Laboratory;Zhengji Zhao:Lawrence Berkeley National Laboratory
+      URL: /program/Proceedings_ICS25/ics25-80.pdf
   Session2:
-    Session: "Memory Systems"
-    Chair: "Mike Ferdman (Stony Brook University)"
-    Papers: 
-        - Title: "A Cost-Effective Dueling Framework for Set-Associative Cache Indexing"
-          Author: "Kevin Weston:Texas A&M University;Vahid Janfaza:Texas A&M University;Avery Johnson:Texas A&M University;Abdullah Muzahid:Texas A&M University"
-          Comment: ""
-          URL: ""
-        - Title: "DREAM: Device-Driven Efficient Access to Virtual Memory"
-          Author: "Nurlan Nazaraliyev:University of California, Riverside;Elaheh Sadredini:UC Riverside;Nael Abu-Ghazaleh:Computer Science and Engineering , University of California, Riverside"
-          Comment: ""
-          URL: ""
-        - Title: "Page Migration for Hardware Memory Disaggregation Across a Network"
-          Author: "Archit Patke:University of Illinois at Urbana-Champaign;Christian Pinto:IBM Research Europe;Saurabh Jha:IBM Research;Haoran Qiu:University of Illinois at Urbana-Champaign;Zbigniew Kalbarczyk:University of Illinois at Urbana-Champaign;Ravishankar K. Iyer:University of Illinois at Urbana-Champaign"
-          Comment: ""
-          URL: ""
-        - Title: "MEMPLEX: A Memory System with Replication and Migration of Data for Multi-Chiplet NUMA Architectures"
-          Author: "Neethu Bal Mallya: Chalmers University of Technology and University of Gothenburg;Bhavishya Goel: Chalmers University of Technology and University of Gothenburg;Ioannis Sourdis: Chalmers University of Technology and University of Gothenburg"
-          Comment: ""
-          URL: ""
-        - Title: "Persistent Memory Objects on the Cheap"
-          Author: "Derrick Greenspan: University of Central Florida;Naveed Ul Mustafa:New Mexico State University;Jongouk Choi: University of Central Florida;Mark Heinrich: University of Central Florida;Yan Solihin: University of Central Florida"
-          Comment: ""
-          URL: ""
+    Session: Potpourri
+    Chair: Jinsung Kim (Chung-Ang University)
+    Papers:
+    - Title: 'PortFC: Designing High-performance Deadlock-free BCube Networks'
+      Author: 'Peirui Cao:Nanjing University;Rui Ning:Nanjing University;Hongwei Yang:
+        China Mobile;Zhaochen Zhang:Nanjing University;Chang Liu:Nanjing University;Rui
+        Li:Nanjing University;Yongqi Yang:Nanjing University;Yunzhuo Liu:Nanjing University;Chengyuan
+        Huang:Nanjing University;Tao Sun: China Mobile;Xiaodong Duan: China Mobile;Guihai
+        Chen:Nanjing University;Chen Tian:Nanjing University'
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-10.pdf
+    - Title: 'Auto-Healer: Self-Healing Hardware for Perception Stage Faults in Autonomous
+        Driving Systems'
+      Author: Ali Suvizi:George Washington University;Guru Venkataramani:George Washington
+        University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-16.pdf
+    - Title: 'OpaQue: Program Output Obfuscation for Quantum Software Circuits in
+        Quantum Clouds'
+      Author: Tirthak Patel:Rice University;Aditya Ranjan:Northeastern University;Daniel
+        Silver:Northeastern University;Harshitta Gandhi:QBit Solutions Research;William
+        Cutler:Oxford University;Devesh Tiwari:Northeastern University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-32.pdf
+    - Title: 'JBSA: A Bit-Serial Accelerator for Deep Neural Networks Using Superconducting
+        SFQ Logic'
+      Author: Yang Su:ShanghaiTech University; Shanghai Innovation Center for Processor
+        Technologies;Sheng Li:ShanghaiTech University; Shanghai Innovation Center
+        for Processor Technologies;Huilong Jiang:State Key Lab of Processors, Institute
+        of Computing Technology, CAS;Haofei Yin:ShanghaiTech University; Shanghai
+        Innovation Center for Processor Technologies;Rongliang Fu:The Chinese University
+        of Hong Kong;Junying Huang:State Key Lab of Processors, Institute of Computing
+        Technology, CAS;Xiaochun Ye:State Key Lab of Processors, Institute of Computing
+        Technology, CAS;Zhimin Zhang:State Key Lab of Processors, Institute of Computing
+        Technology, CAS;Jie Ren:State Key Laboratory of Functional Materials for Informatics,
+        Shanghai Institute of Microsystem and Information Technology, CAS; University
+        of Chinese Academy of Sciences ;Xiaoping Gao:State Key Laboratory of Functional
+        Materials for Informatics, Shanghai Institute of Microsystem and Information
+        Technology, CAS;Tsung-Yi Ho:The Chinese University of Hong Kong;Dongrui Fan:State
+        Key Lab of Processors, Institute of Computing Technology, CAS; University
+        of Chinese Academy of Sciences
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-49.pdf
+- Time: 3:20-5:00
+  Session1:
+    Session: Graph Algorithms
+    Chair: Sean Chester (University of Victoria)
+    Papers:
+    - Title: 'YH-Light: Yielding Hierarchy-aware Partitioner for Large-scale Graph
+        Processing'
+      Author: Xinbiao Gan:National University of Defense technology;Tiejun Li:National
+        University of Defense Technology;Chunye Gong:National University of Defense
+        Technology;Jie Liu:National University Of Defense Technology;Kai Lu:National
+        University of Defense Technology
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-1.pdf
+    - Title: 'MG-aGCD: Accelerating Graph Community Detection on Multi-GPU Platforms'
+      Author: Shuai Yang:University of Chinese Academy of Sciences,Institute of Software,
+        Chinese Academy of Sciences;Changyou Zhang:University of Chinese Academy of
+        Sciences,Institute of Software, Chinese Academy of Sciences
+      URL: /program/Proceedings_ICS25/ics25-14.pdf
+    - Title: 'GraCFL: A Versatile Vertex-Centric Graph System for High-Performance
+        CFL Reachability Analysis'
+      Author: Sakib Fuad:University of California, Riverside;Amir Hossein Nodehi Sabet:University
+        of California, Riverside;Umar Farooq:University of California, Riverside;Zhijia
+        Zhao:University of California, Riverside
+      URL: /program/Proceedings_ICS25/ics25-23.pdf
+    - Title: 'OPMOS: Ordered Parallel Algorithm for Multi-Objective Shortest-Paths'
+      Author: Leo Gold:University of Connecticut;Adam Bienkowski:University of Connecticut;David
+        Sidoti:US Naval Research Laboratory;Krishna Pattipati:University of Connecticut;Omer
+        Khan:University of Connecticut
+      URL: /program/Proceedings_ICS25/ics25-41.pdf
+    - Title: A Multi-GPU Algorithm for Computing Maximal Independent Sets in Large
+        Graphs
+      Author: Anju Mongandampulath Akathoott:Texas State University;Benila Virgin
+        Jerald Xavier:Texas State University;Martin Burtscher:Texas State University
+      URL: /program/Proceedings_ICS25/ics25-56.pdf
+  Session2:
+    Session: Memory Systems
+    Chair: Mike Ferdman (Stony Brook University)
+    Papers:
+    - Title: A Cost-Effective Dueling Framework for Set-Associative Cache Indexing
+      Author: Kevin Weston:Texas A&M University;Vahid Janfaza:Texas A&M University;Avery
+        Johnson:Texas A&M University;Abdullah Muzahid:Texas A&M University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-45.pdf
+    - Title: 'DREAM: Device-Driven Efficient Access to Virtual Memory'
+      Author: Nurlan Nazaraliyev:University of California, Riverside;Elaheh Sadredini:UC
+        Riverside;Nael Abu-Ghazaleh:Computer Science and Engineering , University
+        of California, Riverside
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-9.pdf
+    - Title: Page Migration for Hardware Memory Disaggregation Across a Network
+      Author: Archit Patke:University of Illinois at Urbana-Champaign;Christian Pinto:IBM
+        Research Europe;Saurabh Jha:IBM Research;Haoran Qiu:University of Illinois
+        at Urbana-Champaign;Zbigniew Kalbarczyk:University of Illinois at Urbana-Champaign;Ravishankar
+        K. Iyer:University of Illinois at Urbana-Champaign
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-15.pdf
+    - Title: 'MEMPLEX: A Memory System with Replication and Migration of Data for
+        Multi-Chiplet NUMA Architectures'
+      Author: 'Neethu Bal Mallya: Chalmers University of Technology and University
+        of Gothenburg;Bhavishya Goel: Chalmers University of Technology and University
+        of Gothenburg;Ioannis Sourdis: Chalmers University of Technology and University
+        of Gothenburg'
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-36.pdf
+    - Title: Persistent Memory Objects on the Cheap
+      Author: 'Derrick Greenspan: University of Central Florida;Naveed Ul Mustafa:New
+        Mexico State University;Jongouk Choi: University of Central Florida;Mark Heinrich:
+        University of Central Florida;Yan Solihin: University of Central Florida'
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-81.pdf

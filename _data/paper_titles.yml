@@ -1,0 +1,250 @@
+papers:
+- filename: ics25-1.pdf
+  title: 'YH-Light: Yielding Hierarchy-aware Partitioner for Large-scale Graph Processing'
+  number: '1'
+- filename: ics25-2.pdf
+  title: 'SYprox: Combining Host and Device Perforation with Mixed Precision Approximation on Heterogeneous Architectures'
+  number: '2'
+- filename: ics25-3.pdf
+  title: 'WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows'
+  number: '3'
+- filename: ics25-4.pdf
+  title: 'Pushing the Limits of GPU Lossy Compression: A Hierarchical Delta Approach'
+  number: '4'
+- filename: ics25-5.pdf
+  title: 'Parallel Contraction Hierarchies Can Be Efficient and Scalable'
+  number: '5'
+- filename: ics25-6.pdf
+  title: 'StructILU: Dependency-Preserving Incomplete LU with Hierarchical Parallelism for Structured Grid PDEs on GPUs'
+  number: '6'
+- filename: ics25-7.pdf
+  title: 'CB-SpMV: A Data Aggregating and Balance Algorithm for Cache-Friendly Block-Based SpMV on GPUs'
+  number: '7'
+- filename: ics25-8.pdf
+  title: 'BMQSim: Overcoming Memory Constraints in Quantum Circuit Simulation with a High-Fidelity Compression Framework'
+  number: '8'
+- filename: ics25-9.pdf
+  title: 'DREAM: Device-Driven Efficient Access to Virtual Memory'
+  number: '9'
+- filename: ics25-10.pdf
+  title: 'PortFC: Designing High-performance Deadlock-free BCube Networks'
+  number: '10'
+- filename: ics25-11.pdf
+  title: 'DALdex: A DPU-Accelerated Persistent Learned Index via Incremental Learning'
+  number: '11'
+- filename: ics25-12.pdf
+  title: 'Efficient Server Consolidation through a balanced mix of Transformer-based and Conventional Applications'
+  number: '12'
+- filename: ics25-13.pdf
+  title: 'ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate Operators'
+  number: '13'
+- filename: ics25-14.pdf
+  title: 'MG-aGCD: Accelerating Graph Community Detection on Multi-GPU Platforms'
+  number: '14'
+- filename: ics25-15.pdf
+  title: 'Page Migration for Hardware Memory Disaggregation Across a Network'
+  number: '15'
+- filename: ics25-16.pdf
+  title: 'Auto-Healer: Self-Healing Hardware for Perception Stage Faults in Autonomous Driving Systems'
+  number: '16'
+- filename: ics25-17.pdf
+  title: 'IA-Chol: Input-Aware Cholesky Decomposition on CPU and GPU'
+  number: '17'
+- filename: ics25-18.pdf
+  title: 'ORA: Job Runtime Prediction for High-Performance Computing Platforms Using the Online Retrieval-Augmented Language Model'
+  number: '18'
+- filename: ics25-19.pdf
+  title: 'ConTraPh: Contrastive Learning for Parallelization and Performance Optimization'
+  number: '19'
+- filename: ics25-20.pdf
+  title: 'EVeREST-C: An Effective and Versatile Runtime Energy Saving Tool for CPUs'
+  number: '20'
+- filename: ics25-21.pdf
+  title: 'Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation on ARM Processors'
+  number: '21'
+- filename: ics25-22.pdf
+  title: 'Generating Microservice Graphs with Production Characteristics for Efficient Resource Scaling'
+  number: '22'
+- filename: ics25-23.pdf
+  title: 'GraCFL: A Versatile Vertex-Centric Graph System for High-Performance CFL Reachability Analysis'
+  number: '23'
+- filename: ics25-24.pdf
+  title: 'NeurLZ: An Online Neural Learning-based Method to Enhance Scientific Lossy Compression'
+  number: '24'
+- filename: ics25-25.pdf
+  title: 'CRAMG: A Communication-Reduced Algebraic Multigrid Method'
+  number: '25'
+- filename: ics25-26.pdf
+  title: 'DeCOS: Data-Efficient Reinforcement Learning for Compiler Optimization Selection Ignited by LLM'
+  number: '26'
+- filename: ics25-27.pdf
+  title: 'Pearl: Automatic Code Optimization Using Deep Reinforcement Learning'
+  number: '27'
+- filename: ics25-28.pdf
+  title: 'DIV: An Index & Value compression method for SpMV on large matrices'
+  number: '28'
+- filename: ics25-29.pdf
+  title: 'Accelerating Complex Stencil Computations with Adaptive Fusion Strategy'
+  number: '29'
+- filename: ics25-30.pdf
+  title: 'EPIClear: Exploiting Domain-Specific Features for Epistasis Detection Acceleration on Tensor Cores'
+  number: '30'
+- filename: ics25-31.pdf
+  title: 'HR-SpMM: Adaptive Row Partitioning and Hybrid Kernel Design for Sparse Matrix Multiplication'
+  number: '31'
+- filename: ics25-32.pdf
+  title: 'OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds'
+  number: '32'
+- filename: ics25-33.pdf
+  title: 'CTCCL: Cost-Efficient Joint Device-Network Load Balancing for LLM Training in RoCE-based Intelligent Computing Network'
+  number: '33'
+- filename: ics25-34.pdf
+  title: 'MAGNUS: Generating Data Locality to Accelerate Sparse Matrix-Matrix Multiplication on CPUs'
+  number: '34'
+- filename: ics25-35.pdf
+  title: 'TMModel: Modeling Texture Memory and Mobile GPU Performance to Accelerate DNN Computations'
+  number: '35'
+- filename: ics25-36.pdf
+  title: 'MEMPLEX: A Memory System with Replication and Migration of Data for Multi-Chiplet NUMA Architectures'
+  number: '36'
+- filename: ics25-37.pdf
+  title: 'PIM-CARE: A Compiler-Assisted Dynamic Resource Allocation Framework for Real-world DRAM PIM'
+  number: '37'
+- filename: ics25-38.pdf
+  title: 'UJOpt: Heuristic Approach for Applying Unroll-and-Jam Optimization and Loop Order Selection'
+  number: '38'
+- filename: ics25-39.pdf
+  title: 'BitWeaver: Read-Time Truncation in Memory'
+  number: '39'
+- filename: ics25-40.pdf
+  title: 'Understanding the Idiosyncrasies of Emerging BlueField DPUs'
+  number: '40'
+- filename: ics25-41.pdf
+  title: 'OPMOS: Ordered Parallel Algorithm for Multi-Objective Shortest-Paths'
+  number: '41'
+- filename: ics25-42.pdf
+  title: 'Fast and Fair Training for Deep Learning in Heterogeneous GPU Clusters'
+  number: '42'
+- filename: ics25-43.pdf
+  title: 'Leonid: Exploring Automated Kernel Fusion in Performance-Portable Programming Models for Scientific Computation'
+  number: '43'
+- filename: ics25-44.pdf
+  title: 'SortingHat: System Topology-aware Scheduling of Deep Neural Network Models on Multi-GPU Systems'
+  number: '44'
+- filename: ics25-45.pdf
+  title: 'A Cost-Effective Dueling Framework for Set-Associative Cache Indexing'
+  number: '45'
+- filename: ics25-46.pdf
+  title: 'SmartNIC-GPU-CPU Heterogeneous System for Large Machine Learning Model with Software-Hardware Codesign'
+  number: '46'
+- filename: ics25-47.pdf
+  title: 'From Islands to Archipelago: Towards Collaborative and Adaptive Burst Buffer for HPC Systems'
+  number: '47'
+- filename: ics25-48.pdf
+  title: 'G3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment'
+  number: '48'
+- filename: ics25-49.pdf
+  title: 'JBSA: A Bit-Serial Accelerator for Deep Neural Networks Using Superconducting SFQ Logic'
+  number: '49'
+- filename: ics25-50.pdf
+  title: 'HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud Systems'
+  number: '50'
+- filename: ics25-51.pdf
+  title: 'An Efficient 2D Fusion Method for High-Performance Two-Stage Eigensolvers on Modern Heterogeneous Architectures'
+  number: '51'
+- filename: ics25-52.pdf
+  title: 'D-Rex: Heterogeneity-Aware Reliability Framework and Adaptive Algorithms for Distributed Storage'
+  number: '52'
+- filename: ics25-53.pdf
+  title: 'Statistical Treatment of Variable MPI Latencies and MPI-Communication Hiding for Matrix-Free Finite Element Operators'
+  number: '53'
+- filename: ics25-54.pdf
+  title: 'DIMPLES: Distributed Influence Maximization for Pandemic pLanning on Exascale Systems'
+  number: '54'
+- filename: ics25-55.pdf
+  title: 'CLOVER: Spatio-graph-based kNN on the GPU'
+  number: '55'
+- filename: ics25-56.pdf
+  title: 'A Multi-GPU Algorithm for Computing Maximal Independent Sets in Large Graphs'
+  number: '56'
+- filename: ics25-57.pdf
+  title: 'Analyzing the Performance of Applications at Exascale'
+  number: '57'
+- filename: ics25-58.pdf
+  title: 'Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer Models'
+  number: '58'
+- filename: ics25-59.pdf
+  title: 'PIE: Enabling Fast and Scalable Incremental Evolving Graph Analytics on Persistent Memory'
+  number: '59'
+- filename: ics25-60.pdf
+  title: 'Dynamic Bit-Precision, Adaptive Data Representation, and Flexible Arithmetic'
+  number: '60'
+- filename: ics25-61.pdf
+  title: 'CIExplorer: Microarchitecture-Aware Exploration for Tightly Integrated Custom Instruction'
+  number: '61'
+- filename: ics25-62.pdf
+  title: 'Scaling Large-scale GNN Training to Thousands of Processors on CPU-based Supercomputers'
+  number: '62'
+- filename: ics25-63.pdf
+  title: 'Taking GPU Programming Models to Task for Performance Portability'
+  number: '63'
+- filename: ics25-64.pdf
+  title: 'DEDUPKV: A Space-Efficient and High-Performance Key-Value Store via Fine-Grained Deduplication'
+  number: '64'
+- filename: ics25-65.pdf
+  title: 'CoLa: Towards Communication-efficient Distributed Sparse Matrix-Matrix Multiplication on GPUs'
+  number: '65'
+- filename: ics25-66.pdf
+  title: 'A Device-Side Execution Model for Multi-GPU Task Graphs'
+  number: '66'
+- filename: ics25-67.pdf
+  title: 'Loop Fusion in Matrix Multiplications with Sparse Dependence'
+  number: '67'
+- filename: ics25-68.pdf
+  title: 'MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem'
+  number: '68'
+- filename: ics25-69.pdf
+  title: 'Multi-node Multi-GPU Datalog'
+  number: '69'
+- filename: ics25-70.pdf
+  title: 'Fused3S: Fast Sparse Attention on Tensor Cores'
+  number: '70'
+- filename: ics25-71.pdf
+  title: 'Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via Micro-Batching'
+  number: '71'
+- filename: ics25-72.pdf
+  title: 'Light-FP: Analyze Floating-Point Error in a Highly Condensed Approach'
+  number: '72'
+- filename: ics25-73.pdf
+  title: 'ConCo: Optimizing Compilation of Concurrent Tensor Programs on Shared GPU'
+  number: '73'
+- filename: ics25-74.pdf
+  title: 'Graph Convolutional Network Acceleration Using Adiabatic Superconductor Josephson Devices'
+  number: '74'
+- filename: ics25-75.pdf
+  title: 'ghZCCL: Advancing GPU-aware Collective Communications with Homomorphic Compression'
+  number: '75'
+- filename: ics25-76.pdf
+  title: 'DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs'
+  number: '76'
+- filename: ics25-77.pdf
+  title: 'ROCKET: An RNS-based Photonic Accelerator for High-Precision and Energy-Efficient DNN Training'
+  number: '77'
+- filename: ics25-78.pdf
+  title: 'EDAN: Towards Understanding Memory Parallelism and Latency Sensitivity in HPC'
+  number: '78'
+- filename: ics25-79.pdf
+  title: 'XSolver: Optimizing Sparse Direct Solvers for Heterogeneous Systems'
+  number: '79'
+- filename: ics25-80.pdf
+  title: 'A Global Perspective on Supercomputer Power Provisioning: Case Studies from United States and Europe'
+  number: '80'
+- filename: ics25-81.pdf
+  title: 'Persistent Memory Objects on the Cheap'
+  number: '81'
+- filename: ics25-82.pdf
+  title: 'SparsePIM: An Efficient HBM-Based PIM Architecture for Sparse Matrix-Vector Multiplications'
+  number: '82'
+- filename: ics25-83.pdf
+  title: 'A3FR: Agile 3D Gaussian Splatting with Incremental Gaze Tracked Foveated Rendering in Virtual Reality'
+  number: '83'

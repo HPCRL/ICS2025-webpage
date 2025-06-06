@@ -1,146 +1,242 @@
-# Day 1 Schedule
-- Time: "09:00-9:10"
+- Time: 09:00-9:10
   Session1:
-    Session: "Opening"
-- Time: "09:10-10:20"
+    Session: Opening
+- Time: 09:10-10:20
   Session1:
-    Session: "Keynote"
-    Title: "Supercomputing after Device Scaling Stops: Limits, Tradeoffs, and What Comes Next"
-    Author: "Mike O’Connor, Principal Research Scientist, NVIDIA"
-- Time: "10:20-10:40"
+    Session: Keynote
+    Title: 'Supercomputing after Device Scaling Stops: Limits, Tradeoffs, and What
+      Comes Next'
+    Author: "Mike O\u2019Connor, Principal Research Scientist, NVIDIA"
+- Time: 10:20-10:40
   Session1:
-    Session: "Coffee Break"    
-- Time: "10:40-12:00"
+    Session: Coffee Break
+- Time: 10:40-12:00
   Session1:
-    Session: "Approximation"
-    Chair: "Wei Niu (University of Georgia)"
+    Session: Approximation
+    Chair: Wei Niu (University of Georgia)
     Papers:
-      - Title: "SYprox: Combining Host and Device Perforation with Mixed Precision Approximation on Heterogeneous Architectures"
-        Author: "Lorenzo Carpentieri:University of Salerno;Biagio Cosenza:University of Salerno"
-        Comment: ""
-        URL: ""
-      - Title: "BitWeaver: Read-Time Truncation in Memory"
-        Author: "Garrett Gagnon:Samsung Semiconductor US,Rensselaer Polytechnic Institute;Srikanth Malla:Samsung Semiconductor US;Yangwook Kang:Samsung Semiconductor US;Liu Liu:Rensselaer Polytechnic Institute"
-        URL: ""
-      - Title: "NeurLZ: An Online Neural Learning-based Method to Enhance Scientific Lossy Compression"
-        Author: "Wenqi Jia:University of Texas at Arlington;Zhewen Hu:Texas A&M University;Youyuan Liu:Temple University;Boyuan Zhang:Indiana University;Jinzhen Wang:UNC Charlotte;Jinyang Liu:University of Houston;Wei Niu:University of Georgia;Stavros Kalafatis:Texas A&M University;Junzhou Huang:University of Texas at Arlington;Sian Jin:Temple University;Daoce Wang:Indiana University;Jiannan Tian:University of Kentucky;Miao Yin:University of Texas at Arlington"
-        URL: ""
-      - Title: "ghZCCL: Advancing GPU-aware Collective Communications with Homomorphic Compression"
-        Author: "Jiajun Huang:University of South Florida, Sheng Di:Argonne National Laboratory, Yafan Huang:University of Iowa, Zizhong Chen:University of California Riverside, Franck Cappello:Argonne National Laboratory, Yanfei Guo:Argonne National Laboratory, Rajeev Thakur:Argonne National Laboratory"
-        URL: ""
+    - Title: 'SYprox: Combining Host and Device Perforation with Mixed Precision Approximation
+        on Heterogeneous Architectures'
+      Author: Lorenzo Carpentieri:University of Salerno;Biagio Cosenza:University
+        of Salerno
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-2.pdf
+    - Title: 'BitWeaver: Read-Time Truncation in Memory'
+      Author: Garrett Gagnon:Samsung Semiconductor US,Rensselaer Polytechnic Institute;Srikanth
+        Malla:Samsung Semiconductor US;Yangwook Kang:Samsung Semiconductor US;Liu
+        Liu:Rensselaer Polytechnic Institute
+      URL: /program/Proceedings_ICS25/ics25-39.pdf
+    - Title: 'NeurLZ: An Online Neural Learning-based Method to Enhance Scientific
+        Lossy Compression'
+      Author: Wenqi Jia:University of Texas at Arlington;Zhewen Hu:Texas A&M University;Youyuan
+        Liu:Temple University;Boyuan Zhang:Indiana University;Jinzhen Wang:UNC Charlotte;Jinyang
+        Liu:University of Houston;Wei Niu:University of Georgia;Stavros Kalafatis:Texas
+        A&M University;Junzhou Huang:University of Texas at Arlington;Sian Jin:Temple
+        University;Daoce Wang:Indiana University;Jiannan Tian:University of Kentucky;Miao
+        Yin:University of Texas at Arlington
+      URL: /program/Proceedings_ICS25/ics25-24.pdf
+    - Title: 'ghZCCL: Advancing GPU-aware Collective Communications with Homomorphic
+        Compression'
+      Author: Jiajun Huang:University of South Florida, Sheng Di:Argonne National
+        Laboratory, Yafan Huang:University of Iowa, Zizhong Chen:University of California
+        Riverside, Franck Cappello:Argonne National Laboratory, Yanfei Guo:Argonne
+        National Laboratory, Rajeev Thakur:Argonne National Laboratory
+      URL: /program/Proceedings_ICS25/ics25-75.pdf
   Session2:
-    Session: "Graph Neural Networks"
-    Chair: "Ali Jannesari (Iowa State University)"
-    Papers: 
-        - Title: "Scaling Large-scale GNN Training to Thousands of Processors on CPU-based Supercomputers"
-          Author: "Chen Zhuang:Institute of Science Tokyo,Riken Center for Computational Science;Lingqi Zhang:RIKEN Center for Computational Science;Du Wu:Institute of Science Tokyo,RIKEN Center for Computational Science;Peng Chen:RIKEN Center for Computational Science;Jiajun Huang:University of South Florida;Xin Liu:National Institute of Advanced Industrial Science & Technology;Rio Yokota:Institute of Science Tokyo;Nikoli Dryden:Lawrence Livermore National Laboratory;Toshio Endo:Institute of Science Tokyo;Satoshi Matsuoka:RIKEN Center for Computational Science,Institute of Science Tokyo;Mohamed Wahib:RIKEN Center for Computational Science"
-          Comment: ""
-          URL: ""
-        - Title: "CoLa: Towards Communication-efficient Distributed Sparse Matrix-Matrix Multiplication on GPUs"
-          Author: "Lixing Zhang:Beijing University of Posts and Telecommunications;Yingxia Shao:Beijing University of Posts and Telecommunications;Shigang Li:Beijing University of Posts and Telecommunications"
-          Comment: ""
-          URL: ""
-        - Title: "Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via Micro-Batching"
-          Author: "Yan Wang:Guangzhou Institute of Technology, Xidian University;Qinghua Guo:Guangzhou Institute of Technology, Xidian University;Haoran Kong:Institute of Computing Technology, Chinese Academy of Sciences;Kai Sheng:Guangzhou Institute of Technology, Xidian University;Zhen Xie:Binghamton University;Hao Chen:College of Computer Science and Electronic Engineering, Hunan University;Weile Jia:Institute of Computing Technology, Chinese Academy of Sciences;Dingwen Tao:Institute of Computing Technology, Chinese Academy of Sciences;Xin He:Guangzhou Institute of Technology, Xidian University"
-          Comment: ""
-          URL: ""
-        - Title: "Fused3S: Fast Sparse Attention on Tensor Cores"
-          Author: "Zitong Li:University of California, Irvine;Aparna Chandramowlishwaran:University of California, Irvine"
-          Comment: ""
-          URL: ""
-
-- Time: "12:00-1:40"
-  Session1:
-    Session: "Lunch (provided)"
-
-- Time: "1:40-3:00"
-  Session1:
-    Session: "Sparse Linear Algebra"
-    Chair: "Kazem Cheshmi (McMaster University)"
+    Session: Graph Neural Networks
+    Chair: Ali Jannesari (Iowa State University)
     Papers:
-      - Title: "StructILU: Dependency-Preserving Incomplete LU with Hierarchical Parallelism for Structured Grid PDEs on GPUs"
-        Author: "Hao Luo:Peking University;Qianchao Zhu:Peking University;Xiaochen Hao:School of Computer Science, Peking University;Chunxi Lei:Peking University;Chengdi Ma:Peking University;Chenchen Zhang:Peking University;Yun Liang:School of Integrated Circuits, Peking University;Chao Yang:Peking University,PKU-Changsha Institute for Computing and Digital Economy"
-        Comment: ""
-        URL: ""
-      - Title: "IA-Chol: Input-Aware Cholesky Decomposition on CPU and GPU"
-        Author: "Jixiao Deng:National University of Defense Technology;Qinglin Wang:National University of Defense Technology;Lin Chen:National University of Defense Technology;Bo Yang:National University of Defense Technology;Xinhai Chen:National University of Defense Technology;Jie Liu:National University Of Defense Technology"
-        URL: ""
-      - Title: "CB-SpMV:A Data Aggregating and Balance Algorithm for Cache-Friendly Block-Based SpMV on GPUs"
-        Author: "Xing Cong:Beihang University;FuKai Sun:Beihang University;YiFan Chen:Beihang University;Chenhao Xie:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University"
-        URL: ""
-      - Title: "HR-SpMM: Adaptive Row Partitioning and Hybrid Kernel Design for Sparse Matrix Multiplication"
-        Author: "Qi Wang:Southwest University of Science and Technology;Yaobin Wang:Southwest University of Science and Technology;Yi Luo:Southwest University of Science and Technology;Rong Luo:Southwest University of Science and Technology;Pingping Tang:Southwest University of Science and Technology"
-        URL: ""
-  Session2:
-    Session: "Acceleration"
-    Chair: "Antonia Zhai (University of Minnesota)"
-    Papers: 
-        - Title: "G^3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment"
-          Author: "Yeejoo Han:Seoul National University;Sunwoo Kim:Seoul National University;Seongyeon Park:Seoul National University;Jinho Lee:Seoul National University"
-          Comment: ""
-          URL: ""
-        - Title: "Graph Convolutional Network Acceleration Using Adiabatic Superconductor Josephson Devices"
-          Author: "Zhengang Li:Northeastern University;Hongwu Peng:University of Connecticut;Xuan Shen:Northeastern University;Masoud Zabihi:Northeastern University;Xi Xie:University of Connecticut;Geng Yuan:University of Georgia;Yanzhi Wang:Northeastern University;Olivia Chen:Kyushu University;Caiwen Ding:University of Minnesota Twin Cities"
-          Comment: ""
-          URL: ""
-        - Title: "TMModel: Modeling Texture Memory and Mobile GPU Performance to Accelerate DNN Computations"
-          Author: "Jiexiong Guan:University of Thessaly,William & Mary;Zhenqing Hu:William & Mary;Christos D. Antonopoulos:University of Thessaly;Nikolaos Bellas:University of Thessaly;Spyros Lalis:University of Thessaly;Evgenia Smirni:William & Mary;Gang Zhou:William & Mary;Gagan Agrawal:University of Georgia;Bin Ren:William & Mary"
-          Comment: ""
-          URL: ""
-        - Title: "DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs"
-          Author: "Yuebo Luo:University of Minnesota Twin Cities;Shiyang Li:University of Minnesota Twin Cities,Nankai University;Junran Tao:Stevens Institute of Technology;Kiran Gautam Thorat: University of Connecticut;Xi Xie: University of Connecticut;Hongwu Peng: University of Connecticut;Nuo Xu:University of Minnesota Twin Cities;Caiwen Ding:Department of Computer Science and Engineering , University of Minnesota Twin Cities;Shaoyi Huang:Stevens Institute of Technology"
-          Comment: ""
-          URL: ""
-
-- Time: "3:00-3:20"
+    - Title: Scaling Large-scale GNN Training to Thousands of Processors on CPU-based
+        Supercomputers
+      Author: Chen Zhuang:Institute of Science Tokyo,Riken Center for Computational
+        Science;Lingqi Zhang:RIKEN Center for Computational Science;Du Wu:Institute
+        of Science Tokyo,RIKEN Center for Computational Science;Peng Chen:RIKEN Center
+        for Computational Science;Jiajun Huang:University of South Florida;Xin Liu:National
+        Institute of Advanced Industrial Science & Technology;Rio Yokota:Institute
+        of Science Tokyo;Nikoli Dryden:Lawrence Livermore National Laboratory;Toshio
+        Endo:Institute of Science Tokyo;Satoshi Matsuoka:RIKEN Center for Computational
+        Science,Institute of Science Tokyo;Mohamed Wahib:RIKEN Center for Computational
+        Science
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-62.pdf
+    - Title: 'CoLa: Towards Communication-efficient Distributed Sparse Matrix-Matrix
+        Multiplication on GPUs'
+      Author: Lixing Zhang:Beijing University of Posts and Telecommunications;Yingxia
+        Shao:Beijing University of Posts and Telecommunications;Shigang Li:Beijing
+        University of Posts and Telecommunications
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-65.pdf
+    - Title: 'Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via
+        Micro-Batching'
+      Author: Yan Wang:Guangzhou Institute of Technology, Xidian University;Qinghua
+        Guo:Guangzhou Institute of Technology, Xidian University;Haoran Kong:Institute
+        of Computing Technology, Chinese Academy of Sciences;Kai Sheng:Guangzhou Institute
+        of Technology, Xidian University;Zhen Xie:Binghamton University;Hao Chen:College
+        of Computer Science and Electronic Engineering, Hunan University;Weile Jia:Institute
+        of Computing Technology, Chinese Academy of Sciences;Dingwen Tao:Institute
+        of Computing Technology, Chinese Academy of Sciences;Xin He:Guangzhou Institute
+        of Technology, Xidian University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-71.pdf
+    - Title: 'Fused3S: Fast Sparse Attention on Tensor Cores'
+      Author: Zitong Li:University of California, Irvine;Aparna Chandramowlishwaran:University
+        of California, Irvine
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-70.pdf
+- Time: 12:00-1:40
   Session1:
-    Session: "Coffee Break"
-
-- Time: "3:20-5:20"
+    Session: Lunch (provided)
+- Time: 1:40-3:00
   Session1:
-    Session: "Applications"
-    Chair: "Tsung-Wei Huang (University of Wisconsin-Madison)"
+    Session: Sparse Linear Algebra
+    Chair: Kazem Cheshmi (McMaster University)
     Papers:
-      - Title: "CLOVER: Spatio-graph-based kNN on the GPU"
-        Author: "Victor Kamel:University of Toronto;Hanxueyu Yan:University of Victoria;Sean Chester:University of Victoria"
-        Comment: ""
-        URL: ""
-      - Title: "Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation on ARM Processors"
-        Author: "Shanghao Liu:Beihang University;Hailong Yang:Beihang University;Xin You:Beihang University;Zhongzhi Luan:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University"
-        URL: ""
-      - Title: "Accelerating Complex Stencil Computations with Adaptive Fusion Strategy"
-        Author: "Siqi Wang:Beihang University;Hailong Yang:Beihang University;Pengbo Wang:Beihang University;Shaokang Du:Beihang University;Yufan Xu:Independent Researcher;Qingxiao Sun:China University of Petroleum, Beijing;Xiaoyan Liu:Beihang University;Xuezhu Wang:Beihang University;Xuning Liang:Beihang University;Zhongzhi Luan:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University"
-        URL: ""
-      - Title: "A3FR: Agile 3D Gaussian Splatting with Incremental Gaze Tracked Foveated Rendering in Virtual Reality"
-        Author: "Shuo Xin:Physics, Stanford University;Haiyu Wang:Tandon School of Engineering, New York University;Sai Qian Zhang:Tandon School of Engineering, New York University"
-        URL: ""
-      - Title: "EPIClear: Exploiting Domain-Specific Features for Epistasis Detection Acceleration on Tensor Cores"
-        Author: "Ricardo Nobre:INESC-ID, Instituto Superior Técnico, Universidade de Lisboa;Miguel Graça:INESC-ID, Instituto Superior Técnico, Universidade de Lisboa;Leonel Sousa:INESC-ID, Instituto Superior Técnico, Universidade de Lisboa;Aleksandar Ilic:INESC-ID, Instituto Superior Técnico, Universidade de Lisboa"
-        URL: ""
-      - Title: "Statistical Treatment of Variable MPI Latencies and MPI-Communication Hiding for Matrix-Free Finite Element Operators"
-        Author: "Max Heldman:Virginia Tech;Johann Rudi:Virginia Tech;Julie Bessac:Computational Science Center, National Renewable Energy Laboratory"
-        URL: ""
+    - Title: 'StructILU: Dependency-Preserving Incomplete LU with Hierarchical Parallelism
+        for Structured Grid PDEs on GPUs'
+      Author: Hao Luo:Peking University;Qianchao Zhu:Peking University;Xiaochen Hao:School
+        of Computer Science, Peking University;Chunxi Lei:Peking University;Chengdi
+        Ma:Peking University;Chenchen Zhang:Peking University;Yun Liang:School of
+        Integrated Circuits, Peking University;Chao Yang:Peking University,PKU-Changsha
+        Institute for Computing and Digital Economy
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-6.pdf
+    - Title: 'IA-Chol: Input-Aware Cholesky Decomposition on CPU and GPU'
+      Author: Jixiao Deng:National University of Defense Technology;Qinglin Wang:National
+        University of Defense Technology;Lin Chen:National University of Defense Technology;Bo
+        Yang:National University of Defense Technology;Xinhai Chen:National University
+        of Defense Technology;Jie Liu:National University Of Defense Technology
+      URL: /program/Proceedings_ICS25/ics25-17.pdf
+    - Title: CB-SpMV:A Data Aggregating and Balance Algorithm for Cache-Friendly Block-Based
+        SpMV on GPUs
+      Author: Xing Cong:Beihang University;FuKai Sun:Beihang University;YiFan Chen:Beihang
+        University;Chenhao Xie:Beihang University;Yi Liu:Beihang University;Depei
+        Qian:Beihang University
+      URL: ''
+    - Title: 'HR-SpMM: Adaptive Row Partitioning and Hybrid Kernel Design for Sparse
+        Matrix Multiplication'
+      Author: Qi Wang:Southwest University of Science and Technology;Yaobin Wang:Southwest
+        University of Science and Technology;Yi Luo:Southwest University of Science
+        and Technology;Rong Luo:Southwest University of Science and Technology;Pingping
+        Tang:Southwest University of Science and Technology
+      URL: /program/Proceedings_ICS25/ics25-31.pdf
   Session2:
-    Session: "GPU Scheduling"
-    Chair: "Dimitrios Nikolopoulos (Virginia Tech)"
-    Papers: 
-        - Title: "Fast and Fair Training for Deep Learning in Heterogeneous GPU Clusters"
-          Author: "Zizhao Mo:University of Macau;Huanle Xu:University of Macau;Wing Cheong Lau:The Chinese University of Hong Kong"
-          Comment: ""
-          URL: ""
-        - Title: "SortingHat: System Topology-aware Scheduling of Deep Neural Network Models on Multi-GPU Systems"
-          Author: "Seok Namkoong:Yonsei University;Taehyeong Park:Yonsei University;Kiung Jung:Yonsei University;Jinyoung Kim:Yonsei University;Yongjun Park:Yonsei University"
-          Comment: ""
-          URL: ""
-        - Title: "CTCCL: Cost-Efficient Joint Device-Network Load Balancing for LLM Training in RoCE-based Intelligent Computing Network"
-          Author: "Zhuotong Li:State Cloud, China Telecom;Liang Xu:State Cloud, China Telecom;Ziqi Huang:State Cloud, China Telecom;Shuyun Qian:State Cloud, China Telecom;Hongwei Bu:State Cloud, China Telecom;Ming Yang:State Cloud, China Telecom;Mengyun Luan:State Cloud, China Telecom;Weiguo Chen:State Cloud, China Telecom;Xu Wen:State Cloud, China Telecom"
-          Comment: ""
-          URL: ""
-        - Title: "Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer Models"
-          Author: "Runsheng Benson Guo:Cheriton School of Computer Science, University of Waterloo;Utkarsh Anand:Cheriton School of Computer Science, University of Waterloo;Arthur Chen:Cheriton School of Computer Science, University of Waterloo;Khuzaima Daudjee:Cheriton School of Computer Science, University of Waterloo"
-          Comment: ""
-          URL: ""
-        - Title: "A Device-Side Execution Model for Multi-GPU Task Graphs"
-          Author: "Ilyas Turimbetov:Koç University;Mohamed Wahib:RIKEN Center for Computational Science;Didem Unat:Koç University"
-          Comment: ""
-          URL: ""
+    Session: Acceleration
+    Chair: Antonia Zhai (University of Minnesota)
+    Papers:
+    - Title: 'G^3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End
+        Sequence Alignment'
+      Author: Yeejoo Han:Seoul National University;Sunwoo Kim:Seoul National University;Seongyeon
+        Park:Seoul National University;Jinho Lee:Seoul National University
+      Comment: ''
+      URL: ''
+    - Title: Graph Convolutional Network Acceleration Using Adiabatic Superconductor
+        Josephson Devices
+      Author: Zhengang Li:Northeastern University;Hongwu Peng:University of Connecticut;Xuan
+        Shen:Northeastern University;Masoud Zabihi:Northeastern University;Xi Xie:University
+        of Connecticut;Geng Yuan:University of Georgia;Yanzhi Wang:Northeastern University;Olivia
+        Chen:Kyushu University;Caiwen Ding:University of Minnesota Twin Cities
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-74.pdf
+    - Title: 'TMModel: Modeling Texture Memory and Mobile GPU Performance to Accelerate
+        DNN Computations'
+      Author: Jiexiong Guan:University of Thessaly,William & Mary;Zhenqing Hu:William
+        & Mary;Christos D. Antonopoulos:University of Thessaly;Nikolaos Bellas:University
+        of Thessaly;Spyros Lalis:University of Thessaly;Evgenia Smirni:William & Mary;Gang
+        Zhou:William & Mary;Gagan Agrawal:University of Georgia;Bin Ren:William &
+        Mary
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-35.pdf
+    - Title: 'DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph
+        Neural Network on GPUs'
+      Author: 'Yuebo Luo:University of Minnesota Twin Cities;Shiyang Li:University
+        of Minnesota Twin Cities,Nankai University;Junran Tao:Stevens Institute of
+        Technology;Kiran Gautam Thorat: University of Connecticut;Xi Xie: University
+        of Connecticut;Hongwu Peng: University of Connecticut;Nuo Xu:University of
+        Minnesota Twin Cities;Caiwen Ding:Department of Computer Science and Engineering
+        , University of Minnesota Twin Cities;Shaoyi Huang:Stevens Institute of Technology'
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-76.pdf
+- Time: 3:00-3:20
+  Session1:
+    Session: Coffee Break
+- Time: 3:20-5:20
+  Session1:
+    Session: Applications
+    Chair: Tsung-Wei Huang (University of Wisconsin-Madison)
+    Papers:
+    - Title: 'CLOVER: Spatio-graph-based kNN on the GPU'
+      Author: Victor Kamel:University of Toronto;Hanxueyu Yan:University of Victoria;Sean
+        Chester:University of Victoria
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-55.pdf
+    - Title: Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation
+        on ARM Processors
+      Author: Shanghao Liu:Beihang University;Hailong Yang:Beihang University;Xin
+        You:Beihang University;Zhongzhi Luan:Beihang University;Yi Liu:Beihang University;Depei
+        Qian:Beihang University
+      URL: /program/Proceedings_ICS25/ics25-21.pdf
+    - Title: Accelerating Complex Stencil Computations with Adaptive Fusion Strategy
+      Author: Siqi Wang:Beihang University;Hailong Yang:Beihang University;Pengbo
+        Wang:Beihang University;Shaokang Du:Beihang University;Yufan Xu:Independent
+        Researcher;Qingxiao Sun:China University of Petroleum, Beijing;Xiaoyan Liu:Beihang
+        University;Xuezhu Wang:Beihang University;Xuning Liang:Beihang University;Zhongzhi
+        Luan:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University
+      URL: /program/Proceedings_ICS25/ics25-29.pdf
+    - Title: 'A3FR: Agile 3D Gaussian Splatting with Incremental Gaze Tracked Foveated
+        Rendering in Virtual Reality'
+      Author: Shuo Xin:Physics, Stanford University;Haiyu Wang:Tandon School of Engineering,
+        New York University;Sai Qian Zhang:Tandon School of Engineering, New York
+        University
+      URL: /program/Proceedings_ICS25/ics25-83.pdf
+    - Title: 'EPIClear: Exploiting Domain-Specific Features for Epistasis Detection
+        Acceleration on Tensor Cores'
+      Author: "Ricardo Nobre:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
+        \ de Lisboa;Miguel Gra\xE7a:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
+        \ de Lisboa;Leonel Sousa:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
+        \ de Lisboa;Aleksandar Ilic:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
+        \ de Lisboa"
+      URL: /program/Proceedings_ICS25/ics25-30.pdf
+    - Title: Statistical Treatment of Variable MPI Latencies and MPI-Communication
+        Hiding for Matrix-Free Finite Element Operators
+      Author: Max Heldman:Virginia Tech;Johann Rudi:Virginia Tech;Julie Bessac:Computational
+        Science Center, National Renewable Energy Laboratory
+      URL: /program/Proceedings_ICS25/ics25-53.pdf
+  Session2:
+    Session: GPU Scheduling
+    Chair: Dimitrios Nikolopoulos (Virginia Tech)
+    Papers:
+    - Title: Fast and Fair Training for Deep Learning in Heterogeneous GPU Clusters
+      Author: Zizhao Mo:University of Macau;Huanle Xu:University of Macau;Wing Cheong
+        Lau:The Chinese University of Hong Kong
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-42.pdf
+    - Title: 'SortingHat: System Topology-aware Scheduling of Deep Neural Network
+        Models on Multi-GPU Systems'
+      Author: Seok Namkoong:Yonsei University;Taehyeong Park:Yonsei University;Kiung
+        Jung:Yonsei University;Jinyoung Kim:Yonsei University;Yongjun Park:Yonsei
+        University
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-44.pdf
+    - Title: 'CTCCL: Cost-Efficient Joint Device-Network Load Balancing for LLM Training
+        in RoCE-based Intelligent Computing Network'
+      Author: Zhuotong Li:State Cloud, China Telecom;Liang Xu:State Cloud, China Telecom;Ziqi
+        Huang:State Cloud, China Telecom;Shuyun Qian:State Cloud, China Telecom;Hongwei
+        Bu:State Cloud, China Telecom;Ming Yang:State Cloud, China Telecom;Mengyun
+        Luan:State Cloud, China Telecom;Weiguo Chen:State Cloud, China Telecom;Xu
+        Wen:State Cloud, China Telecom
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-33.pdf
+    - Title: 'Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer
+        Models'
+      Author: Runsheng Benson Guo:Cheriton School of Computer Science, University
+        of Waterloo;Utkarsh Anand:Cheriton School of Computer Science, University
+        of Waterloo;Arthur Chen:Cheriton School of Computer Science, University of
+        Waterloo;Khuzaima Daudjee:Cheriton School of Computer Science, University
+        of Waterloo
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-58.pdf
+    - Title: A Device-Side Execution Model for Multi-GPU Task Graphs
+      Author: "Ilyas Turimbetov:Ko\xE7 University;Mohamed Wahib:RIKEN Center for Computational\
+        \ Science;Didem Unat:Ko\xE7 University"
+      Comment: ''
+      URL: /program/Proceedings_ICS25/ics25-66.pdf
