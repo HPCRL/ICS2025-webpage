@@ -60,6 +60,13 @@
 </style>
 # Preliminary Program
 
+<!-- <div class="download-panel" style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center;">
+  <h4 style="margin-bottom: 15px; color: #333;">Download Conference Proceedings</h4>
+  <a href="https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25" class="btn btn-primary" style="background-color: #428bca; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
+    <i class="fas fa-download" style="margin-right: 8px;"></i>Download Papers
+  </a>
+</div> -->
+
 ## 06/09/2025 Monday
 <div class="table-responsive">
      <table class="table table-bordered align-middle" style="table-layout: fixed; width: 100%;">
@@ -121,11 +128,7 @@
                     <ul class="mb-0">
                       {% for paper in session1.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -149,11 +152,7 @@
                     <ul class="mb-0">
                       {% for paper in session2.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -224,11 +223,7 @@
                     <ul class="mb-0">
                       {% for paper in session1.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -256,11 +251,7 @@
                     <ul class="mb-0">
                       {% for paper in session1.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -284,11 +275,7 @@
                     <ul class="mb-0">
                       {% for paper in session2.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -351,11 +338,7 @@
                     <ul class="mb-0">
                       {% for paper in session1.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
@@ -379,11 +362,7 @@
                     <ul class="mb-0">
                       {% for paper in session2.Papers %}
                         <li>
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                            {{ paper.Title }}
-                          {% endif %}
+ {{ paper.Title }}
                            <div class="text-muted small">{{ paper.Author }}</div>
                           {% if paper.Comment %}
                             <div class="text-muted small">{{ paper.Comment }}</div>
