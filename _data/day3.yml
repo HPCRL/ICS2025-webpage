@@ -41,7 +41,7 @@
         University;Kristopher Micinski:Syracure University;Thomas Gilray:Washington
         State University;Sidharth Kumar:University of Illinois Chicago
       Comment: ''
-      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-69.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-71.pdf
     - Title: SmartNIC-GPU-CPU Heterogeneous System for Large Machine Learning Model
         with Software-Hardware Codesign
       Author: 'Anqi Guo: Boston University;Yuchen Hao:Meta Platforms;Xiteng Yao: Boston
@@ -78,13 +78,14 @@
         Jiao Tong University;Jie Meng:Huawei Cloud;Jiang Liu:Huawei Cloud;En Shao:Institute
         of Computing Technology, Chinese Academy of Sciences;Minyi Guo:Shanghai Jiao
         Tong University
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-13.pdf
     - Title: 'ORA: Job Runtime Prediction for High-Performance Computing Platforms
         Using the Online Retrieval-Augmented Language Model'
       Author: Hongyi Liu:Peking University;Yinping Ma:Peking University;Xiaosong Huang:Peking
         University;Lingzhe Zhang:Peking University;Tong Jia:Peking University,National
         Key Laboratory of Data Space Technology and System;Ying Li:Peking University
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-18.pdf
     - Title: Generating Microservice Graphs with Production Characteristics for Efficient
         Resource Scaling
@@ -92,6 +93,7 @@
         University,The Hong Kong Polytechnic University;Quan Chen:Shanghai Jiao Tong
         University;Pu Pang:Shanghai Jiao Tong University;Li Li:Shanghai Jiao Tong
         University;Minyi Guo:Shanghai Jiao Tong University
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-22.pdf
     - Title: 'HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud
         Systems'
@@ -118,7 +120,7 @@
       Author: Djamel Rassem Lamouri:New York University Abu Dhabi;Iheb Nassim Aouadj:New
         York University Abu Dhabi;Smail Kourta:New York University Abu Dhabi;Riyadh
         Baghdadi:New York University Abu Dhabi
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-27.pdf
     - Title: 'CIExplorer: Microarchitecture-Aware Exploration for Tightly Integrated
         Custom Instruction'
@@ -129,7 +131,7 @@
         of China,Laoshan Laboratory;Hong An:University of Science and Technology of
         China,Laoshan Laboratory;Xulong Tang:University of Pittsburgh;Hao Shu:NIO;Honghui
         Yuan:NIO
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-61.pdf
 - Time: 12:00-1:40
   Session1:
@@ -159,6 +161,7 @@
         Xia:University of Otago;Zhiyi Huang:University of Otago;Yawen Chen:University
         Of New South Wales;Amanda Barnard:Australian National University
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-77.pdf
+      Comment: '(virtual)'
     - Title: 'A Global Perspective on Supercomputer Power Provisioning: Case Studies
         from United States and Europe'
       Author: Tapasya Patki:Lawrence Livermore National Laboratory;Barry Rountree:Lawrence
@@ -214,7 +217,7 @@
         Technology, CAS;Tsung-Yi Ho:The Chinese University of Hong Kong;Dongrui Fan:State
         Key Lab of Processors, Institute of Computing Technology, CAS; University
         of Chinese Academy of Sciences
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-49.pdf
 - Time: 3:20-5:00
   Session1:
@@ -227,13 +230,14 @@
         University of Defense Technology;Chunye Gong:National University of Defense
         Technology;Jie Liu:National University Of Defense Technology;Kai Lu:National
         University of Defense Technology
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-1.pdf
     - Title: 'MG-aGCD: Accelerating Graph Community Detection on Multi-GPU Platforms'
       Author: Shuai Yang:University of Chinese Academy of Sciences,Institute of Software,
         Chinese Academy of Sciences;Changyou Zhang:University of Chinese Academy of
         Sciences,Institute of Software, Chinese Academy of Sciences
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-14.pdf
+      Comment: '(virtual)'
     - Title: 'GraCFL: A Versatile Vertex-Centric Graph System for High-Performance
         CFL Reachability Analysis'
       Author: Sakib Fuad:University of California, Riverside;Amir Hossein Nodehi Sabet:University

@@ -64,7 +64,7 @@
       Author: Lixing Zhang:Beijing University of Posts and Telecommunications;Yingxia
         Shao:Beijing University of Posts and Telecommunications;Shigang Li:Beijing
         University of Posts and Telecommunications
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-65.pdf
     - Title: 'Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via
         Micro-Batching'
@@ -77,7 +77,7 @@
         of Computing Technology, Chinese Academy of Sciences;Xin He:Guangzhou Institute
         of Technology, Xidian University
       Comment: ''
-      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-71.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-69.pdf
     - Title: 'Fused3S: Fast Sparse Attention on Tensor Cores'
       Author: Zitong Li:University of California, Irvine;Aparna Chandramowlishwaran:University
         of California, Irvine
@@ -106,12 +106,16 @@
         Yang:National University of Defense Technology;Xinhai Chen:National University
         of Defense Technology;Jie Liu:National University Of Defense Technology
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-17.pdf
+      Comment: '(virtual)'
+
     - Title: CB-SpMV:A Data Aggregating and Balance Algorithm for Cache-Friendly Block-Based
         SpMV on GPUs
       Author: Xing Cong:Beihang University;FuKai Sun:Beihang University;YiFan Chen:Beihang
         University;Chenhao Xie:Beihang University;Yi Liu:Beihang University;Depei
         Qian:Beihang University
-      URL: ''
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-7.pdf
+      Comment: '(virtual)'
+
     - Title: 'HR-SpMM: Adaptive Row Partitioning and Hybrid Kernel Design for Sparse
         Matrix Multiplication'
       Author: Qi Wang:Southwest University of Science and Technology;Yaobin Wang:Southwest
@@ -119,6 +123,8 @@
         and Technology;Rong Luo:Southwest University of Science and Technology;Pingping
         Tang:Southwest University of Science and Technology
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-31.pdf
+      Comment: '(virtual)'
+
   Session2:
     Session: Acceleration
     Chair: Antonia Zhai (University of Minnesota)
@@ -175,6 +181,7 @@
         You:Beihang University;Zhongzhi Luan:Beihang University;Yi Liu:Beihang University;Depei
         Qian:Beihang University
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-21.pdf
+      Comment: '(virtual)'
     - Title: Accelerating Complex Stencil Computations with Adaptive Fusion Strategy
       Author: Siqi Wang:Beihang University;Hailong Yang:Beihang University;Pengbo
         Wang:Beihang University;Shaokang Du:Beihang University;Yufan Xu:Independent
@@ -182,6 +189,7 @@
         University;Xuezhu Wang:Beihang University;Xuning Liang:Beihang University;Zhongzhi
         Luan:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-29.pdf
+      Comment: '(virtual)'
     - Title: 'A3FR: Agile 3D Gaussian Splatting with Incremental Gaze Tracked Foveated
         Rendering in Virtual Reality'
       Author: Shuo Xin:Physics, Stanford University;Haiyu Wang:Tandon School of Engineering,
@@ -190,7 +198,7 @@
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-83.pdf
     - Title: 'EPIClear: Exploiting Domain-Specific Features for Epistasis Detection
         Acceleration on Tensor Cores'
-      Author: "Ricardo Nobre:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
+      Author: "Ricardo Nobre:INESC-ID, Instituto Super  ior T\xE9cnico, Universidade\
         \ de Lisboa;Miguel Gra\xE7a:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
         \ de Lisboa;Leonel Sousa:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
         \ de Lisboa;Aleksandar Ilic:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
@@ -224,7 +232,7 @@
         Bu:State Cloud, China Telecom;Ming Yang:State Cloud, China Telecom;Mengyun
         Luan:State Cloud, China Telecom;Weiguo Chen:State Cloud, China Telecom;Xu
         Wen:State Cloud, China Telecom
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-33.pdf
     - Title: 'Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer
         Models'

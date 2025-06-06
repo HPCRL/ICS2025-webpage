@@ -203,15 +203,15 @@ papers:
 - filename: ics25-68.pdf
   title: 'MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem'
   number: '68'
-- filename: ics25-69.pdf
+- filename: ics25-71.pdf
   title: 'Multi-node Multi-GPU Datalog'
-  number: '69'
+  number: '71'
 - filename: ics25-70.pdf
   title: 'Fused3S: Fast Sparse Attention on Tensor Cores'
   number: '70'
-- filename: ics25-71.pdf
+- filename: ics25-69.pdf
   title: 'Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via Micro-Batching'
-  number: '71'
+  number: '69'
 - filename: ics25-72.pdf
   title: 'Light-FP: Analyze Floating-Point Error in a Highly Condensed Approach'
   number: '72'

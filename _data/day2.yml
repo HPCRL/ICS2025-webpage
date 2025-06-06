@@ -12,7 +12,7 @@
         and Computer Science, Xiangtan University;Shengguo Li:National University
         of Defense Technology;Hongxia Wang:Department of Mathematics, National University
         of Defense Technology
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-25.pdf
     - Title: An Efficient 2D Fusion Method for High-Performance Two-Stage Eigensolvers
         on Modern Heterogeneous Architectures
@@ -20,7 +20,7 @@
         Jin:Tsinghua University;Heng Li:Tsinghua University;Wei Xue:Tsinghua University,
         Beijing, China; Qinghai University, Xining, China
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-51.pdf
-    - Title: 'XSolver: Optimizing Sparse Direct Solvers for Heterogeneous Systems'
+    - Title: 'SnuSOLVER: Optimizing Sparse Direct Solvers for Heterogeneous Systems'
       Author: Chaewon Kim:Department of Seoul National University;Jaehwan Lee:Department
         of Seoul National University;Jinpyo Kim:Department of Seoul National University;Dohyun
         Kim:Institute of Computer Technology, Seoul National University;Kyusu Ahn:Department
@@ -55,7 +55,7 @@
         \ Universidad de C\xF3rdoba, Saugata Ghose: University of Illinois Urbana-Champaign,\
         \ Juan Gomez Luna: NVIDIA, Onur Mutlu: ETH Zurich"
       Comment: ''
-      URL: ''
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-60.pdf
     - Title: 'SparsePIM: An Efficient HBM-Based PIM Architecture for Sparse Matrix-Vector
         Multiplications'
       Author: Taewoon Kang:Korea University;Geonwoo Choi:Korea University;Taeweon
@@ -83,7 +83,7 @@
       Author: Aoyang Tong:Huazhong University of Science and Technology;Yu Hua:Huazhong
         University of Science and Technology;Menglei Chen:Huazhong University of Science
         and Technology
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-11.pdf
     - Title: 'From Islands to Archipelago: Towards Collaborative and Adaptive Burst
         Buffer for HPC Systems'
@@ -93,6 +93,7 @@
         University of Defense Technology;Huijun Wu:National University of Defense
         Technology
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-47.pdf
+      Comment: '(virtual)'
     - Title: 'PIE: Enabling Fast and Scalable Incremental Evolving Graph Analytics
         on Persistent Memory'
       Author: Yunmo Zhang:City University of Hong Kong;Jiacheng Huang:City University
@@ -132,7 +133,7 @@
         of Science and Technology of China;Yunlong Xu:Independent Researcher;Peng
         Sun:Independent Researcher;Guangzhong Sun:University of Science and Technology
         of China
-      Comment: ''
+      Comment: '(virtual)'
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-73.pdf
 - Time: 12:00-1:40
   Session1:
@@ -192,6 +193,7 @@
         Cui:Institute of Computing Technology, Chinese Academy of Sciences,University
         of Chinese Academy of Sciences
       URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-72.pdf
+      Comment: '(virtual)'
 - Time: After 3:40
   Session1:
     Session: Excursion

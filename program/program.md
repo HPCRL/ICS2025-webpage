@@ -130,17 +130,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
-                          {% else %}
-                          {% if paper.URL %}
-                            <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                            {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
-                          {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+              
                         </li>
                       {% endfor %}
                     </ul>
@@ -162,13 +159,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                              <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                          
                         </li>
                       {% endfor %}
                     </ul>
@@ -237,13 +235,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                         
                         </li>
                       {% endfor %}
                     </ul>
@@ -269,13 +268,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                        
                         </li>
                       {% endfor %}
                     </ul>
@@ -297,13 +297,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                       
                         </li>
                       {% endfor %}
                     </ul>
@@ -364,13 +365,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                         
                         </li>
                       {% endfor %}
                     </ul>
@@ -392,13 +394,14 @@
                         <li>
                           {% if paper.URL %}
                             <a href="{{ paper.URL }}" target="_blank" class="custom-link">{{ paper.Title }}</a>
+                             {% if paper.Comment %}
+                            <div class="text-muted small">{{ paper.Comment }}</div>
+                            {% endif %}
                           {% else %}
                             {{ paper.Title }}
                           {% endif %}
                            <div class="text-muted small">{{ paper.Author }}</div>
-                          {% if paper.Comment %}
-                            <div class="text-muted small">{{ paper.Comment }}</div>
-                          {% endif %}
+                          
                         </li>
                       {% endfor %}
                     </ul>
