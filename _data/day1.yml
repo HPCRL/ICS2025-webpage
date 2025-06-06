@@ -20,12 +20,12 @@
       Author: Lorenzo Carpentieri:University of Salerno;Biagio Cosenza:University
         of Salerno
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-2.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-2.pdf
     - Title: 'BitWeaver: Read-Time Truncation in Memory'
       Author: Garrett Gagnon:Samsung Semiconductor US,Rensselaer Polytechnic Institute;Srikanth
         Malla:Samsung Semiconductor US;Yangwook Kang:Samsung Semiconductor US;Liu
         Liu:Rensselaer Polytechnic Institute
-      URL: /program/Proceedings_ICS25/ics25-39.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-39.pdf
     - Title: 'NeurLZ: An Online Neural Learning-based Method to Enhance Scientific
         Lossy Compression'
       Author: Wenqi Jia:University of Texas at Arlington;Zhewen Hu:Texas A&M University;Youyuan
@@ -34,14 +34,14 @@
         A&M University;Junzhou Huang:University of Texas at Arlington;Sian Jin:Temple
         University;Daoce Wang:Indiana University;Jiannan Tian:University of Kentucky;Miao
         Yin:University of Texas at Arlington
-      URL: /program/Proceedings_ICS25/ics25-24.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-24.pdf
     - Title: 'ghZCCL: Advancing GPU-aware Collective Communications with Homomorphic
         Compression'
       Author: Jiajun Huang:University of South Florida, Sheng Di:Argonne National
         Laboratory, Yafan Huang:University of Iowa, Zizhong Chen:University of California
         Riverside, Franck Cappello:Argonne National Laboratory, Yanfei Guo:Argonne
         National Laboratory, Rajeev Thakur:Argonne National Laboratory
-      URL: /program/Proceedings_ICS25/ics25-75.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-75.pdf
   Session2:
     Session: Graph Neural Networks
     Chair: Ali Jannesari (Iowa State University)
@@ -58,14 +58,14 @@
         Science,Institute of Science Tokyo;Mohamed Wahib:RIKEN Center for Computational
         Science
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-62.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-62.pdf
     - Title: 'CoLa: Towards Communication-efficient Distributed Sparse Matrix-Matrix
         Multiplication on GPUs'
       Author: Lixing Zhang:Beijing University of Posts and Telecommunications;Yingxia
         Shao:Beijing University of Posts and Telecommunications;Shigang Li:Beijing
         University of Posts and Telecommunications
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-65.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-65.pdf
     - Title: 'Cherry: Breaking the GPU Memory Wall for Large-Scale GNN Training via
         Micro-Batching'
       Author: Yan Wang:Guangzhou Institute of Technology, Xidian University;Qinghua
@@ -77,12 +77,12 @@
         of Computing Technology, Chinese Academy of Sciences;Xin He:Guangzhou Institute
         of Technology, Xidian University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-71.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-71.pdf
     - Title: 'Fused3S: Fast Sparse Attention on Tensor Cores'
       Author: Zitong Li:University of California, Irvine;Aparna Chandramowlishwaran:University
         of California, Irvine
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-70.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-70.pdf
 - Time: 12:00-1:40
   Session1:
     Session: Lunch (provided)
@@ -99,13 +99,13 @@
         Integrated Circuits, Peking University;Chao Yang:Peking University,PKU-Changsha
         Institute for Computing and Digital Economy
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-6.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-6.pdf
     - Title: 'IA-Chol: Input-Aware Cholesky Decomposition on CPU and GPU'
       Author: Jixiao Deng:National University of Defense Technology;Qinglin Wang:National
         University of Defense Technology;Lin Chen:National University of Defense Technology;Bo
         Yang:National University of Defense Technology;Xinhai Chen:National University
         of Defense Technology;Jie Liu:National University Of Defense Technology
-      URL: /program/Proceedings_ICS25/ics25-17.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-17.pdf
     - Title: CB-SpMV:A Data Aggregating and Balance Algorithm for Cache-Friendly Block-Based
         SpMV on GPUs
       Author: Xing Cong:Beihang University;FuKai Sun:Beihang University;YiFan Chen:Beihang
@@ -118,7 +118,7 @@
         University of Science and Technology;Yi Luo:Southwest University of Science
         and Technology;Rong Luo:Southwest University of Science and Technology;Pingping
         Tang:Southwest University of Science and Technology
-      URL: /program/Proceedings_ICS25/ics25-31.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-31.pdf
   Session2:
     Session: Acceleration
     Chair: Antonia Zhai (University of Minnesota)
@@ -136,7 +136,7 @@
         of Connecticut;Geng Yuan:University of Georgia;Yanzhi Wang:Northeastern University;Olivia
         Chen:Kyushu University;Caiwen Ding:University of Minnesota Twin Cities
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-74.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-74.pdf
     - Title: 'TMModel: Modeling Texture Memory and Mobile GPU Performance to Accelerate
         DNN Computations'
       Author: Jiexiong Guan:University of Thessaly,William & Mary;Zhenqing Hu:William
@@ -145,7 +145,7 @@
         Zhou:William & Mary;Gagan Agrawal:University of Georgia;Bin Ren:William &
         Mary
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-35.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-35.pdf
     - Title: 'DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph
         Neural Network on GPUs'
       Author: 'Yuebo Luo:University of Minnesota Twin Cities;Shiyang Li:University
@@ -155,7 +155,7 @@
         Minnesota Twin Cities;Caiwen Ding:Department of Computer Science and Engineering
         , University of Minnesota Twin Cities;Shaoyi Huang:Stevens Institute of Technology'
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-76.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf
 - Time: 3:00-3:20
   Session1:
     Session: Coffee Break
@@ -168,26 +168,26 @@
       Author: Victor Kamel:University of Toronto;Hanxueyu Yan:University of Victoria;Sean
         Chester:University of Victoria
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-55.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-55.pdf
     - Title: Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation
         on ARM Processors
       Author: Shanghao Liu:Beihang University;Hailong Yang:Beihang University;Xin
         You:Beihang University;Zhongzhi Luan:Beihang University;Yi Liu:Beihang University;Depei
         Qian:Beihang University
-      URL: /program/Proceedings_ICS25/ics25-21.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-21.pdf
     - Title: Accelerating Complex Stencil Computations with Adaptive Fusion Strategy
       Author: Siqi Wang:Beihang University;Hailong Yang:Beihang University;Pengbo
         Wang:Beihang University;Shaokang Du:Beihang University;Yufan Xu:Independent
         Researcher;Qingxiao Sun:China University of Petroleum, Beijing;Xiaoyan Liu:Beihang
         University;Xuezhu Wang:Beihang University;Xuning Liang:Beihang University;Zhongzhi
         Luan:Beihang University;Yi Liu:Beihang University;Depei Qian:Beihang University
-      URL: /program/Proceedings_ICS25/ics25-29.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-29.pdf
     - Title: 'A3FR: Agile 3D Gaussian Splatting with Incremental Gaze Tracked Foveated
         Rendering in Virtual Reality'
       Author: Shuo Xin:Physics, Stanford University;Haiyu Wang:Tandon School of Engineering,
         New York University;Sai Qian Zhang:Tandon School of Engineering, New York
         University
-      URL: /program/Proceedings_ICS25/ics25-83.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-83.pdf
     - Title: 'EPIClear: Exploiting Domain-Specific Features for Epistasis Detection
         Acceleration on Tensor Cores'
       Author: "Ricardo Nobre:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
@@ -195,12 +195,12 @@
         \ de Lisboa;Leonel Sousa:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
         \ de Lisboa;Aleksandar Ilic:INESC-ID, Instituto Superior T\xE9cnico, Universidade\
         \ de Lisboa"
-      URL: /program/Proceedings_ICS25/ics25-30.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-30.pdf
     - Title: Statistical Treatment of Variable MPI Latencies and MPI-Communication
         Hiding for Matrix-Free Finite Element Operators
       Author: Max Heldman:Virginia Tech;Johann Rudi:Virginia Tech;Julie Bessac:Computational
         Science Center, National Renewable Energy Laboratory
-      URL: /program/Proceedings_ICS25/ics25-53.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-53.pdf
   Session2:
     Session: GPU Scheduling
     Chair: Dimitrios Nikolopoulos (Virginia Tech)
@@ -209,14 +209,14 @@
       Author: Zizhao Mo:University of Macau;Huanle Xu:University of Macau;Wing Cheong
         Lau:The Chinese University of Hong Kong
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-42.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-42.pdf
     - Title: 'SortingHat: System Topology-aware Scheduling of Deep Neural Network
         Models on Multi-GPU Systems'
       Author: Seok Namkoong:Yonsei University;Taehyeong Park:Yonsei University;Kiung
         Jung:Yonsei University;Jinyoung Kim:Yonsei University;Yongjun Park:Yonsei
         University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-44.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-44.pdf
     - Title: 'CTCCL: Cost-Efficient Joint Device-Network Load Balancing for LLM Training
         in RoCE-based Intelligent Computing Network'
       Author: Zhuotong Li:State Cloud, China Telecom;Liang Xu:State Cloud, China Telecom;Ziqi
@@ -225,7 +225,7 @@
         Luan:State Cloud, China Telecom;Weiguo Chen:State Cloud, China Telecom;Xu
         Wen:State Cloud, China Telecom
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-33.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-33.pdf
     - Title: 'Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer
         Models'
       Author: Runsheng Benson Guo:Cheriton School of Computer Science, University
@@ -234,9 +234,9 @@
         Waterloo;Khuzaima Daudjee:Cheriton School of Computer Science, University
         of Waterloo
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-58.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-58.pdf
     - Title: A Device-Side Execution Model for Multi-GPU Task Graphs
       Author: "Ilyas Turimbetov:Ko\xE7 University;Mohamed Wahib:RIKEN Center for Computational\
         \ Science;Didem Unat:Ko\xE7 University"
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-66.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-66.pdf

@@ -13,13 +13,13 @@
         of Defense Technology;Hongxia Wang:Department of Mathematics, National University
         of Defense Technology
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-25.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-25.pdf
     - Title: An Efficient 2D Fusion Method for High-Performance Two-Stage Eigensolvers
         on Modern Heterogeneous Architectures
       Author: Yongxiao Zhou:Tsinghua University;Yi Zong:Tsinghua University;Yuyang
         Jin:Tsinghua University;Heng Li:Tsinghua University;Wei Xue:Tsinghua University,
         Beijing, China; Qinghai University, Xining, China
-      URL: /program/Proceedings_ICS25/ics25-51.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-51.pdf
     - Title: 'XSolver: Optimizing Sparse Direct Solvers for Heterogeneous Systems'
       Author: Chaewon Kim:Department of Seoul National University;Jaehwan Lee:Department
         of Seoul National University;Jinpyo Kim:Department of Seoul National University;Dohyun
@@ -28,12 +28,12 @@
         Co., Ltd.;Hyung Uk Cho:Research Center, Samsung Display Co., Ltd.;Seungin
         Baek:Research Center, Samsung Display Co., Ltd.;Jaejin Lee:Dept. of Data Science,
         Seoul National University,Dept. of Seoul National University
-      URL: /program/Proceedings_ICS25/ics25-79.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-79.pdf
     - Title: 'MAGNUS: Generating Data Locality to Accelerate Sparse Matrix-Matrix
         Multiplication on CPUs'
       Author: "Jordi Wolfson-Pou:Intel Labs;Jan Laukemann:Friedrich-Alexander-Universit\xE4\
         t Erlangen-N\xFCrnberg;Fabrizio Petrini:Intel Labs"
-      URL: /program/Proceedings_ICS25/ics25-34.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-34.pdf
   Session2:
     Session: Processing-in-Memory
     Chair: Ioannis Sourdis (Chalmers University of Technology)
@@ -45,7 +45,7 @@
         University;Jiwon Seo:Seoul National University;Hanjun Kim:Yonsei University;Youngsok
         Kim:Yonsei University;Yongjun Park:Yonsei University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-37.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-37.pdf
     - Title: 'Proteus: Achieving High-Performance Processing-Using-DRAM via Dynamic
         Precision Bit-Serial Arithmetic'
       Author: "Geraldo Francisco de Oliveira Junior: ETH Zurich, mayank kabra: International\
@@ -61,7 +61,7 @@
       Author: Taewoon Kang:Korea University;Geonwoo Choi:Korea University;Taeweon
         Suh:Korea University;Gunjae Koo:Korea University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-82.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-82.pdf
     - Title: 'MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis
         Inside the Storage Subsystem'
       Author: "Melina Soysal: ETH Zurich, Konstantina Koliogeorgi: ETH Zurich, Can\
@@ -70,7 +70,7 @@
         \ Zurich, Yu Liang: ETH Zurich, Klea Zambaku: ETH Zurich Bilkent University,\
         \ Mohammad Sadrosadati: ETH Z\xFCrich, Onur Mutlu: ETH Zurich"
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-68.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-68.pdf
 - Time: 10:20-10:40
   Session1:
     Session: Coffee Break
@@ -84,7 +84,7 @@
         University of Science and Technology;Menglei Chen:Huazhong University of Science
         and Technology
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-11.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-11.pdf
     - Title: 'From Islands to Archipelago: Towards Collaborative and Adaptive Burst
         Buffer for HPC Systems'
       Author: Mingtian Shao:National University of Defense Technology;Ruibo Wang:National
@@ -92,19 +92,19 @@
         Technology;Kai Lu:National University of Defense Technology;Yiqin Dai:National
         University of Defense Technology;Huijun Wu:National University of Defense
         Technology
-      URL: /program/Proceedings_ICS25/ics25-47.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-47.pdf
     - Title: 'PIE: Enabling Fast and Scalable Incremental Evolving Graph Analytics
         on Persistent Memory'
       Author: Yunmo Zhang:City University of Hong Kong;Jiacheng Huang:City University
         of Hong Kong;Xizhe Yin:University of California Riverside;Junqiao Qiu:City
         University of Hong Kong;Hong Xu:The Chinese University of Hong Kong;Chun Jason
         Xue:MBZUAI
-      URL: /program/Proceedings_ICS25/ics25-59.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-59.pdf
     - Title: 'DEDUPKV: A Space-Efficient and High-Performance Key-Value Store via
         Fine-Grained Deduplication'
       Author: Safdar Jamil:Sogang University;Awais Khan:Oak Ridge National Lab;Xubin
         He:Temple University;Youngjae Kim:Sogang University
-      URL: /program/Proceedings_ICS25/ics25-64.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-64.pdf
   Session2:
     Session: Optimizing Compilation
     Chair: Gagan Agrawal (University of Georgia)
@@ -114,18 +114,18 @@
         State University;Nesreen K. Ahmed:Cisco AI Research ;Theodore L. Willke:DataStax;Ali
         Jannesari:Iowa State University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-19.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-19.pdf
     - Title: 'UJOpt: Heuristic Approach for Applying Unroll-and-Jam Optimization and
         Loop Order Selection'
       Author: Shilpa Babalad:Indian Institute of Science;Shirish K Shevade:Indian
         Institute of Science;Matthew Jacob Thazhuthaveetil:Indian Institute of Science;R
         Govindarajan:Indian Institute of Science
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-38.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-38.pdf
     - Title: Loop Fusion in Matrix Multiplications with Sparse Dependence
       Author: Kazem Cheshmi:McMaster University;Mohammad Mehdi Salehi:McMaster University
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-67.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-67.pdf
     - Title: 'ConCo: Optimizing Compilation of Concurrent Tensor Programs on Shared
         GPU'
       Author: Jiamin Lu:University of Science and Technology of China;Jingwei Sun:University
@@ -133,7 +133,7 @@
         Sun:Independent Researcher;Guangzhong Sun:University of Science and Technology
         of China
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-73.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-73.pdf
 - Time: 12:00-1:40
   Session1:
     Session: Lunch (provided)
@@ -147,26 +147,26 @@
         Di:Argonne National Laboratory;Fengguang Song:Indiana University;Guanpeng
         Li:University of Iowa;Franck Cappello:Argonne National Laboratory
       Comment: ''
-      URL: /program/Proceedings_ICS25/ics25-4.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-4.pdf
     - Title: Parallel Contraction Hierarchies Can Be Efficient and Scalable
       Author: Zijin Wan:University of California, Riverside;Xiaojun Dong:University
         of California, Riverside;Letong Wang:University of California, Riverside;Enzuo
         Zhu:University of California, Davis;Yan Gu:University of California, Riverside;Yihan
         Sun:University of California, Riverside
-      URL: /program/Proceedings_ICS25/ics25-5.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-5.pdf
     - Title: 'BMQSim: Overcoming Memory Constraints in Quantum Circuit Simulation
         with a High-Fidelity Compression Framework'
       Author: Boyuan Zhang:Indiana University;Bo Fang:Pacific Northwest National Laboratory;Fanjiang
         Ye:Indiana University;Luanzheng Guo:Pacific Northwest National Laboratory;Fengguang
         Song:Indiana University;Nathan Tallent:Pacific Northwest National Laboratory;Dingwen
         Tao:Indiana University
-      URL: /program/Proceedings_ICS25/ics25-8.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-8.pdf
     - Title: 'DIV: An Index & Value compression method for SpMV on large matrices'
       Author: Dimitrios Galanopoulos:National Technical University of Athens;Panagiotis
         Mpakos:National Technical University of Athens;Petros Anastasiadis:National
         Technical University of Athens;Nectarios Koziris:National Technical University
         of Athens;Georgios Goumas:National Technical University of Athens
-      URL: /program/Proceedings_ICS25/ics25-28.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-28.pdf
     - Title: 'DIMPLES: Distributed Influence Maximization for Pandemic pLanning on
         Exascale Systems'
       Author: Marco Minutoli:Pacific Northwest National Laboratory;Reece Neff:North
@@ -178,7 +178,7 @@
         M Ferdous:Pacific Northwest National Laboratory;Ananth Kalyanaraman:Washington
         State University;Michela Becchi:North Carolina State University;Madhav Marathe:University
         of Virginia;Mahantesh Halappanavar:Pacific Northwest National Laboratory
-      URL: /program/Proceedings_ICS25/ics25-54.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-54.pdf
     - Title: 'Light-FP: Analyze Floating-Point Error in a Highly Condensed Approach'
       Author: Jiazhi Mi:Institute of Computing Technology, Chinese Academy of Sciences,University
         of Chinese Academy of Sciences;Li Chen:Institute of Computing Technology,
@@ -191,7 +191,7 @@
         of Technology;You Fu:Shandong University of Science and Technology;Huimin
         Cui:Institute of Computing Technology, Chinese Academy of Sciences,University
         of Chinese Academy of Sciences
-      URL: /program/Proceedings_ICS25/ics25-72.pdf
+      URL: https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-72.pdf
 - Time: After 3:40
   Session1:
     Session: Excursion
