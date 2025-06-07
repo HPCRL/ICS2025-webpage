@@ -58,7 +58,7 @@
       }
     }
 </style>
-# Preliminary Program
+# Program
 
 <!-- <div class="download-panel" style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center;">
   <h4 style="margin-bottom: 15px; color: #333;">Download Conference Proceedings</h4>
