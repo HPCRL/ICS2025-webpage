@@ -21,7 +21,7 @@ plugins:
 
 navbar:
   - title: Home
-    url: /home.html
+    url: /
   - title: For Authors
     url: /for-authors
     sublinks:
