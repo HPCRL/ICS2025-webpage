@@ -19,7 +19,7 @@ Salt Lake City, UT 84112 <br>
   - **Parking, TRAX, and bus info**: [https://commuterservices.utah.edu/visitor-short-term-parking/](https://commuterservices.utah.edu/visitor-short-term-parking/)
 
 <div align="center">
-  <img src="/img/minmap.png" alt="Campus Map" style="max-width: 100%; height: auto;">
+  <img src="https://hpcrl.github.io/ICS2025-webpage/img/minmap.png" alt="Campus Map" style="max-width: 100%; height: auto;">
 </div>
 
 ### **Public Transportation**
