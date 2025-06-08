@@ -73,8 +73,8 @@
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
-          <th style="background-color: #000;">Track A</th>
-          <th style="background-color: #000;">Track B</th>
+          <th style="background-color: #000;">Track A (Ballroom AB)</th>
+          <th style="background-color: #000;">Track B (Ballroom C)</th>
         </tr>
       </thead>
       <tbody>
@@ -198,8 +198,8 @@
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
-          <th style="background-color: #000;">Track A</th>
-          <th style="background-color: #000;">Track B</th>
+          <th style="background-color: #000;">Track A (Ballroom AB)</th>
+          <th style="background-color: #000;">Track B (Ballroom C)</th>
         </tr>
       </thead>
       <tbody>
@@ -246,7 +246,7 @@
             <tr>
               <td data-label="Time">{{ row.Time }}</td>
               <td colspan="2">
-                <span class="accordion-tap"> Session: {{ session1.Session }}</span>
+                <span class="accordion-tap"> <strong> Session: {{ session1.Session }} (Ballroom AB)</strong> </span>
                 <div class="accordion-details">
 
                   Chair: {{ session1.Chair }}<br>
@@ -347,8 +347,8 @@
       <thead class="table-dark">
         <tr>
           <th style="width: 150px; background-color: #000;">Time</th>
-          <th style="background-color: #000;">Track A</th>
-          <th style="background-color: #000;">Track B</th>
+          <th style="background-color: #000;">Track A (Ballroom AB)</th>
+          <th style="background-color: #000;">Track B (Ballroom C)</th>
         </tr>
       </thead>
       <tbody>
