@@ -9,6 +9,18 @@ Cleone Peterson Eccles Alumni House <br>
 Salt Lake City, UT 84112 <br>
 [INFO](https://ecclesalumnihouse.utah.edu/)
 
+### 🗺️ Campus Map
+
+- Interactive map: [https://www.map.utah.edu/](https://www.map.utah.edu/)
+- Key Locations:
+  - **WEB (Warnock Engineering Building)**: ICS’25 Workshops (June 8)
+  - **Alumni House (AH)**: Main ICS’25 Conference (June 9–11)
+  - **University Guest House**
+  - **Parking, TRAX, and bus info**: [https://commuterservices.utah.edu/visitor-short-term-parking/](https://commuterservices.utah.edu/visitor-short-term-parking/)
+
+<div align="center">
+  <img src="/img/minmap.png" alt="Campus Map" style="max-width: 100%; height: auto;">
+</div>
 
 ### **Public Transportation**
 
