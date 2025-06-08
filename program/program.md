@@ -221,6 +221,13 @@
               <span class="accordion-tap"> {{ session1.Session }}</span>
             </td>
           </tr>
+          {% elsif row.Session1.Session == "Excursion"%}
+          <tr>
+            <td data-label="Time">{{ row.Time }}</td>
+            <td colspan="2">
+              <span class="accordion-tap"> {{ session1.Info }}</span>
+            </td>
+          </tr>
            {% elsif row.Session1.Session == "Breakfast"%}
             <tr>
               <td data-label="Time">{{ row.Time }}</td>
