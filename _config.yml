@@ -22,6 +22,8 @@ plugins:
 navbar:
   - title: Home
     url: /
+  - title: Red Butte Excursion
+    url: /red_butte.html
   - title: For Authors
     url: /for-authors
     sublinks:
