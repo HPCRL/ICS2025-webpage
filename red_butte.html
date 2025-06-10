@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('img/bg-index.jpg');height:700px;">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+
+            <h2 style="color:#F0F8FF;font-size:3rem;">{{ site.title }}</h2>
+            {% if site.description %}
+            <span class="subheading">{{ site.date }}</span>
+            <span class="subheading">{{ site.position }}</span>
+
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container mb-5">
+  <div class="newsTitle mt-5">
+    <!-- <h2>Tuesday Evening Excursion</h2> -->
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-md-12">
+      <div class="news">
+        <h3 class="mb-4">Tuesday Evening Excursion: Red Butte Garden</h3>
+        <ul>
+          <li><a href="https://redbuttegarden.org/" target="_blank">Red Butte Garden</a></li>
+          <li>Garden and Arboretum with extensive variety of plants and flowers</li>
+          <li>Volunteers will offer short guided tours</li>
+          <li>Self-guided visit: interactive plant map (<a href="https://redbuttegarden.org/plants/plant-map/" target="_blank">link</a>)</li>
+        </ul>
+        <img src="https://raw.githubusercontent.com/HPCRL/ICS2025-webpage/main/img/red_butte_menu.png" alt="Red Butte Garden" style="max-width: 85%; height: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+
